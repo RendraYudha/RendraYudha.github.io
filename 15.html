@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='fonts/LexendDeca-Regular.ttf' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);  
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/60</td>
+                            <td>Mei 2020</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=10QgOhFqhIJJIEoUY-cuo1He_kH6BFpW1">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Klb Angkutan Rel Ata-Mri-Jakk</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.60 - Klb Angkutan Rel Ata-Mri-Jakk
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung0010 otr/60      12/05-'20       1325
+
+=wam=
+
+ppka kkt ata/smt/tg/cnp/ckp/jng/mri/jakk kpb/kmo/jng   jak cn sm
+
+1. menunjuk nota dinas cft no.8/KT.201/IV/CFTL/KA/2020 tanggal 30 april 2020 
+   perihal revisi permohonan perjalanan klb angkutan rel dinas lintas ata/cuk/jakk
+
+2. guna keperluan pengaturan perjalanan klb angkutan rel dinas lintas ata/cuk/jakk
+   perka kami atur sbb:
+
+   a. kamis 14 mei, jumat 15 mei, ahad 17 mei, senin 18 mei, rabu 20 mei 2020 
+      BERJALAN klb kp/satu nol lima satu tiga (klb kp/10513) angkutan rel 
+      lintas ata/jakk
+   
+   b. jumat 15 mei, sabtu 16 mei, senin 18 mei, selasa 19 mei, kamis 21 mei 2020
+      BERJALAN klb kp/satu nol empat satu delapan (klb kp/10418) angkutan rel
+      lintas kpb/ata
+    
+
+puncak kecepatan lintas:
+ata - jakk = 45 km/jam 
+ 
+
+klb kp/10513 lintas ata - jakk
+==========================================                            
+sta  datang    berangk   keterangan
+ata            02:05:00  ppka ata blb kan dan tahan plb 7013jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk
+                         sta semrangtawang
+smt     ls     02:19:00  
+smc  02:24:00  02:35:00  
+jrk     ls     02:45:00  
+mkg     ls     02:55:00  
+kln     ls     03:03:00  
+kbd  03:22:00  03:46:00  disusul ka 135 (ka 135 menyusul)
+wlr     ls     04:01:00  
+kns  04:10:00  05:00:00  disusul ka 251, ka 2517 (ka 251, ka 2517 menyusul)
+plb     ls     05:15:00  ppka plb blb kan dan tahan ka 63f jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk
+                         sta kahuripan
+krp     ls     05:26:00  
+ujn     ls     05:44:00  
+btg     ls     05:51:00  
+pk      ls     06:05:00  
+sri     ls     06:22:00  
+co   06:30:00  08:26:00  disusul ka 271, ka 2521. plb 2521a jj, ka 2527, ka 11,
+                         ka 2519, ka 149;(ka 271, ka 2521. plb 2521a jj, ka 2527,
+                         ka 11, ka 2519, ka 149 menyusul)
+pta     ls     08:42:00  
+pml     ls     08:52:00  
+sd      ls     09:11:00  
+lr      ls     09:26:00  
+tg   09:35:00  09:44:00  
+bb   10:04:00  11:00:00  disusul ka 2539f jj, plb 2507a jj ka 263, plb 263a jj
+                         (ka 2539f jj, plb 2507a jj ka 263, plb 263a jj menyusul)
+tgn     ls     11:32:00  
+los     ls     11:44:00  
+bbk     ls     11:58:00  
+wdw     ls     12:18:00  
+cnp     ls     12:35:00  
+cn   12:41:00  13:51:00  disusul plb 8007jj, ka 99f jj, ka 257, plb 257a jj,
+                         plb 7021jj, klb kp/10477, ka 83, plb 83b jj (plb 8007jj,
+                         ka 99f jj, ka 257, plb 257a jj, plb 7021jj,klb kp/10477,
+                         ka 83, plb 83b jj menyusul)
+cnk     ls     14:03:00  ppka cnk blb kan dan tahan ka 7, plb 7b jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk
+                         sta bangoduwa
+bdw     ls     14:10:00  
+awn     ls     14:18:00  ppka awn blb kan dan tahan ka 27 di sta nya berangkatkan
+                         kembali  setelah klb kp/10513 masuk dua petak blok muka nya
+ktm     ls     14:40:00  
+jtb  14:54:00  15:50:00  disusul klb kp/10507, ka 2525, ka 3, ka 139, plb 139c jj
+                         (klb kp/10507, ka 2525, ka 3, ka 139, plb 139c jj menyusul)
+                         ppka jtb blb kan dan tahan ka 141, plb 141b jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk sta telagasari
+tls     ls     16:04:00  
+tis     ls     16:16:00  ppka tis blb kan dan tahan ka 269f jj, plb 269f-b jj
+                         di sta nya, berangkatkan kembali setelah klb kp/10513 masuk
+                         sta kadokangabus
+kab     ls     16:26:00  
+clh     ls     16:38:00  ppka clh blb kan dan tahan ka 57f jj, plb 57f-a jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk sta haurgeulis
+hgl     ls     16:53:30  menyusul ka 2525 (ka 2525 disusul)
+cra  17:04:00  17:20:00  disusul ka 2525 (ka 2525 menyusul)
+                         ppka cra blb kan dan tahan ka 339 di sta nya, berangkatkan
+                         kembali setelah klb kp/10513 masuk sta cipunegara
+pgb     ls     17:32:00  
+ckm     ls     17:45:00  
+pas     ls     17:54:00  ppka pas blb kan dan tahan ka 93f jj di sta nya, berangkatkan
+                         kembali setelah klb kp/10513 masuk sta pasirbungur
+pri     ls     18:03:00  
+pab     ls     18:12:00  ppka pab blb kan dan tahan ka 17 di sta nya, berangkatkan
+                         kembali setelah klb kp/10513 masuk sta pabuaran
+tjs     ls     18:19:00  
+ckp  18:35:00  18:58:00  ppka ckp blb kan dan tahan ka 2717 di sta nya, berangkatkan
+                         kembali setelah klb kp/10513 masuk sta dawuan
+dwn  19:06:00  19:27:00  disusul ka 329, ka 25 (ka 329, ka 25 menyusul)
+kos     ls     19:39:00  
+kli     ls     19:45:00  
+kw      ls     19:56:00  
+kdh  20:07:00  20:33:00  disusul ka 87, ka 47, plb 7029jj
+                         (ka 87, ka 47, plb 7029jj menyusul)
+                         ppka kdh blb kan dan tahan ka 21, ka 2549f jj di sta nya,
+                         berangkatkan kembali setelah klb kp/10513 masuk sta lemahabang
+lmb     ls     20:47:00  
+ckr     ls     20:54:00  
+tlm     ls        -      
+cit     ls        -      
+tb      ls     21:09:00  
+bkst    ls        -      
+bks     ls     21:21:00  
+kri     ls        -      
+rwb     ls        -      
+cuk  21:32:00  21:40:00  disusul ka 13 (ka 13 menyusul)
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng  21:56:00  21:58:00  
+mri  22:05:00  22:18:00  disusul ka 1459, ka 1235, ka 175
+                         (ka 1459, ka 1235, ka 175 menyusul)
+cki     ls        -      
+gdd     ls        -      
+gmr  22:30:00  22:33:00  
+jua     ls        -      
+sw      ls        -      
+mgb     ls        -      
+jay     ls        -      
+jakk  22:50:00    
+
+
+puncak kecepatan lintas:
+ kpb - smc = 60 km/jam 
+ smc - smt = 50 km/jam 
+ smt - ata = 60 km/jam 
+
+
+klb kp/10418 lintas kpb - ata
+==========================================                                
+sta  datang    berangk   keterangan
+kpb            10:40:00  
+rjw     ls        -      
+kmo     ls     10:48:00  
+pse     ls     10:51:00  
+gst     ls        -      
+kmt     ls        -      
+pok     ls        -      
+jng     ls     11:02:00  
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     11:15:00  
+rwb     ls        -      
+kri     ls        -      
+bks     ls     11:23:00  
+bkst    ls        -      
+tb      ls     11:32:00  
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     11:43:00  
+lmb     ls     11:48:00  
+kdh     ls     11:58:00  
+kw      ls     12:06:00  
+kli  12:15:00  12:25:00  disusul ka 20 (ka 20 menyusul)
+kos     ls     12:31:00  
+dwn     ls     12:39:00  ppka dwn blb kan dan tahan ka 64f jj di sta nya berangkatkan
+                         kembali setelah klb kp/10418 masuk sta cikampek
+ckp     ls     12:44:00  
+tjs     ls     12:55:00  
+pab     ls     13:01:00  
+pri     ls     13:07:30  
+pas     ls     13:14:30  
+ckm     ls     13:21:00  
+pgb     ls     13:31:00  
+cra     ls     13:39:00  
+hgl     ls     13:46:00  
+clh     ls     13:58:00  
+kab     ls     14:07:00  
+tis  14:15:00  14:44:00  disusul ka 254, plb 254b, ka 24
+                         (ka 254, plb 254b, ka 24 menyusul)
+tls     ls     14:54:00  
+jtb     ls     15:04:00  
+ktm     ls     15:13:00  
+awn     ls     15:30:00  
+bdw     ls     15:36:00  
+cnk     ls     15:41:30  
+cn      ls     15:49:00  
+cnp  15:53:00  16:04:00  
+wdw     ls     16:18:00  
+bbk     ls     16:33:00  
+los     ls     16:44:00  
+tgn     ls     16:53:00  
+bb      ls     17:16:00  
+tg   17:31:00  17:38:00  
+lr      ls     17:45:00  
+sd      ls     17:56:00  ppka sd blb kan dan tahan ka 118 di sta nya berangkatkan
+                         kembali setelah klb kp/10418 masuk sta pemalang
+pml  18:11:00  18:30:00  disusul ka 118 (ka 118 menyusul)
+                         ppka pml blb kan dan tahan plb 64f-a di sta nya berangkatkan
+                         kembali setelah klb kp/10418 masuk sta petarukan
+pta     ls     18:39:00  
+co      ls     18:50:00  
+sri  18:56:00  19:30:00  disusul ka 64f jj, ka 2524, ka 256, plb 256a
+                         (ka 64f jj, ka 2524, ka 256, plb 256a menyusul)
+                         ppka sri blb kan dan tahan ka 94f jj di sta nya berangkatkan
+                         kembali setelah klb kp/10418 masuk sta pekalongan
+pk      ls     19:45:00  
+btg     ls     19:56:00  
+ujn     ls     20:01:30  
+krp     ls     20:15:00  
+plb     ls     20:23:00  
+kns     ls     20:34:00  
+wlr  20:41:00  22:05:00  disusul ka 94f jj, ka 80, ka 192, ka 276, ka 12, ka 134 
+                         (ka 94f jj, ka 80, ka 192, ka 276, ka 12, ka 134 menyusul)
+kbd     ls     22:16:00  ppka kbd blb kan dan tahan ka 2522 di sta nya berangkatkan 
+                         kembali setelah klb kp/10418 masuk sta kaliwungu
+kln     ls     22:30:00  
+mkg     ls     22:36:00  
+jrk     ls     22:44:00  
+smc  22:53:00  23:09:00  
+smt     ls     23:15:00  
+ata  23:25:00 
+
+
+3. rangkaian 14 gd
+4. kadaop sm/man op sar angbar 1jak 3cn 4sm atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop sm/manager op kapusdalopka 1jak 3cn 4sm atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+
+
+       a.n.ot           cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,ti,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,kio,tij,tis,rrt,rrw,rrw,sss,ssd,sko,mmh    
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10418</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">KPB-ATA</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-15, 2020-05-16, 2020-05-18, 2020-05-19, 2020-05-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">KP/10513</td>
+                            <td>KLB Dinas</td>
+                            <td class="text-center">ATA-JAKK</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td>
+                                2020-05-14, 2020-05-15, 2020-05-17, 2020-05-18, 2020-05-20
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/popper.js"></script> 
+    <script src="assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

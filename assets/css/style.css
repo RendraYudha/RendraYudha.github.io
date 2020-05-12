@@ -1,0 +1,31 @@
+.panel-footer {
+    height: 35px;
+    background: #272729;
+    border-top: 1px solid #010101;
+    position: fixed;
+    bottom: 0;
+    z-index: 20000;
+    left: 0;
+    right: 0;
+}
+
+.panel-footer b {
+	color: #18baf2;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+body {
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#watch {
+  text-align: center;
+  font-size: 25px;
+  background-color: orange;
+  text-shadow: 1px 2px 1px grey;
+}
+
+.no-ka {
+  font-weight: bolder;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Direktorat Operasi</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/40</td>
+                            <td>Mei 2020</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/file/d/1VYcsiXURn5Zxgx5x5taR0F8VmS986IE0/view?usp=sharing">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Kirim Rangkaian Ktg-Sdt</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.40 - Kirim Rangkaian Ktg-Sdt
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung     otr/40      09/05-'20         1305
+
+=wam=
+
+ppka kkt ktg/jr/pg/bg/sda/wo/sgu/sdt   jr sb
+
+1. menunjuk nota dinas kadaop 9 jr no.1/kr.203/v/daop.9/do.9/2020 tgl.08 mei 2020
+   perihal permohonan pengiriman sarana untuk perawatan
+
+2. guna keperluan perjalanan pengiriman sarana untuk perawatan perka kami atur sbb:
+
+   ahad 10 mei 2020 BERJALAN klb kp/satu nol lima nol empat (klb kp/10504)
+   kirim rangkaian lintas ktg/sdt
+
+  
+puncak kecepatan lintas:
+ ktg - tgr = 80 km/jam 
+ tgr - swd = 70 km/jam 
+ swd - kbr = 80 km/jam 
+ kbr - mrw = 70 km/jam 
+ mrw - grn = 60 km/jam 
+ grn - jr  = 70 km/jam 
+ jr  - rbp = 80 km/jam 
+ rbp - bss = 70 km/jam 
+ bss - mls = 80 km/jam 
+ mls - lec = 70 km/jam 
+ lec - bym = 80 km/jam 
+ bym - ps  = 60 km/jam 
+ ps  - bg  = 70 km/jam 
+ bg  - wo  = 80 km/jam 
+ wo  - sgu = 90 km/jam 
+ sgu - sdt = 50 km/jam 
+ 
+
+klb kp/10504 lintas ktg - sdt
+==========================================                            
+sta  datang    berangk   keterangan
+ktg            05:35:00  bers ka 2707
+ago     ls     05:42:00  
+bwi     ls     05:47:00  
+rgp     ls     05:57:00  
+sgj     ls     06:03:00  
+tgr     ls     06:07:00  
+ksl     ls     06:15:00  bers ka 125 (ka 125 bers)
+             ppka ksl tahan ka 125 di sta nya tggu bersilang klb kp/10504
+             di sta kalisetail
+swd     ls     06:19:00  menyusul ka 334 (ka 334 disusul)
+             ppka swd tahan ka 334 di sta nya tggu disusul klb kp/10504
+             di sta sumber wadung
+glm     ls     06:24:00  
+kbr     ls     06:30:00  bers ka 459 (ka 459 bers)
+             ppka kbr tahan ka 459 di sta nya tggu bersilang klb kp/10504
+             di sta kalibaru
+mrw     ls     06:39:00  
+grn     ls     06:51:00  
+spl     ls     06:56:00  
+ldo     ls     07:04:00  
+klt     ls     07:12:00  
+ktk     ls     07:19:00  
+aj      ls     07:24:00  
+jr   07:31:00  07:40:00  
+mi      ls     07:48:00  
+rbp     ls     07:53:00  
+bss     ls     08:02:00  
+tgl     ls     08:11:00  bers ka 337 (ka 337 bers)
+             ppka tgl tahan ka 337 di sta nya tggu bersilang klb kp/10504
+             di sta tanggul
+jtr     ls     08:21:00  
+rda     ls     08:30:00  
+kk      ls     08:40:00  
+rn      ls     08:45:00  
+mls     ls     08:53:00  
+lec     ls     09:01:00  
+pb   09:13:00  09:25:00  
+bym     ls     09:37:00  
+gi      ls     09:51:00  
+ro      ls     09:58:00  
+ps      ls     10:08:00  
+bg   10:25:00  10:35:00  bers ka 183 (ka 183 bers)
+             ppka bg tahan ka 183 di sta nya tggu bersilang klb kp/10504
+             di sta bangil
+pr      ls     10:48:00  
+tga     ls     10:53:00  bers plb 8101jj (plb 8108jj bers)
+             ppka tga blb kan dan tahan plb 8101jj di sta nya tggu
+             bersilang klb kp/10540 di sta tanggulangin
+sda     ls     10:58:00  
+pwj     ls        -      
+bdr     ls        -      
+bjk     ls        -      
+gdg     ls     11:08:00  
+stp     ls        -      
+wr      ls     11:13:00  bers ka 2765f jj (ka 2765f jj bers)
+             ppka wr blb kan dan tahan ka 2765f jj di sta nya tggu
+             bersilang klb kp/10504 di sta waru
+ktl     ls        -      
+jms     ls        -      
+mgr     ls        -      
+wo      ls     11:19:00  (ka 105 bers)
+             ppka wo tahan ka 105 di sta nya tggu bersilang klb kp/10504
+             di sta wonokromo
+             ppka wo blb kan dan tahan ka 180 di sta nya, berangkatkan
+             kembali setelah klb kp/10504 masuk sta surabaya gubeng
+sgu  11:25:00  11:30:00  
+sdt  11:40:00    
+
+3. rangkaian lok cc 206 13 58 - k3 06 3 39
+4. kadaop man op sarana daop 9jr 8sb atur dan sesuaikan dinasan sarana dan
+   awak ka nya
+5. kadaop sm/man op kapusdalopka daop 9jr 8sb atur dan kendalikan kelancaran perka
+   dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+      a.n. ot           cc:
+        otr             1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp.20327            cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="text-center col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td>KP/10504</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">KTG-SDT</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.jpg">
+                            </td>
+                            <td class="text-center">
+                                2020-05-10
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api <i>©2020 Authorised by Information System</i></b>
+    </div>
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/popper.js"></script> 
+    <script src="assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

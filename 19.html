@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/74</td>
+                            <td>Mei 2020</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=1vp_EdXFtMY-49qYN4TqNRpcLCeBgkqEn">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Kirim Kpjr Lintas Jr-Sbi-Cnp</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.74 - Kirim Kpjr Lintas Jr-Sbi-Cnp
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung0010   otr/74        14/05-'20    1945
+
+=wam=
+
+ppka kkt jr/pb/bg/sda/wo/sgu/sb/sbi/bj/cu/gbn/smc/tg/cnp  jr sb sm cn
+
+1. menunjuk 
+   a. warta dinas kadaop 9 jr no.po9/40d tanggal 14 mei 2020 perihal pemohonan
+      kirim kpjr dari jr ke cnp guna perawatan di by mekanik cnp 
+   b. buku malka tambahan lebaran gapeka 2019
+
+2. guna keperluan pengaturan perjalanan kirim kpjr perka kami atur sbb:
+
+   a. sabtu 16 mei menghadap ahad 17 mei 2020 BERJALAN klb kp/satu nol empat empat nol
+      (klb kp/10440) dinas lintas jr/sbi
+   b. ahad 17 mei 2020 BERJALAN :
+      b.1. plb delapan satu dua lima (plb 8125) plb dinas lintas sbi/smc
+      b.2. plb delapan satu dua tiga (plb 8123) plb dinas lintas smc/cnp
+      (periksa malka no.394 buku malka tambahan lebaran gapeka 2019)
+
+
+ puncak kecepatan lintas:
+ jr  - sbi = 45 km/jam  
+
+klb kp/10440 lintas jr - sbi
+==========================================                            
+sta  datang    berangk   keterangan
+jr             21:30:00  bers plb 121a
+mi      ls     21:42:00  
+rbp     ls     21:48:00  
+bss     ls     22:02:00  
+tgl     ls     22:18:00  
+jtr     ls     22:34:00  
+rda     ls     22:48:00  
+kk      ls     23:06:00  
+rn      ls     23:13:00  
+mls     ls     23:27:00  
+lec     ls     23:39:30  
+pb   00:00:00  00:08:00  bers ka 185 (ka 185 bers)
+bym     ls     00:27:00  
+gi      ls     00:45:00  bers ka 2707 (ka 2707 bers)
+             ppka gi blb kan dan tahan ka 2707 di sta nya tggu bersilang
+             klb kp/10440 di sta grati
+ro      ls     00:54:00  
+ps   01:08:00  01:38:00  bers ka 125 (ka 125 bers)
+bg   02:05:00  02:08:00  
+pr      ls     02:27:00  
+tga     ls     02:33:00  
+sda     ls     02:41:00  bers ka 2637f jj (ka 2637f jj bers)
+             ppka sda blb kan dan tahan ka 2637f jj di sta nya tggu
+             bersilang klb kp/10440 di sta sidoarjo
+pwj     ls        -      
+bdr     ls        -      
+bjk     ls        -      
+gdg     ls     02:53:00  
+stp     ls        -      
+wr      ls     02:59:00  
+ktl     ls        -      
+jms     ls        -      
+mgr     ls        -      
+wo      ls     03:08:00  
+nga     ls        -      
+sgu  03:16:00  03:20:00  
+sb      ls     03:29:00  
+stm     ls     03:32:00  
+sbi  03:35:00 
+
+
+3. rangkaian mtt 2405 - pbr 495
+4. kadaop man op jj 3cn 4sm 8sb 9jr atur dan sesuaikan dinasan sarana dan motorisnya
+5. kadaop manager op kapusdalopka 3cn 4sm 8sb 9jr atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+
+
+      a.n. otr          cc:
+        otr             1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,ti,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+   rendra yudha         4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+    nipp.20327             cfp,cft,kio,tij,tis,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10440</td>
+                            <td>KLB Dinas</td>
+                            <td class="text-center">JR-SBI</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-16
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">8123</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">SMC-CNP</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-17
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">8125</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">SBI-SMC</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-17
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/popper.js"></script> 
+    <script src="assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

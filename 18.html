@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/72</td>
+                            <td>Mei 2020</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=1I87qK3RInDnGPcLurSmDXIV30y0tlMet">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Klb Inspeksi DU lintas Gmr-Bd PP</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.72 - Klb Inspeksi DU lintas Gmr-Bd PP
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung     otr/72      14/05-'20              1705
+
+=wam=
+
+ppka kkt bd/and/pdl/ckp/jng/mri/gmr jak bd
+
+1. menunjuk nota dinas us no.1/kt.204/v/us/ks/2019 tanggal 14 mei 2020
+   perihal permohonan perjalanan kais rombongan DU lintas gambir-bandung pp
+
+2. guna keperluan pengaturan perjalanan inspeksi rombongan DU lintas 
+   bandung-gambir pp perka kami atur sbb:
+
+   sabtu 16 mei 2020 BERJALAN:
+   a. klb kp/satu nol lima satu nol (klb kp/10510) inspeksi lintas gmr/bd
+   b. klb kp/satu nol lima satu lima (klb kp/10515) inspeksi lintas bd/gmr
+
+
+puncak kecepatan lintas:
+ gmr - mri = 80 km/jam 
+ mri - jng = 60 km/jam 
+ jng - pwk = 80 km/jam 
+ pwk - pdl = 55 km/jam 
+ pdl - bd  = 80 km/jam 
+ 
+
+klb kp/10510 lintas gmr - bd
+==========================================                            
+sta  datang    berangk   keterangan
+gmr            06:05:00  ppka gmr tahan ka 28 di sta nya berangkatkan setelah
+             klb kp/10510 masuk dua petak blok muka nya
+gdd     ls        -      
+cki     ls        -      
+mri     ls     06:15:00  
+jng     ls     06:20:00  
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     06:29:00  
+rwb     ls        -      
+kri     ls        -      
+bks     ls     06:34:00  
+bkst    ls        -      
+tb      ls     06:40:00  menyusul ka 1314 (ka 1314 disusul)
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     06:49:00  
+lmb     ls     06:53:00  menyusul ka 2528 (ka 2528 disusul)
+kdh     ls     07:01:00  
+kw      ls     07:07:00  
+kli     ls     07:13:00  
+kos     ls     07:16:00  
+dwn     ls     07:22:00  
+ckp  07:27:00  07:30:00  
+cbr     ls     07:39:00  
+sad     ls        -      
+pwk     ls     07:50:00  
+ca      ls     07:58:00  
+sut     ls     08:08:00  
+pld     ls     08:13:00  bers ka 39 (ka 39 bers)
+             ppka pld blb kan dan tahan ka 39 di sta nya tggu bersilang
+             klb kp/10510 di sta plered
+cg      ls        -      
+cd      ls     08:28:00  
+rh      ls     08:32:00  
+msi     ls     08:38:00  
+skt     ls     08:44:00  
+cle     ls     08:53:00  bers ka 151 (ka 151 bers)
+             ppka cle blb kan dan tahan ka 151 di sta nya tggu bersilang
+             klb kp/10510 di sta cilame
+pdl     ls     09:02:00  ka 107, plb 107b jj bers
+             ppka pdl blbkan dan tahan ka 107, plb 107b jj di sta nya tggu
+             bersilang klb kp/10510 di sta padalarang
+gk      ls        -      
+cmi     ls     09:08:00  
+cmd     ls     09:11:00  
+and     ls     09:14:30  
+bd  09:20:00  
+
+
+klb kp/10515 lintas bd - gmr
+==========================================                            
+sta  datang    berangk   keterangan
+bd             20:00:00  ppka bd tahan ka 1, plb 1b jj di sta nya, berangkatkan kembali
+             setelah klb kp/10515 masuk sta andir
+and     ls     20:06:00  
+cmd     ls     20:09:00  
+cmi     ls     20:12:00  
+gk      ls        -      
+pdl     ls     20:18:00  
+cle     ls     20:27:00  
+skt     ls     20:36:00  bers ka 46 (ka 46 bers)
+             ppka skt blb kan dan tahan ka 46 di sta nya tggu bersilang
+             klb kp/10515 di sta saksaksaat
+msi     ls     20:43:00  
+rh      ls     20:48:00  
+cd      ls     20:52:00  
+cg      ls        -      
+pld     ls     21:07:00  
+sut     ls     21:12:00  menyusul ka 69f jj (ka 69f jj disusul)
+             ppka sut blb kan dan tahan ka 69f jj di sta nya tggu disusul
+             klb kp/10515 di sta sukatani
+ca      ls     21:21:00  
+pwk     ls     21:29:00  (plb 7002a jj bers)
+             ppka pwk blb kan dan tahan plb 7002a jj di sta nya tggu
+             bersilang klb kp/10515 di sta purwakarta
+sad     ls        -      
+cbr     ls     21:39:00  
+ckp  21:48:00  21:51:00  
+dwn     ls     21:55:30  
+kos     ls     22:01:00  
+kli     ls     22:04:00  
+kw      ls     22:10:00  menyusul ka 2703 (ka 2703 disusul)
+kdh     ls     22:15:00  
+lmb     ls     22:23:00  
+ckr     ls     22:27:00  menyusul ka 2749f jj (ka 2749f jj disusul)
+tlm     ls        -      
+cit     ls        -      
+tb      ls     22:36:00  
+bkst    ls        -      
+bks     ls     22:42:00  
+kri     ls        -      
+rwb     ls        -      
+cuk     ls     22:48:00  
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng     ls     23:00:00  
+mri     ls     23:05:00  
+cki     ls        -      
+gdd     ls        -      
+gmr  23:15:00    
+ 
+3. rangkaian kais 3 
+4. kadaop sm/man op sarana angpen faspen pam daop 1jak 2bd atur dan sesuaikan
+   dinasan sarana dan awak sarana ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 2bd atur dan kendalikan kelancaran
+   perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi Informasi Kereta APi (IKA)
+
+
+
+      a.n. ot              cc:
+        otr             1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tji,tjs,rrt,rrc,rrw,sss,ssd,mmh
+   rendra yudha         4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+    nipp.20327             cfp,cft,kio,tji,tjs,rrt,rrw,rrw,sss,ssd,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10510</td>
+                            <td>Klb Inspeksi</td>
+                            <td class="text-center">GMR-BD</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-16
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">KP/10515</td>
+                            <td>Klb Inspeksi</td>
+                            <td class="text-center">BD-GMR</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-16
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/popper.js"></script> 
+    <script src="assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

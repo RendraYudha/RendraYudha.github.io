@@ -29,3 +29,7 @@ body {
 .no-ka {
   font-weight: bolder;
 }
+
+.center {
+  text-align: center;
+}

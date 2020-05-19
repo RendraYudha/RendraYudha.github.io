@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/92</td>
+                            <td>Mei 2020</td>
+                            <td>10</td>
+                            <td>0</td>
+                            <td>10</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=10-YCgTqOXKBRWtvTzfLwaGNLlk7Ev_SG">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>BATAL Ka Semen Lintas Awn-Pwt PP & Lintas Awn-Bbn PP</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.92 - BATAL Ka Semen Lintas Awn-Pwt PP & Lintas Awn-Bbn PP
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka   bandung0010           otr/92       19/05-'20   1220
+
+=wam=
+
+ppka kkt awn/cnp/ppk/pwt cnp/tg/smt/bbg/kej/gd/kdo/pws bbn  cn smt pwt yk
+
+1. menunjuk:
+   a. nota dinas cft no.5/kt.201/v/cft/ka/2020 tgl.19 mei 2020 perihal
+      permohonan wam pengaturan perjalanan ka angkutan semen pt kalog
+   b. ppk no.05 bulan mei 2020
+
+2. guna pengaturan pembatalan perjalanan ka semen perka kami atur sbb:
+
+   a. kamis 21 mei s/d selasa 26 mei 2020 BATAL:
+      - ka dua tujuh dua enam(ka 2726) semen lintas awn/pwt
+      - ka dua tujuh dua tujuh (ka 2727) semen lintas pwt/awn
+      - ka dua tujuh dua delapan (ka 2728)semen lintas awn/pwt
+   b. jumat 22 mei s/d rabu 27 mei 2020 BATAL ka dua tujuh dua lima 
+      (ka 2725) semen lintas pwt/awn
+
+   c. jumat 22 mei, ahad 24 mei, selasa 26 mei 2020 BATAL
+      plb delapan nol nol delapan (plb 8008) semen lintas awn/smc
+   d. sabtu 23 mei, senin 25 mei, rabu 27 mei 2020 BATAL
+      plb delapan nol nol tujuh (plb 8007) lintas smc/awn
+
+   e. kamis 21 mei menghadap jumat 22 mei, sabtu 23 mei menghadap ahad 24 mei,
+      senin 25 mei menghadap selasa 26 mei 2020 BATAL dua tujuh lima enam sub f
+      (ka 2756f) semen lintas awn/slo
+   f. jumat 22 mei, ahad 24 mei, selasa 26 mei 2020 BATAL :
+      - dua tujuh lima tujuh sub f (ka 2757f) semen lintas slo/bbn
+      - dua tujuh lima delapan sub f (ka 2758f) semen lintas bbn/slo
+      - dua tujuh lima lima sub f (ka 2755f) semen lintas slo/awn
+
+3. kadaop man op sar daop 3cn 4sm 5pwt 6yk atur dan sesuaikan kembali dinasan sarana
+   dan awak ka nya.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+       a.n. ot          cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,cio,ttj,tts,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2725</td>
+                            <td>Arjapurwo Service</td>
+                            <td class="text-center">PWT-AWN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-22, 2020-05-23, 2020-05-24, 2020-05-25, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">2726</td>
+                            <td>Arjapurwo Service</td>
+                            <td class="text-center">AWN-PWT</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-22, 2020-05-23, 2020-05-24, 2020-05-25, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">2727</td>
+                            <td>Arjapurwo Service</td>
+                            <td class="text-center">PWT-AWN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-22, 2020-05-23, 2020-05-24, 2020-05-25, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="no-ka">2728</td>
+                            <td>Arjapurwo Service</td>
+                            <td class="text-center">AWN-PWT</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-22, 2020-05-23, 2020-05-24, 2020-05-25, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2755F</td>
+                            <td>Bramarja Service</td>
+                            <td class="text-center">SLO-AWN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-22, 2020-05-24, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2756F</td>
+                            <td>Bramarja Service</td>
+                            <td class="text-center">AWN-SLO</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-23, 2020-05-25
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2757F</td>
+                            <td>Bramarja Service</td>
+                            <td class="text-center">SLO-BBN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-22, 2020-05-24, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">8</td>
+                            <td class="no-ka">2758F</td>
+                            <td>Bramarja Service</td>
+                            <td class="text-center">BBN-SLO</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-22, 2020-05-24, 2020-05-26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">9</td>
+                            <td class="no-ka">8007</td>
+                            <td>Arjaponcol</td>
+                            <td class="text-center">PWT-AWN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-23, 2020-05-25, 2020-05-27
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">10</td>
+                            <td class="no-ka">8008</td>
+                            <td>Arjaponcol</td>
+                            <td class="text-center">PWT-AWN</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-22, 2020-05-24, 2020-05-26
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

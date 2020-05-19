@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/95</td>
+                            <td>Mei 2020</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=1Beq7BsHVf4QktYGfoGhlGsmnD2vGugQ7">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Batal KA Petikemas Lintas Klm-Tpk.</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.95 - Batal KA Petikemas Lintas Klm-Tpk.
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung0010       otr/95        19/05-'20   2300
+
+=wam=
+
+ppka kkt tpk/kmo/pse/jng/ckp/cnp/tg/smt/bbg/gbn/cu/bj/kda/sbi/klm  
+jak cn sm sb
+
+1. menunjuk :
+   a. warta dinas kadaop 8 sb no.po8/164d tgl.19 mei 2020 perihal permohonan
+      pembatalan ka petikemas (plb 2521a/ka 2516) lintas klm/tpk
+   b. warta maklumat direksi pt kai no.otr/70ka tanggal 14 mei 2020 perihal
+      pengaturan perjalanan ka petikemas lintas tpk/klm pp     
+   c. ppk no.05 bulan mei 2020
+
+2. guna keperluan pengaturan pembatalan perjalanan ka petikemas tpk/klm perka
+   kami atur kembali sbb :
+  
+   a. kamis 21 mei menghadap jumat 22 mei, ahad 31 mei menghadap senin 01 juni
+      2020 BATAL plb dua lima dua satu sub a (plb 2521a) limaspriuk cargo
+      lintas klm/tpk
+   b. jumat 22 mei menghadap sabtu 23 mei 2020 BATAL ka dua lima satu enam 
+      (ka 2516) limaspriuk cargo lintas tpk/klm
+     
+3. kadaop sm/manager op sar 1jak 3cn 4sm 8sb atur dan sesuaikan kembali dinasan
+   sarana dan awak ka nya
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+       a.n. ot          cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,cio,ttj,tts,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2516</td>
+                            <td>Limaspriuk Cargo</td>
+                            <td class="text-center">TPK-KLM</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-22
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">2521A</td>
+                            <td>Limaspriuk Cargo</td>
+                            <td class="text-center">KLM-TPK</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21, 2020-05-31
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

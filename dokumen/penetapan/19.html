@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+    <!-- JS-->
+	<script type="text/javascript" src="../../assets/js/jquery.js"></script>
+	<script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+</head>
+<body>		
+		<h1>Detail KA</h1> 
+		<br/>
+        <div>
+            <ul class="list-inline">
+                <li><strong>Nomor : </strong></li>
+                <li><strong>Nama : </strong></li>
+                <li><strong>Kelas : </strong></li>
+                <li><strong>Relasi : </strong></li>
+                </ul>
+            </div>
+		<br/>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+			<li><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+			<li><a data-toggle="tab" href="#history">HISTORY</a></li>
+		</ul>
+		<br/>
+		<div class="tab-content">
+			<div id="daftar-waktu" class="tab-pane fade in active">
+				<div class="tab-pane active" id="tab-daftarwaktu">
+                    <table class="table table-bordered table-striped" id="dw0">
+                    <thead>
+                        <tr>
+                            <th class="center" style="width: 1%;">No.</th>
+                            <th style="width: 200px;">Stasiun / Perhentian</th>
+                            <th class="center" style="width: 90px;">Datang</th>
+                            <th class="center" style="width: 90px;">Berangkat</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                    <tr>
+                                <td class="center">1</td>
+                                <td>Kampungbandan (KPB)</td>
+                                <td class="center"></td>
+                                <td class="center">10:40:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">2</td>
+                                <td>Rajawali (RJW)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">3</td>
+                                <td>Kemayoran (KMO)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">10:48:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">4</td>
+                                <td>Pasarsenen (PSE)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">10:51:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">5</td>
+                                <td>Gangsentiong (GST)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">6</td>
+                                <td>Kramat (KMT)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">7</td>
+                                <td>Pondokjati (POK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">8</td>
+                                <td>Jatinegara (JNG)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:02:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">9</td>
+                                <td>Klender (KLD)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">10</td>
+                                <td>Buaran (BUA)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">11</td>
+                                <td>Klenderbaru (KLDB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">12</td>
+                                <td>Cakung (CUK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:15:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">13</td>
+                                <td>Rawabebek (RWB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">14</td>
+                                <td>Kranji (KRI)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">15</td>
+                                <td>Bekasi (BKS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:23:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">16</td>
+                                <td>Bekasitimur (BKST)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">17</td>
+                                <td>Tambun (TB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:32:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">18</td>
+                                <td>Cibitung (CIT)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">19</td>
+                                <td>Telaga Murni (TLM)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">    -   </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">20</td>
+                                <td>Cikarang (CKR)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:43:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">21</td>
+                                <td>Lemahabang (LMB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:48:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">22</td>
+                                <td>Kedunggedeh (KDH)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">11:58:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">23</td>
+                                <td>Karawang (KW)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">12:06:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">24</td>
+                                <td>Klari (KLI)</td>
+                                <td class="center">12:15:00</td>
+                                <td class="center">12:25:00</td>
+                                <td>= KA 20 (KA 20 //)</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">25</td>
+                                <td>Kosambi (KOS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">12:31:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">26</td>
+                                <td>Dawuan (DWN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">12:39:00</td>
+                                <td>PPKA DWN BLB KAN DAN TAHAN KA 64F JJ DI STA NYA BERANGKATKAN KEMBALI SETELAH KLB KP/10418 MASUK STA CIKAMPEK</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">27</td>
+                                <td>Cikampek (CKP)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">12:44:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">28</td>
+                                <td>Tanjungrasa (TJS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">12:55:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">29</td>
+                                <td>Pabuaran (PAB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:01:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">30</td>
+                                <td>Pringkasap (PRI)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:07:30</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">31</td>
+                                <td>Pasirbungur (PAS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:14:30</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">32</td>
+                                <td>Cikaum (CKM)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:21:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">33</td>
+                                <td>Pegadenbaru (PGB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:31:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">34</td>
+                                <td>Cipunegara (CRA)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:39:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">35</td>
+                                <td>Haurgeulis (HGL)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:46:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">36</td>
+                                <td>Cilegeh (CLH)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">13:58:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">37</td>
+                                <td>Kadokangabus (KAB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">14:07:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">38</td>
+                                <td>Terisi (TIS)</td>
+                                <td class="center">14:15:00</td>
+                                <td class="center">14:44:00</td>
+                                <td>= KA 254, PLB 254B, KA 24 (KA 254, PLB 254B, KA 24 //)</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">39</td>
+                                <td>Telagasari (TLS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">14:54:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">40</td>
+                                <td>Jatibarang (JTB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:04:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">41</td>
+                                <td>Kertasemaya (KTM)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:13:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">42</td>
+                                <td>Arjawinangun (AWN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:30:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">43</td>
+                                <td>Bangoduwa (BDW)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:36:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">44</td>
+                                <td>Cangkring (CNK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:41:30</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">45</td>
+                                <td>Cirebon (CN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">15:49:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">46</td>
+                                <td>Cirebon Prujakan (CNP)</td>
+                                <td class="center">15:53:00</td>
+                                <td class="center">16:04:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">47</td>
+                                <td>Waruduwur (WDW)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">16:18:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">48</td>
+                                <td>Babakan (BBK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">16:33:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">49</td>
+                                <td>Losari (LOS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">16:44:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">50</td>
+                                <td>Tanjung (TGN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">16:53:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">51</td>
+                                <td>Brebes (BB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">17:16:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">52</td>
+                                <td>Tegal (TG)</td>
+                                <td class="center">17:31:00</td>
+                                <td class="center">17:38:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">53</td>
+                                <td>Larangan (LR)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">17:45:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">54</td>
+                                <td>Surodadi (SD)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">17:56:00</td>
+                                <td>PPKA SD BLB KAN DAN TAHAN KA 118 DI STA NYA BERANGKATKAN KEMBALI SETELAH KLB KP/10418 MASUK STA PEMALANG</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">55</td>
+                                <td>Pemalang (PML)</td>
+                                <td class="center">18:11:00</td>
+                                <td class="center">18:30:00</td>
+                                <td>= KA 118 (KA 118 //)<br>PPKA PML BLB KAN DAN TAHAN PLB 64F-A DI STA NYA BERANGKATKAN KEMBALI SETELAH KLB KP/10418 MASUK STA PETARUKAN</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">56</td>
+                                <td>Petarukan (PTA)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">18:39:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">57</td>
+                                <td>Comal (CO)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">18:50:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">58</td>
+                                <td>Sragi (SRI)</td>
+                                <td class="center">18:56:00</td>
+                                <td class="center">19:30:00</td>
+                                <td>= KA 64F JJ, KA 2524, KA 256, PLB 256A (KA 64F JJ, KA 2524, KA 256, PLB 256A //)<br>PPKA SRI BLB KAN DAN TAHAN KA 94F JJ DI STA NYA BERANGKATKAN KEMBALI SETELAH KLB KP/10418 MASUK STA PEKALONGAN</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">59</td>
+                                <td>Pekalongan (PK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">19:45:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">60</td>
+                                <td>Batang (BTG)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">19:56:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">61</td>
+                                <td>Ujungnegoro (UJN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">20:01:30</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">62</td>
+                                <td>Kuripan (KRP)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">20:15:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">63</td>
+                                <td>Plabuan (PLB)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">20:23:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">64</td>
+                                <td>Krengseng (KNS)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">20:34:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">65</td>
+                                <td>Weleri (WLR)</td>
+                                <td class="center">20:41:00</td>
+                                <td class="center">22:05:00</td>
+                                <td>= KA 94F JJ, KA 80, KA 192, KA 276, KA 12, KA 134 (KA 94F JJ, KA 80, KA 192, KA 276, KA 12, KA 134 //)</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">66</td>
+                                <td>Kalibodri (KBD)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">22:16:00</td>
+                                <td>PPKA KBD BLB KAN DAN TAHAN KA 2522 DI STA NYA BERANGKATKAN KEMBALI SETELAH KLB KP/10418 MASUK STA KALIWUNGU</td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">67</td>
+                                <td>Kaliwungu (KLN)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">22:30:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">68</td>
+                                <td>Mangkang (MKG)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">22:36:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">69</td>
+                                <td>Jerakah (JRK)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">22:44:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">70</td>
+                                <td>Semarang Poncol (SMC)</td>
+                                <td class="center">22:53:00</td>
+                                <td class="center">23:09:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">71</td>
+                                <td>Semarang Tawang (SMT)</td>
+                                <td class="center">   Ls   </td>
+                                <td class="center">23:15:00</td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td class="center">72</td>
+                                <td>Alastua (ATA)</td>
+                                <td class="center">23:25:00</td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                                            </tbody>
+                </table>
+                <br>
+                </div>
+			</div>
+			<div id="penetapan" class="tab-pane fade">
+				<div style="min-height:23px;" class="accordion-inner">
+                    <pre>
+Puncak kecepatan lintas:
+KPB - SMC = 60 Km/Jam 
+ SMC - SMT = 50 Km/Jam 
+ SMT - ATA = 60 Km/Jam 
+ 
+
+klb KP/10418 lintas KPB - ATA
+==========================================                            
+
+sta  datang    berangk  keterangan
+KPB            10:40:00  
+RJW     Ls        -      
+KMO     Ls     10:48:00  
+PSE     Ls     10:51:00  
+GST     Ls        -      
+KMT     Ls        -      
+POK     Ls        -      
+JNG     Ls     11:02:00  
+KLD     Ls        -      
+BUA     Ls        -      
+KLDB     Ls        -      
+CUK     Ls     11:15:00  
+RWB     Ls        -      
+KRI     Ls        -      
+BKS     Ls     11:23:00  
+BKST     Ls        -      
+TB     Ls     11:32:00  
+CIT     Ls        -      
+TLM     Ls        -      
+CKR     Ls     11:43:00  
+LMB     Ls     11:48:00  
+KDH     Ls     11:58:00  
+KW     Ls     12:06:00  
+KLI  12:15:00  12:25:00  = ka 20 (ka 20 //)
+KOS     Ls     12:31:00  
+DWN     Ls     12:39:00  ppka dwn blb kan dan tahan ka 64F jj di sta nya berangkatkan kembali setelah klb kp/10418 masuk sta cikampek
+CKP     Ls     12:44:00  
+TJS     Ls     12:55:00  
+PAB     Ls     13:01:00  
+PRI     Ls     13:07:30  
+PAS     Ls     13:14:30  
+CKM     Ls     13:21:00  
+PGB     Ls     13:31:00  
+CRA     Ls     13:39:00  
+HGL     Ls     13:46:00  
+CLH     Ls     13:58:00  
+KAB     Ls     14:07:00  
+TIS  14:15:00  14:44:00  = ka 254, plb 254b, ka 24 (ka 254, plb 254b, ka 24 //)
+TLS     Ls     14:54:00  
+JTB     Ls     15:04:00  
+KTM     Ls     15:13:00  
+AWN     Ls     15:30:00  
+BDW     Ls     15:36:00  
+CNK     Ls     15:41:30  
+CN     Ls     15:49:00  
+CNP  15:53:00  16:04:00  
+WDW     Ls     16:18:00  
+BBK     Ls     16:33:00  
+LOS     Ls     16:44:00  
+TGN     Ls     16:53:00  
+BB     Ls     17:16:00  
+TG  17:31:00  17:38:00  
+LR     Ls     17:45:00  
+SD     Ls     17:56:00  ppka sd blb kan dan tahan ka 118 di sta nya berangkatkan kembali setelah klb kp/10418 masuk sta pemalang
+PML  18:11:00  18:30:00  = ka 118 (ka 118 //);ppka pml blb kan dan tahan plb 64F-a di sta nya berangkatkan kembali setelah klb kp/10418 masuk sta petarukan
+PTA     Ls     18:39:00  
+CO     Ls     18:50:00  
+SRI  18:56:00  19:30:00  = ka 64F jj, ka 2524, ka 256, plb 256a (ka 64F jj, ka 2524, ka 256, plb 256a //);ppka sri blb kan dan tahan ka 94F jj di sta nya berangkatkan kembali setelah klb kp/10418 masuk sta pekalongan
+PK     Ls     19:45:00  
+BTG     Ls     19:56:00  
+UJN     Ls     20:01:30  
+KRP     Ls     20:15:00  
+PLB     Ls     20:23:00  
+KNS     Ls     20:34:00  
+WLR  20:41:00  22:05:00  = ka 94F jj, ka 80, ka 192, ka 276, ka 12, ka 134 (ka 94F jj, ka 80, ka 192, ka 276, ka 12, ka 134 //)
+KBD     Ls     22:16:00  ppka kbd blb kan dan tahan ka 2522 di sta nya berangkatkan kembali setelah klb kp/10418 masuk sta kaliwungu
+KLN     Ls     22:30:00  
+MKG     Ls     22:36:00  
+JRK     Ls     22:44:00  
+SMC  22:53:00  23:09:00  
+SMT     Ls     23:15:00  
+ATA  23:25:00    
+					</pre>
+				</div>
+			</div>
+			<div id="history" class="tab-pane fade">
+				<table class="table table-bordered table-striped" id="dw1">
+                    <thead>
+                        <tr>
+                            <th class="text-center" style="width: 100px;">Tanggal</th>
+                            <th class="center" style="width: 200px;">Dokumen</th>
+                            <th class="text-center" style="width: 90px;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">2020-05-21</td>
+                            <td><a href="../pengumuman/20.html">OTR/79</a></td>
+                            <td class="text-center">
+                                <img src="picture/jalan.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2020-05-19</td>
+                            <td><a href="../pengumuman/20.html">OTR/79</a></td>
+                            <td class="text-center">
+                                <img src="picture/jalan.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2020-05-18</td>
+                            <td><a href="../pengumuman/20.html">OTR/79</a></td>
+                            <td class="text-center">
+                                <img src="picture/jalan.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2020-05-16</td>
+                            <td><a href="../pengumuman/20.html">OTR/79</a></td>
+                            <td class="text-center">
+                                <img src="picture/jalan.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2020-05-15</td>
+                            <td><a href="../pengumuman/20.html">OTR/79</a></td>
+                            <td class="text-center">
+                                <img src="picture/jalan.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+			</div>
+		</div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body>
+</html>

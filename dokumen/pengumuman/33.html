@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/104</td>
+                            <td>Mei 2020</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=1ky7oqLF4x-XamxCej1FL2tidt5VkrZ_A">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Kirim Kpjr Lintas Cnp-Kw, Lintas Ckp-Pwk & Lintas Cnp-Smc-Pws.</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.104 - Kirim Kpjr Lintas Cnp-Kw, Lintas Ckp-Pwk & Lintas Cnp-Smc-Pws.
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka      bandung0010     otr/104     20/05-'20        2245
+
+=wam=
+
+ppka kkt slo/kdo/gd/kej/smt/tg/cnp/cn/ckp/kw ckp/pwk  yk sm cn bd jak 
+
+1. menunjuk :
+   a. warta dinas kadaop 3 cn no.po3/70d tgl.20 mei 2020 perihal permohonan
+      kirim kpjr mtt dan pbr dari cnp tujuan kw, pwk dan cnp tujuan smc, pws
+      selesai perawatan di by mek cnp
+   b. buku malka lebaran gapeka 2019
+
+2. guna keperluan perjalanan pengiriman kpjr tersebut, perka kami atur sbb :
+   
+   a. kamis 21 mei 2020 BERJALAN:
+      - plb delapan satu nol tujuh (plb 8107) dinas lintas cnp/ckp
+      - plb delapan satu nol tiga (plb 8103) dinas lintas ckp/kw
+        (periksa malka no 394 buku malka lebaran gapeka 2019)
+      - klb kp/satu nol tiga sembilan dua (klb kp/10392) dinas lintas ckp/pwk
+      - plb delapan satu dua empat (plb 8124) dinas lintas cnp/smc
+   b. kamis 21 mei menghadap jumat 22 mei 2020 BERJALAN plb delapan satu dua dua
+      (plb 8122) dinas lintas smc/slo
+      (periksa malka no 394 buku malka lebaran gapeka 2019)
+
+
+puncak kecepatan lintas:
+ckp - pwk = 45 km/jam 
+ 
+klb kp/10392 lintas ckp - pwk
+==========================================                            
+sta  datang    berangk  keterangan
+ckp            09:15:00  
+cbr     ls     09:29:00  
+sad     ls        -      
+pwk  09:50:00    
+
+
+3. rangkaian :
+   a. plb 8107 : mtt 08-16 gs no. 2403 (sr 3 88 07)-pbr 400 u-rs no. 6419 (sr 3 15 06)
+   b. plb 8103 : pbr 400 u-rs no. 6419 (sr 3 15 06)
+   c. klb kp/10392 : mtt 08-16 gs no. 2403 (sr 3 88 07)
+   d. plb 8124 : mtt 07-16 g no. 2218 (sr 3 84 06)-mtt 09-32 csm no. 6273 (sr 3 15 02)
+   e. plb 8122 : mtt 09-32 csm no. 6273 (sr 3 15 02)
+    
+4. kadaop sm/man jj 6yk 4sm 3cn 2bd 1jak atur dan sesuaikan dinasan motorisnya
+5. kadaop sm/man op kapusdalopka 6yk 4sm 3cn 2bd 1jak atur dan kendalikan
+   kelancaran perka dalam lintasnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                       Direksi Informasi Kereta Api (IKA)
+
+
+
+
+      a.n. ot           cc:
+        otr             1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp.20327            cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10392</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">CKP-PWK</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">8103</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">CKP-KW</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">8107</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">CNP-CKP</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="no-ka">8122</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">SMC-SLO</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">5</td>
+                            <td class="no-ka">8124</td>
+                            <td>Plb Dinas</td>
+                            <td class="text-center">CNP-SMC</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-21
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

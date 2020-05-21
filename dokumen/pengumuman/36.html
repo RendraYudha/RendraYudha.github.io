@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/107</td>
+                            <td>Mei 2020</td>
+                            <td>6</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/open?id=1ftub1wwgnwyJXsH9wTkFayeJXI1asvMw">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Batal Ka Barang (Plb 2507a-Ka 2508)</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.107 - Batal Ka Barang (Plb 2507a-Ka 2508)
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka   bandung0010           otr/107      21/05-'20   1345
+
+=wam=
+
+ppka kkt bet/sdt/sb/stm/sbi/kda/cu/gbn/bbg/smt/tg/cnp/ckp/jng/kmo/kpb  sb sm cn jak
+
+1. menunjuk: 
+   a. warta dinas kadaop 1 jak no.po1/289d tanggal 20 april 2020 perihal
+      permohonan pembatalan ka petikemas dan ka semen
+   b. ppk no.05 bulan mei 2020
+
+2. guna keperluan pengaturan pembatalan ka barang perka kami atur kembali sbb:
+
+   a. ahad 24 mei, selasa 26 mei, kamis 28 mei, sabtu 30 mei 2020 BATAL
+      - plb dua lima satu satu sub a (plb 2511a) petikemas lintas bet/sdt
+      - plb dua lima satu nol sub a (plb 2510a) petikemas lintas sdt/sbi
+
+   b. ahad 24 mei menghadap senin 25 mei, selasa 26 mei menghadap rabu 27 mei,
+      kamis 28 mei menghadap jumat 29 mei, sabtu 30 mei menghadap ahad 31 mei 2020
+      BATAL plb dua lima nol tujuh sub a (2507a) petikemas lintas sbi/kpb 
+
+   c. sabtu 23 mei, senin 25 mei, rabu 27 mei, jumat 29 mei 2020 BATAL:
+      - ka dua lima nol delapan (ka 2508) petikemas lintas kpb/sbi
+      - ka dua lima nol sembilan (ka 2509) petikemas lintas sbi/sdt
+      - ka dua lima satu dua (ka 2512) petikemas lintas sdt/bet
+
+3. kadaop sm/manager op sar daop 1jak 3cn 4sm 8sb atur dan sesuaikan dinasan sarana
+   dan awak ka nya.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+       a.n. ot          cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,cio,ttj,tts,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2507A</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">SBI-KPB</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-24, 2020-05-26, 2020-05-28, 2020-05-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">2508</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">KPB-SBI</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-23, 2020-05-25, 2020-05-27, 2020-05-29
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">2509</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">SBI-SDT</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-23, 2020-05-25, 2020-05-27, 2020-05-29
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="no-ka">2510A</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">SDT-SBI</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-24, 2020-05-26, 2020-05-28, 2020-05-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">5</td>
+                            <td class="no-ka">2511A</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">BET-SDT</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-24, 2020-05-26, 2020-05-28, 2020-05-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">6</td>
+                            <td class="no-ka">2512</td>
+                            <td>Banteng Cargo</td>
+                            <td class="text-center">SDT-BET</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-23, 2020-05-25, 2020-05-27, 2020-05-29
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

@@ -125,3 +125,10 @@ main {
   background-color: var(--teal-100);
   color: var(--teal-900);
 }
+
+.graph-subdomain-group {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

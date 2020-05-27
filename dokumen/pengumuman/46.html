@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/138</td>
+                            <td>Mei 2020</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/file/d/1Or7bChq7WUKdaQPwX3MV3oPWQpuKq6V6/view?usp=sharing">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Ka Parcel Tengah Dan Selatan (juni 2020)</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.138 - Ka Parcel Tengah Dan Selatan (juni 2020)
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka    bandung0010           otr/138     27/05-'20             1735     
+
+=wam=
+
+ppka kkt gmr/mri/jng jakk/kpb/jng/ckp/cnp/ppk/pwt/kya/kta/lpn/pws/slo/wk/mn
+mn/kts/bl/wg/ml ckp/pdl/and/bd/bjr/kh/kya kts/mr/wo/sgu/sb  jak bd cn pwt yk mn sb
+ 
+1. menunjuk : 
+   a. nota dinas cft no.6/KT.201/V/CFT/KA/2020 tanggal 27 mei 2020 perihal permohonan
+      wam pengaturan perjalanan ka parcel 
+   b. ppk no.06 bulan juni 2020
+   
+2. guna pengaturan penyesuaian perjalanan ka parcel perka kami atur dan sesuaikan
+   kembali sbb :
+
+   a. selasa 02 jun menghadap rabu 03 jun s/d sabtu 06 jun menghadap ahad 07 jun,
+      senin 08 jun menghadap selasa 09 jun s/d sabtu 13 jun menghadap ahad 14 jun,
+      senin 15 jun menghadap selasa 16 jun s/d sabtu 20 jun menghadap ahad 21 jun,
+      senin 22 jun menghadap selasa 23 jun s/d sabtu 27 jun menghadap ahad 28 jun,
+      senin 29 jun menghadap selasa 30 jun s/d selasa 30 jun menghadap rabu 01 jul
+      2020 BATAL:
+      - plb dua empat tiga sub b (plb 243b) parcel selatan lintas sb/bd
+      - plb dua empat empat sub b (plb 244b) parcel selatan lintas bd/sb
+
+   b. selasa 02 jun menghadap rabu 03 jun s/d sabtu 06 jun menghadap ahad 07 jun,
+      senin 08 jun menghadap selasa 09 jun s/d sabtu 13 jun menghadap ahad 14 jun,
+      senin 15 jun menghadap selasa 16 jun s/d sabtu 20 jun menghadap ahad 21 jun,
+      senin 22 jun menghadap selasa 23 jun s/d sabtu 27 jun menghadap ahad 28 jun,
+      senin 29 jun menghadap selasa 30 jun s/d selasa 30 jun menghadap rabu 01 jul
+      2020 BERJALAN :
+      - klb kp/satu nol empat sembilan (klb kp/10496) parcel selatan 
+        lintas gmr/sgu
+      - klb kp/satu nol lima nol satu (klb kp/10501) parcel selatan
+        lintas sgu/gmr
+      - klb kp/satu nol empat sembilan delapan (klb kp/10498) parcel tengah 
+        lintas jakk/ml
+      - klb kp/satu nol lima nol tiga (klb kp/10503) parcel tengah
+        lintas ml/jakk 
+
+
+  puncak kecepatan lintas:
+   jakk - kpb =  40 km/jam 
+   kpb  - jng =  70 km/jam 
+   jng  - bks =  90 km/jam 
+   bks  - ppk = 100 km/jam 
+   ppk  - bma =  80 km/jam 
+   bma  - pwt =  65 km/jam 
+   pwt  - ntg =  80 km/jam 
+   ntg  - kbs =  65 km/jam 
+   kbs  - kya = 100 km/jam 
+   kya  - bth =  95 km/jam 
+   bth  - yk  = 100 km/jam 
+   yk   - lpn =  65 km/jam 
+   lpn  - slo = 100 km/jam 
+   slo  - sk  =  80 km/jam 
+   sk   - kts = 100 km/jam 
+   kts  - kd  =  80 km/jam 
+   kd   - bl  =  90 km/jam 
+   bl   - wg  =  80 km/jam 
+   wg   - ml  =  60 km/jam  
+
+   ckp - pwk  =  90 km/jam 
+   pwk - pdl  =  55 km/jam 
+   pdl - bd   = 100 km/jam 
+   bd  - ccl  =  90 km/jam 
+   ccl - ll   =  45 km/jam 
+   ll  - wb   =  55 km/jam 
+   wb  - caw  =  45 km/jam 
+   caw - mnj  =  80 km/jam 
+   mnj - ci   =  65 km/jam 
+   ci  - bjr  =  75 km/jam 
+   bjr - gdm  =  90 km/jam 
+   gdm - jrl  =  80 km/jam 
+   jrl - kya  =  70 km/jam 
+
+   kts - wo   = 100 km/jam 
+   wo  - sgu  =  90 km/jam 
+ 
+ 
+klb kp/10496 lintas gmr - sgu
+==========================================                            
+sta  datang    berangk   keterangan
+gmr            16:00:00  
+gdd     ls        -      
+cki     ls        -      
+mri     ls     16:10:00  
+jng     ls     16:14:00  ppka jng blb kan dan tahan plb 258a di sta nya berangkatkan
+             kembali setelah klb kp/10496 masuk dua petak blok di depannya
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     16:22:00  
+rwb     ls        -      
+kri     ls        -      
+bks     ls     16:26:00  menyusul ka 1398 (ka 1398 disusul)
+bkst    ls        -      
+tb      ls     16:31:00  
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     16:39:00  
+lmb     ls     16:43:00  
+kdh     ls     16:50:00  
+kw      ls     16:55:00  
+kli     ls     17:00:00  
+kos     ls     17:03:00  
+dwn     ls     17:08:00  
+ckp  17:12:00  17:22:00  ppka ckp blb kan dan tahan ka 108, plb 108b di sta nya
+             berangkatkan kembali setelah klb kp/10496 masuk sta cibungur
+cbr     ls     17:29:00  
+sad     ls        -      
+pwk  17:39:00  17:50:00  bers plb 7001a (plb 7001a bers)
+ca      ls     17:59:00  
+sut     ls     18:10:00  
+pld     ls     18:15:00  
+cg      ls        -      
+cd      ls     18:30:00  
+rh      ls     18:35:00  
+msi     ls     18:40:00  menyusul ka 458, plb 458a (ka 458, plb 458a disusul)
+skt  18:47:00  18:53:00  bers ka 47 (ka 47 bers)
+cle     ls     19:03:00  
+pdl     ls     19:12:00  
+gk      ls        -      
+cmi     ls     19:19:00  
+cmd     ls     19:22:00  
+and     ls     19:24:00  
+bd   19:28:00  20:05:00  
+cth     ls     20:10:00  
+kac  20:15:00  20:20:00  bers ka 535
+gdb  20:28:00  20:51:00  disusul ka 508 (ka 508 menyusul)
+             bers ka 525, plb 8109 jj, plb 7023b jj
+             (ka 525, plb 8109 jj, plb 7023b jj bers)
+cmk     ls     20:55:00  
+rck     ls     20:59:00  menyusul ka 508 (ka 508 disusul);bers ka 517 (ka 517 bers)
+hrp     ls     21:03:00  
+ccl     ls     21:07:00  
+ng   21:21:00  21:28:00  bers ka 177f jj (ka 177f jj bers)
+lbj     ls     21:38:00  
+ll   21:50:00  22:20:00  disusul ka 104, plb 104c jj (ka 104, plb 104c jj menyusul)
+             bers ka 325 (ka 325 bers)
+krai    ls     22:27:00  
+lo      ls        -      
+cb   22:36:00  22:40:00  
+wb      ls     22:49:00  
+bmw     ls     23:04:00  
+cpd  23:15:00  23:25:00  
+caa     ls     23:40:00  
+caw     ls     23:50:00  
+rjp     ls     00:00:00  
+ih      ls     00:08:00  
+tsm  00:15:00  00:25:00  
+aw      ls     00:32:00  
+mnj  00:37:00  00:48:00  bers ka 163, plb 163a jj (ka 163, plb 163a jj bers)
+ci      ls     01:00:00  
+bjg     ls     01:09:00  
+knp     ls     01:17:00  
+bjr  01:25:00  01:35:00  bers ka 77, plb 77b jj (ka 77, plb 77b jj bers)
+ln      ls     01:46:00  
+mlw     ls     01:54:00  
+cpi     ls     02:01:00  
+sdr  02:08:00  02:13:00  
+gdm  02:22:00  02:30:00  bers ka 293, plb 293b jj (ka 293, plb 293b jj bers)
+kwg  02:41:00  02:52:00  bers ka 107, plb 107b jj, plb 7011b jj
+             (ka 107, plb 107b jj, plb 7011b jj bers)
+             ppka kwg blb kan dan tahan klb kp/10496 di sta nya tggu
+             bersilang plb 7011a jj di sta kawunganten
+jrl     ls     03:04:00  
+lbg     ls     03:11:00  
+kh      ls     03:16:00  
+ma   03:20:00  03:59:00  bers ka 123, plb 123b jj, ka 103, plb 103b jj
+             (ka 123, plb 123b jj, ka 103, plb 103b jj bers)
+             disusul ka 332, plb 332b jj (ka 332, plb 332b jj menyusul)
+skp  04:08:00  04:14:00  bers ka 89 (ka 89 bers)
+kya  04:22:00  04:38:00  
+kj      ls     04:45:00  
+sph     ls     04:49:00  
+tbk     ls     04:53:00  
+ij      ls     04:56:00  
+gb   05:03:00  05:09:00  
+ka      ls     05:18:00  
+srw     ls     05:20:00  
+soa     ls     05:24:00  
+km   05:28:00  05:33:00  
+wns     ls     05:38:00  
+kwn     ls     05:41:00  
+prb     ls     05:47:00  
+bth     ls     05:52:00  
+kta  05:58:00  06:03:00  
+jn      ls     06:14:00  
+wj      ls     06:20:00  
+wt      ls     06:30:00  
+stl     ls     06:39:00  
+rwl     ls     06:47:00  
+ptn     ls     06:51:00  
+yk      ls     06:56:00  
+lpn  07:00:00  07:10:00  
+mgw     ls     07:16:00  
+bbn     ls     07:22:00  
+swt     ls     07:26:00  
+kt   07:32:00  07:37:00  
+ce      ls     07:44:00  
+dl      ls     07:48:00  
+gw      ls     07:52:00  
+pws  07:58:00  08:06:00  
+slo     ls     08:10:00  
+sk      ls     08:13:00  
+pl      ls     08:16:00  
+kmr     ls     08:20:00  
+msr     ls     08:26:00  
+sr  08:33:00  08:37:00  
+kro     ls     08:42:00  
+kdb     ls     08:46:00  
+wk      ls     08:55:00  
+kg      ls     09:02:00  
+ngw     ls     09:08:00  
+gg      ls     09:13:00  
+mag     ls     09:19:00  
+mn  09:28:00  09:36:00  
+bbd     ls     09:44:00  menyusul ka 2632f jj (ka 2632f jj disusul)
+             ppka bbd tahan ka 2632f jj di sta nya tggu disusul
+             klb kp/10496 di sta babadan
+crb     ls     09:50:00  
+srd     ls     09:57:00  
+bgr     ls     10:09:00  
+nj   10:15:00  10:19:00  
+skm     ls     10:23:00  
+brn     ls     10:30:00  
+kts  10:38:00  10:44:00  
+smb     ls     10:52:00  
+jg   10:59:00  11:04:00  bers ka 481
+ptr     ls     11:09:00  
+sbo     ls     11:15:00  bers ka 441 (ka 441 bers)
+crm     ls     11:18:00  
+mr   11:26:00  11:32:00  bers ka 297, plb 297b jj (ka 297, plb 297b jj bers)
+trk     ls     11:41:00  
+kdn     ls     11:44:00  
+krn     ls     11:48:00  
+bh   11:53:00  12:01:00  bers ka 111, plb 111b jj (ka 111, plb 111b jj bers)
+spj     ls     12:09:00  
+wo      ls     12:15:00  
+nga     ls        -      
+sgu  12:22:00    
+
+
+klb kp/10501 lintas sgu - gmr
+==========================================                            
+sta  datang    berangk  keterangan
+sgu            18:58:00  ppka sb tahan ka 243, plb 243b jj di sta nya, berangkatkan
+             kembali setelah klb kp/10501 masuk sta wonokromo
+nga     ls        -      
+wo      ls     19:05:00  
+spj     ls     19:10:00  
+bh      ls     19:18:00  bers ka 412 (ka 412 bers)
+krn     ls     19:21:00  
+kdn     ls     19:24:00  
+trk     ls     19:27:00  
+mr   19:35:00  19:42:00  bers ka 246, plb 246b jj (ka 246, plb 246b jj bers)
+crm     ls     19:50:00  
+sbo     ls     19:53:00  
+ptr  20:00:00  20:07:00  bers ka 2, plb 2b jj (ka 2, plb 2b jj bers)
+jg   20:13:00  20:17:00  
+smb     ls     20:24:00  
+kts  20:32:00  20:46:00  
+brn     ls     20:53:00  
+skm     ls     21:00:00  
+nj   21:05:00  21:09:00  
+bgr     ls     21:15:00  
+srd     ls     21:27:30  
+crb     ls     21:33:30  
+bbd     ls     21:39:30  
+mn   21:47:00  21:57:00  
+mag     ls     22:07:00  
+gg      ls     22:13:00  menyusul ka 2625 (ka 2625 disusul)
+ngw     ls     22:18:00  
+kg      ls     22:24:00  
+wk      ls     22:31:00  
+kdb     ls     22:39:00  
+kro     ls     22:43:00  
+sr   22:48:00  22:51:00  
+msr     ls     22:58:00  
+kmr     ls     23:04:00  
+pl      ls     23:08:00  
+sk      ls     23:12:00  bers ka 118
+slo     ls     23:15:00  
+pws  23:20:00  23:30:00  
+gw      ls     23:36:00  
+dl      ls     23:40:00  
+ce      ls     23:44:00  
+kt   23:52:00  23:55:00  
+swt     ls     00:01:00  
+bbn     ls     00:05:00  
+mgw     ls     00:11:00  
+lpn  00:18:00  00:46:00  disusul ka 103, plb 103b jj (ka 103, plb 103b jj menyusul)
+yk      ls     00:49:00  
+ptn     ls     00:53:00  
+rwl     ls     00:56:00  
+stl     ls     01:04:00  
+wt      ls     01:13:00  
+wj      ls     01:24:00  
+jn      ls     01:31:00  
+kta  01:43:00  01:58:00  
+bth  02:04:00  02:14:00  
+prb     ls     02:21:00  
+kwn     ls     02:27:00  
+wns     ls     02:30:00  
+km   02:35:00  02:41:00  
+soa     ls     02:45:00  
+srw     ls     02:49:00  
+ka   02:53:00  02:59:00  
+gb   03:07:00  03:13:00  bers ka 140, plb 140b jj
+ij   03:20:00  03:26:00  bers ka 86, plb 86b jj (ka 86, plb 86b jj bers)
+tbk     ls     03:31:00  
+sph     ls     03:35:00  
+kj      ls     03:39:00  
+kya  03:46:00  04:42:00  bers ka l2607-2, ka 332, ka 244, plb 244b jj, ka 2730,
+             plb 2730a jj
+                 disusul ka 89 (ka 89 menyusul)
+skp     ls     04:49:00  bers ka 506f jj (ka 506f jj bers)
+ma   04:56:00  05:04:00  bers ka 294, plb 294b jj (ka 294, plb 294b jj bers)
+kh      ls     05:08:00  
+lbg     ls     05:13:00  
+jrl     ls     05:20:00  
+kwg     ls     05:31:00  
+gdm     ls     05:39:00  
+sdr  05:46:00  05:50:00  
+cpi     ls     05:57:00  
+mlw  06:06:00  06:21:00  bers ka 326 (ka 326 bers)
+ln      ls     06:29:00  
+bjr  06:39:00  06:47:00  
+knp     ls     06:55:00  
+bjg     ls     07:03:00  
+ci      ls     07:11:00  
+mnj     ls     07:22:00  
+aw      ls     07:26:00  
+tsm  07:33:00  07:38:00  
+ih      ls     07:45:00  
+rjp     ls     07:52:00  
+caw     ls     08:02:00  
+caa     ls     08:12:00  
+cpd  08:26:00  08:36:00  
+bmw  08:47:00  08:53:00  bers ka 162, plb 162a jj (ka 162, plb 162a jj bers)
+wb      ls     09:09:00  
+cb      ls     09:17:00  bers plb 7020b jj (plb 7020b jj bers)
+             ppka cb blb kan dan tahan klb kp/10501 di sta nya tggu
+             bersilang plb 7020b jj di sta cibatu
+lo       ls        -      
+krai     ls     09:26:00  bers ka 546 (ka 546 bers)
+ll    09:33:00  10:22:00  bers ka 2, plb 2b, ka 464, ka 178f jj 
+              (ka 2, plb 2b, ka 464, ka 178fjj bers)
+lbj     ls     10:34:00  
+ng   10:45:00  10:52:00  bers ka 296, plb 296b (ka 296, plb 296b bers)
+ccl     ls     11:07:00  
+hrp     ls     11:11:00  bers ka 514 (ka 514 bers)
+rck     ls     11:15:00  
+cmk     ls     11:19:00  
+gdb  11:23:00  11:41:00  bers ka 176 (ka 176 bers)
+kac  11:50:00  12:08:00  ka 540 bers
+cth     ls     12:13:00  
+bd   12:18:00  12:50:00  
+and     ls     12:55:00  
+cmd     ls     12:57:00  
+cmi     ls     13:00:00  
+gk      ls        -      
+pdl     ls     13:06:00  
+cle     ls     13:15:00  bers plb 8106 jj (plb 8106 jj bers)
+             ppka cle blb kan dan tahan plb 8106 jj di sta nya tggu
+             bersilang klb kp/10501 di sta cilame
+skt  13:26:00  13:48:00  bers ka 42, ka 152 (ka 42, ka 152 bers)
+msi     ls     13:55:00  
+rh      ls     14:00:00  
+cd      ls     14:05:00  
+cg      ls        -      
+pld     ls     14:20:00  
+sut     ls     14:25:00  
+ca      ls     14:37:00  
+pwk     ls     14:46:00  (ka 2530, ka 54 bers)
+             ppka pwk tahan ka 2530 di sta nya tggu bersilang klb kp/10501
+             di sta purwakarta
+sad     ls        -      
+cbr     ls     14:57:00  
+ckp  15:06:00  15:10:00  
+dwn     ls     15:14:00  
+kos     ls     15:19:00  menyusul ka 473 (ka 473 disusul)
+             ppka kos tahan ka 473 di sta nya tggu disusul klb kp/10501
+             di sta kosambi
+kli     ls     15:22:00  
+kw      ls     15:27:00  menyusul plb 2507a (plb 2507a disusul)
+             ppka kw tahan plb 2507a di sta nya tggu disusul klb kp/10501
+             di sta karawang
+kdh     ls     15:32:00  
+lmb     ls     15:39:00  
+ckr     ls     15:43:00  
+tlm     ls        -      
+cit     ls        -      
+tb      ls     15:51:00  
+bkst    ls        -      
+bks     ls     15:57:00  
+kri     ls        -      
+rwb     ls        -      
+cuk     ls     16:04:00  
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng     ls     16:13:00  ppka jng tahan ka 1413 di sta nya berangkatkan kembali setelah
+             klb kp/10501 masuk sta manggarai
+mri     ls     16:18:00  
+cki     ls        -      
+gdd     ls        -      
+gmr  16:28:00    
+
+
+klb kp/10498 lintas jakk - ml
+==========================================                            
+sta  datang    berangk   keterangan
+jakk           17:50:00  ppka jakk tahan ka l 83-2 di sta nya berangkatkan kembali
+             setelah klb kp/10498 masuk sta kampungbandan
+kpb     ls     17:55:00  
+rjw     ls        -      
+kmo     ls     18:02:00  
+pse     ls     18:06:00  
+gst     ls        -      
+kmt     ls        -      
+pok     ls        -      
+jng     ls     18:16:00  ppka jng blb kan dan tahan ka 76, plb 76b di sta nya
+             berangkatkan kembali setelah klb kp/10498 masuk dua petak blok
+             di depannya
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     18:27:00  
+rwb     ls        -      
+kri     ls        -      
+bks     ls     18:32:00  
+bkst    ls        -      
+tb      ls     18:37:00  
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     18:44:00  
+lmb     ls     18:48:00  
+kdh     ls     18:55:00  
+kw      ls     19:00:00  
+kli     ls     19:05:00  
+kos     ls     19:08:00  menyusul ka 472 (ka 472 disusul)
+dwn     ls     19:13:00  
+ckp  19:17:00  19:21:00  
+tjs     ls     19:29:00  
+pab     ls     19:32:00  
+pri     ls     19:36:00  
+pas     ls     19:40:00  
+ckm     ls     19:44:00  
+pgb     ls     19:50:00  
+cra     ls     19:55:00  
+hgl     ls     19:59:00  
+clh     ls     20:06:00  
+kab     ls     20:11:30  
+tis     ls     20:15:30  
+tls     ls     20:21:00  
+jtb  20:29:00  20:32:00  
+ktm     ls     20:39:00  
+awn     ls     20:49:00  
+bdw     ls     20:53:00  
+cnk     ls     20:57:00  
+cn      ls     21:02:00  
+cnp  21:05:00  21:15:00  
+lwg     ls     21:22:00  
+sdu     ls     21:27:00  
+cld     ls     21:37:30  
+kgg     ls     21:48:00  
+lra     ls     21:54:00  
+sgg     ls     21:58:00  
+ppk     ls     22:07:00  
+lg      ls     22:17:00  
+bma     ls     22:25:00  
+krt     ls     22:32:00  
+pat     ls     22:38:00  
+krr     ls     22:49:00  
+kgd     ls     22:57:00  
+pwt  23:05:00  23:15:00  
+ntg     ls     23:24:00  
+kbs     ls     23:30:00  
+rdn     ls     23:33:00  
+kya  23:41:00  23:45:00  
+kj      ls     23:52:00  
+sph     ls     23:55:30  
+tbk     ls     00:00:00  
+ij      ls     00:04:00  
+gb   00:10:00  00:14:00  
+ka      ls     00:21:00  
+srw     ls     00:24:00  
+soa     ls     00:28:00  
+km   00:32:00  00:36:00  
+wns     ls     00:41:00  
+kwn     ls     00:45:00  
+prb     ls     00:51:00  
+bth     ls     00:56:00  
+kta  01:03:00  01:07:00  
+jn      ls     01:18:00  
+wj      ls     01:24:00  
+wt      ls     01:34:00  
+stl     ls     01:42:00  
+rwl     ls     01:50:00  
+ptn     ls     01:53:00  
+yk      ls     01:56:00  
+lpn  02:00:00  02:10:00  menyusul plb 110c jj (plb 110c jj disusul)
+mgw     ls     02:16:00  
+bbn     ls     02:22:00  
+swt     ls     02:26:00  
+kt   02:32:00  02:35:00  
+ce      ls     02:42:00  
+dl      ls     02:46:00  
+gw      ls     02:50:00  
+pws  02:57:00  03:02:00  ppka pws blb kan dan tahan ka 78, plb 78b jj di sta nya, 
+             berangkatkan kembali setelah klb kp/10498 masuk sta solobalapan
+slo     ls     03:06:00  
+sk      ls     03:09:00  
+pl      ls     03:13:00  
+kmr     ls     03:17:00  
+msr     ls     03:23:00  
+sr   03:30:00  03:33:00  
+kro     ls     03:38:00  
+kdb     ls     03:42:00  
+wk      ls     03:52:00  
+kg      ls     03:59:00  
+ngw  04:06:00  04:09:00  
+gg      ls     04:15:00  
+mag     ls     04:21:00  
+mn   04:30:00  04:40:00  
+bbd     ls     04:47:00  
+crb     ls     04:53:00  
+srd     ls     04:59:00  
+bgr     ls     05:12:00  
+nj   05:18:00  05:22:00  
+skm     ls     05:26:00  
+brn     ls     05:33:00  
+kts  05:41:00  05:46:00  
+pwa     ls     05:55:00  
+ppr     ls     06:00:00  
+mgn     ls     06:04:00  menyusul ka 2650f jj (ka 2650f jj disusul)
+             ppka mgn tahan ka 2650f jj di sta nya tggu disusul
+             klb kp/10498 di sta minggiran
+ss      ls     06:10:00  
+kd   06:16:00  06:20:00  bers ka 431 (ka 431 bers)
+             ppka kd blb kan dan tahan ka 431 di sta nya tggu bersilang
+             klb kp/10498 di sta kediri
+ndl     ls     06:29:00  
+krs     ls     06:34:00  
+njg     ls     06:40:00  
+ta   06:46:00  06:49:00  
+sbl     ls     06:54:00  
+nt      ls     07:00:00  
+rj      ls     07:06:00  
+bl   07:18:00  07:23:00  (ka 109 bers)
+grm     ls     07:31:00  
+tal     ls     07:39:00  
+wg   07:44:00  07:48:00  
+ksb     ls     08:00:00  
+pgj     ls     08:09:00  
+sbp     ls     08:19:00  
+nb      ls     08:24:00  
+kpn  08:33:00  08:37:00  
+psi     ls     08:48:00  
+mlk  09:00:00  09:08:00  bers ka 291 (ka 291 bers)
+ml   09:15:00    
+
+
+klb kp/10503 lintas ml - jakk
+==========================================                            
+sta  datang    berangk   keterangan
+ml             16:20:00  bers ka 92f jj, plb 92f-b jj
+mlk  16:25:00  16:27:00  
+psi     ls     16:39:00  
+kpn  16:50:00  16:56:00  bers ka 454 (ka 454 bers)
+nb      ls     17:05:00  
+sbp     ls     17:10:00  
+pgj     ls     17:20:00  
+ksb     ls     17:29:00  
+wg   17:42:00  17:45:00  
+tal     ls     17:50:00  
+grm  17:59:00  18:10:00  bers ka 456 (ka 456 bers)
+bl   18:19:00  18:25:00  
+rj      ls     18:36:00  
+nt      ls     18:43:00  
+sbl     ls     18:49:00  
+ta   18:55:00  19:00:00  
+njg     ls     19:07:00  
+krs     ls     19:13:00  
+ndl     ls     19:18:00  
+kd   19:27:00  19:31:00  
+ss      ls     19:38:00  
+mgn     ls     19:44:00  
+ppr     ls     19:48:00  
+pwa     ls     19:53:00  
+kts  20:01:00  20:06:00  menyusul ka 123, plb 123b jj (ka 123, plb 123b jj disusul)
+brn     ls     20:13:00  
+skm     ls     20:20:00  
+nj   20:25:00  20:29:00  
+bgr     ls     20:34:00  
+srd     ls     20:47:00  
+crb     ls     20:53:00  
+bbd     ls     20:59:00  
+mn   21:06:00  21:15:00  ppka mn tahan ka 2625 di sta nya, berangkatkan setelah
+             klb kp/10441 masuk sta magetan
+mag     ls     21:24:00  
+gg      ls     21:30:00  
+ngw  21:36:00  21:39:00  
+kg      ls     21:46:00  
+wk      ls     21:54:00  
+kdb     ls     22:03:00  
+kro     ls     22:07:00  
+sr   22:12:00  22:15:00  
+msr     ls     22:22:00  
+kmr     ls     22:28:00  
+pl      ls     22:32:00  
+sk      ls     22:36:00  
+slo     ls     22:39:00  
+pws  22:43:00  22:48:00  ppka pws blb kan dan tahan plb 7011b jj di sta nya berangkatkan
+             kembali setelah klb kp/10503 masuk sta gawok
+gw      ls     22:54:00  
+dl      ls     22:58:00  
+ce      ls     23:02:00  
+kt   23:09:00  23:12:00  
+swt     ls     23:18:00  
+bbn     ls     23:22:00  
+mgw     ls     23:28:00  
+lpn  23:34:00  23:44:00  
+yk      ls     23:48:00  
+ptn     ls     23:52:00  
+rwl     ls     23:55:00  
+stl     ls     00:03:00  
+wt      ls     00:11:00  menyusul plb 8113jj (plb 8113 jj disusul)
+             ppka wt tahan plb 8113jj di sta nya tggu disusul klb kp/10503
+             di sta wates
+wj      ls     00:20:00  
+jn      ls     00:26:00  
+kta  00:38:00  00:46:00  
+bth     ls     00:52:00  
+prb     ls     00:57:00  
+kwn     ls     01:03:00  
+wns     ls     01:07:00  
+km   01:13:00  01:23:00  
+soa     ls     01:27:00  
+srw     ls     01:32:00  
+ka      ls     01:34:00  
+gb   01:42:00  01:49:00  menyusul ka 2763f jj (ka 2763f jj disusul)
+             ppka gb tahan ka 2763f jj di sta nya tggu disusul klb kp/10503
+             di sta gombong
+ij      ls     01:56:00  
+tbk     ls     02:00:00  
+sph     ls     02:04:00  
+kj      ls     02:08:00  
+kya  02:15:00  02:20:00  
+rdn     ls     02:28:00  
+kbs     ls     02:32:00  
+ntg     ls     02:38:00  
+pwt  02:47:00  02:55:00  
+kgd     ls     03:04:00  
+krr     ls     03:12:00  
+pat     ls     03:24:00  
+krt     ls     03:30:00  
+bma     ls     03:38:00  
+lg      ls     03:46:00  
+ppk     ls     03:55:00  
+sgg     ls     04:04:00  
+lra     ls     04:08:00  
+kgg     ls     04:15:00  
+cld     ls     04:26:00  
+sdu     ls     04:37:00  
+lwg     ls     04:42:00  
+cnp  04:49:00  04:56:00  
+cn      ls     04:59:00  
+cnk     ls     05:05:00  
+bdw     ls     05:09:00  
+awn     ls     05:13:00  
+ktm     ls     05:23:00  
+jtb  05:31:00  05:46:00  disusul ka 241 (ka 241 menyusul)
+tls     ls     05:55:00  
+tis     ls     06:01:00  
+kab     ls     06:06:00  
+clh     ls     06:12:00  menyusul plb 8107jj (plb 8107 jj disusul)
+             ppka clh tahan plb 8107jj di sta nya tggu disusul klb kp/10503
+             di sta cilegeh
+hgl     ls     06:21:00  
+cra     ls     06:26:00  
+pgb     ls     06:32:00  menyusul ka 2501, plb 2501a jj (ka 2501, plb 2501a jj disusul)
+             ppka pgb tahan ka 2501, plb 2501a jj di sta nya tggu disusul
+             klb kp/10503 di sta pegadenbaru
+ckm     ls     06:39:00  
+pas     ls     06:44:00  
+pri     ls     06:49:00  
+pab     ls     06:54:00  
+tjs     ls     06:58:00  
+ckp  07:08:00  07:24:00  disusul ka 255, plb 255a jj (ka 255, plb 255a jj menyusul)
+dwn     ls     07:29:00  
+kos     ls     07:34:00  
+kli     ls     07:37:00  
+kw      ls     07:43:00  
+kdh     ls     07:48:00  
+lmb     ls     07:55:00  
+ckr     ls     07:58:00  
+tlm     ls        -      
+cit     ls        -      
+tb      ls     08:06:00  
+bkst    ls        -      
+bks     ls     08:11:00  ppka bks tahan ka 1345 di sta nya berangkatkan setelah
+             klb kp/10503 masuk dua petak blok di depannya
+kri     ls        -      
+rwb     ls        -      
+cuk     ls     08:18:00  
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng     ls     08:30:00  ppka jng tahan ka 1725 di sta nya berangkatkan setelah
+             klb kp/10503 masuk dua petak blok di depannya
+pok     ls        -      
+kmt     ls        -      
+gst     ls        -      
+pse     ls     08:39:00  
+kmo     ls     08:42:00  
+rjw     ls        -      
+kpb     ls     08:49:00  
+jakk  08:55:00    
+
+3. rangkaian
+   a. klb kp/10498-klb kp/10503 : 6b - 1bp 
+   b. klb kp/10496-klb kp/10501 :
+      - lintas sgu/bd : 7b - 1kmp3
+      - lintas bd/gmr : 3b - 1kmp3 
+     
+4. kadaop sm/man op sar angbar daop 1jak 2bd 3cn 5pwt 6yk 7mn 8sb untuk  atur dan
+   sesuaikan dinasan sarana dan awak sarana ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 2bd 3cn 5pwt 6yk 7mn 8sb atur dan sesuaikan
+   kelancaran perka dalam lintas nya
+6. mem blb kan suatu ka harus sesuai pd 19 jilid i pasal 86.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+       a.n. ot          cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,cio,ttj,tts,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10496</td>
+                            <td>Parcel Selatan</td>
+                            <td class="text-center">GMR-SGU</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">KP/10501</td>
+                            <td>Parcel Selatan</td>
+                            <td class="text-center">SGU-GMR</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">KP/10498</td>
+                            <td>Parcel Tengah</td>
+                            <td class="text-center">JAKK-ML</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="no-ka">KP/10503</td>
+                            <td>Parcel Tengah</td>
+                            <td class="text-center">ML-JAKK</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">5</td>
+                            <td class="no-ka">243B</td>
+                            <td>Parcel Selatan</td>
+                            <td class="text-center">SB-BD</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">6</td>
+                            <td class="no-ka">244B</td>
+                            <td>Parcel Selatan</td>
+                            <td class="text-center">BD-SB</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-02, 2020-06-03, 2020-06-04, 2020-06-05, 2020-06-06, 2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

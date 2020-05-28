@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/144</td>
+                            <td>Mei 2020</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/file/d/1VNN8PbkqOIuUni44LOttFvq0VcB4IuEF/view?usp=sharing">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Pengaturan Ka semen Nmo-Klm (mei 2020)</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.144 - Pengaturan Ka semen Nmo-Klm (mei 2020)
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka   bandung0010           otr/144      28/05-'20      1705
+
+=wam=
+
+ppka kkt nmo/cta/dp/mri/thb/du/kpb/kmo/jng/ckp/cnp/tg/smt/bbg/gbn/cu/kda/sbi/klm
+jak cn sm sb
+
+1. menunjuk warta dinas kadaop 1 jak no.po1/379d tanggal 28 mei 2020 perihal
+   permohonan pembatalan perjalanan ka semen 
+  
+2. guna pengaturan pembatalan perjalanan ka semen, perka kami atur sbb :
+
+   ahad 31 mei 2020 BATAL :
+   a. ka dua tujuh dua satu (ka 2721) masnambo service 1 lintas nmo/kbp
+   b. ka dua tujuh dua empat (ka 2724) masnambo service 1 lintas kpb/klm
+
+3. kadaop sm/man op sar daop 1jak 3cn 4sm 8sb atur dan sesuaikan kembali dinasan
+   sarana dan awak ka nya.
+
+
+                    Direksi Informasi Kereta Api (IKA)
+
+
+       a.n. ot          cc:
+         otr            1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,tj,rt,rr,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh
+    rendra yudha        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+     nipp.20327            cfp,cft,cio,ttj,tts,rrt,rrw,rrw,sss,ssd,sko,mmh
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">2721</td>
+                            <td>Masnambo Service</td>
+                            <td class="text-center">NMO-KPB</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-31
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">2724</td>
+                            <td>Masnambo Service</td>
+                            <td class="text-center">KPB-KLM</td>
+                            <td class="text-center">
+                                <img src="picture\batal.png">
+                            </td>
+                            <td class="text-center">
+                                2020-05-31
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

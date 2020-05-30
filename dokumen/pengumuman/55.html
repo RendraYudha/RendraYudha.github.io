@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/159</td>
+                            <td>Mei 2020</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="https://drive.google.com/file/d/1nbb7sv4NBHNrdNmSFNFXnQOCj_XAu5YL/view?usp=sharing">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>KLB Kirim Kereta Inspeksi Bd-Thb</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.159 - KLB Kirim Kereta Inspeksi Bd-Thb
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka         bandung0010          otr/159      30/05-'20       1710
+
+=wam=
+
+ppka kkt bd/pdl/pwk/ckp/jng/mri/thb  jak bd
+
+
+1. menunjuk nota dinas RRT no.2/KR.207/V/RRT/KA/2020 tanggal 30 mei 2020
+   perihal pengembalian kais 3 ke depo lok thb
+
+2. untuk keperluan pengiriman kais 3 ke depo lok thb perka kami atur sbb :
+   senin 01 juni 2020 BERJALAN klb kp/satu nol satu dua satu (klb kp/10121)
+   klb kirim rangkaian lintas bd/thb
+
+   Puncak kecepatan lintas:
+    BD  - PDL = 80 Km/Jam 
+    PDL - PWK = 55 Km/Jam 
+    PWK - JNG = 80 Km/Jam 
+    JNG - THB = 60 Km/Jam 
+ 
+
+klb KP/10121 lintas BD - THB
+==========================================                                
+sta  datang    berangk  keterangan
+BD             19:40:00  ppka bd tahan ka 69F jj, plb 69a jj di sta nya
+             berangkatkan kembali setelah klb kp/10121 masuk
+             sta andir
+AND     Ls     19:45:00  
+CMD     Ls     19:48:00  menyusul ka 541 (ka 541 disusul)
+             ppka cmd tahan ka 541 di sta nya tggu disusul
+             klb kp/10121 di sta cimindi
+CMI     Ls     19:52:00  
+GK      Ls        -      
+PDL     Ls     19:58:00  
+CLE     Ls     20:08:00  bers ka 104, plb 104c jj (ka 104, plb 104c jj bers)
+             ppka cle blb kan dan tahan ka 104, tahan plb 104c
+             di sta nya tggu bersilang klb kp/10121 di sta
+             cilame
+SKT     Ls     20:17:00  
+MSI     Ls     20:24:00  bers ka 46 (ka 46 bers)
+             ppka msi blb kan dan tahan ka 46 di sta nya tggu
+             bersilang klb kp/10121 di sta maswati
+RH      Ls     20:29:00  
+CD      Ls     20:33:00  
+CG      Ls        -      
+PLD     Ls     20:48:00  
+SUT     Ls     20:53:00  (ka 48 bers)
+             ppka sut blb kan dan tahan ka 48 di sta nya tggu
+             bersilang klb kp/10121 di sta sukatani
+CA      Ls     21:04:00  
+PWK     Ls     21:13:00  
+SAD     Ls        -      
+CBR     Ls     21:23:00  
+CKP     Ls     21:30:00  
+DWN     Ls     21:34:00  
+KOS     Ls     21:40:00  
+KLI     Ls     21:43:00  
+KW      Ls     21:50:00  menyusul ka 2749F jj (ka 2749F jj disusul)
+KDH     Ls     21:56:00  
+LMB     Ls     22:04:00  
+CKR     Ls     22:08:00  
+TLM     Ls        -      
+CIT     Ls        -      
+TB      Ls     22:17:00  
+BKST    Ls        -      
+BKS     Ls     22:23:00  
+KRI     Ls        -      
+RWB     Ls        -      
+CUK     Ls     22:30:00  
+KLDB    Ls        -      
+BUA     Ls        -      
+KLD     Ls        -      
+JNG     Ls     22:39:00  
+MRI     Ls     22:43:00  
+SUD     Ls        -      
+SUDB    Ls        -      
+KAT     Ls        -      
+THB  22:53:00    
+
+
+3. duksar rangkaian kais 3
+4. kadaop man op sarana daop 1jak 2bd atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop man op kapusdalopka daop 1jak 2bd atur dan kendalikan kelancaran
+   perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86
+
+
+                     Direksi Informasi Kereta Api (IKA)
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10121</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">BD-THB</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-01
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

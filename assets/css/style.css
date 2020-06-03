@@ -136,3 +136,14 @@ main {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .table-bordered .table-striped th {
+    width: 20px;
+  }
+}  
+
+
+.nav {
+  
+}

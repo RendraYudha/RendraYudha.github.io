@@ -17,7 +17,7 @@
 </head>
 <body>		
     <div class="container-fluid">
-		<h1>Detail KA</h1> 
+		<h1><i class="fa fa-search-plus" aria-hidden="true"></i> Detail KA</h1> 
 		<br/>
         <div>
             <ul class="list-inline">
@@ -28,11 +28,16 @@
                 </ul>
             </div>
 		<br/>
-		<ul class="nav nav-tabs">
+		<ul class="nav nav-tabs hidden-xs">
 			<li class="active"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
 			<li><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
 			<li><a data-toggle="tab" href="#history">HISTORY</a></li>
 		</ul>
+        <ul class="nav visible-xs">
+            <li class="active"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+            <li><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+            <li><a data-toggle="tab" href="#history">HISTORY</a></li>
+        </ul>
 		<br/>
 		<div class="tab-content">
 			<div id="daftar-waktu" class="tab-pane fade in active">
@@ -44,7 +49,7 @@
                         <th style="width: 200px;">Stasiun / Perhentian</th>
                         <th class="center" style="width: 90px;">Datang</th>
                         <th class="center" style="width: 90px;">Berangkat</th>
-                        <th>Keterangan</th>
+                        <th style="width: 400px;">Keterangan</th>
                     </tr>
                 </thead>
                 <tbody>

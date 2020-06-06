@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/favicon.ico">
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/26</td>
+                            <td>Juni 2020</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Kirim Rangkaian Bima dan Mutsel</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.26 - Kirim Rangkaian Bima dan Mutsel
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka	bandung		otr/26    	06/06-'20         1855
+
+=wam=
+
+ppka kkt bd/pdl/pwk/ckp/jng/pse/kmo/kpb/jakk  sb/wo/sda/bg/ml  jak bd sb
+
+1. menunjuk :
+    a. wam direksi pt kai no.otr/120 ka tanggal 25 mei 2020 perihal pembatalan
+        ka penumpang bulan juni 2020
+    b. program perjalanan ka penumpang masa new normal tahap 1 
+        
+2. guna keperluan perjalanan pengiriman rangkaian ka bima dan rangkaian ka
+    mutiara selatan perka kami atur sbb :
+    a. ahad 07 juni 2020 BERJALAN klb kp/satu nol lima empat lima 
+        (klb kp/10545) kirim rangkaian lintas kac/jakk
+    b. ahad 07 juni 2020 BERJALAN klb kp/satu nol lima empat tujuh 
+        (klb kp/10547) kirim rangkaian lintas sb/ml
+
+
+Puncak kecepatan lintas:
+    KAC - BD   =  90 Km/Jam 
+    BD  - PDL  = 100 Km/Jam 
+    PDL - PWK  =  55 Km/Jam 
+    PWK - CKP  =  90 Km/Jam 
+    CKP - BKS  = 100 Km/Jam 
+    BKS - JNG  =  90 Km/Jam 
+    JNG - KPB  =  70 Km/Jam 
+    KPB - JAKK =  40 Km/Jam 
+    
+
+klb KP/10545 lintas KAC - JAKK
+==========================================                            
+sta  datang    berangk  keterangan
+KAC            09:50:00  
+CTH     Ls     09:53:00  
+BD   09:58:00  10:06:00  ppka bd tahan ka 103, plb 103a di sta nya
+                berangkatkan kembali setelah klb kp/10545
+                masuk sta andir
+AND     Ls     10:11:00  
+CMD     Ls     10:13:00  
+CMI     Ls     10:15:00  
+GK      Ls        -      
+PDL     Ls     10:20:00  
+CLE     Ls     10:29:00  
+SKT     Ls     10:38:00  bers ka 176, plb 7030a (ka 176, plb 7030a bers)
+MSI     Ls     10:45:00  
+RH      Ls     10:50:00  
+CD      Ls     10:54:00  
+CG      Ls        -      
+PLD     Ls     11:09:00  
+SUT     Ls     11:15:00  
+CA      Ls     11:25:00  
+PWK     Ls     11:34:00  
+SAD     Ls        -      
+CBR     Ls     11:45:00  
+CKP     Ls     11:53:00  
+DWN     Ls     11:57:00  
+KOS     Ls     12:02:00  
+KLI     Ls     12:05:00  
+KW      Ls     12:10:00  
+KDH     Ls     12:15:00  
+LMB     Ls     12:22:00  
+CKR     Ls     12:26:00  
+TLM     Ls        -      
+CIT     Ls        -      
+TB      Ls     12:34:00  
+BKST    Ls        -      
+BKS     Ls     12:39:00  
+KRI     Ls        -      
+RWB     Ls        -      
+CUK     Ls     12:46:00  
+KLDB    Ls        -      
+BUA     Ls        -      
+KLD     Ls        -      
+JNG     Ls     12:56:00  
+POK     Ls        -      
+KMT     Ls        -      
+GST     Ls        -      
+PSE     Ls     13:06:00  menyusul ka 1487 (ka 1487 disusul)
+                ppka pse tahan ka 1487 di sta nya tggu disusul
+                klb kp/10545 di sta pasar senen
+KMO     Ls     13:09:00  
+RJW     Ls        -      
+KPB     Ls     13:13:00  
+JAKK  13:18:00  
+
+
+
+Puncak kecepatan lintas:
+    SB  - SGU = 50 Km/Jam 
+    SGU - WO  = 90 Km/Jam 
+    WO  - BG  = 80 Km/Jam 
+    BG  - ML  = 60 Km/Jam 
+    
+
+klb KP/10547 lintas SB - ML
+==========================================                            
+sta  datang    berangk  keterangan
+SB             11:00:00  
+SGU  11:08:00  11:12:00  ppka sgu tahan ka 105 di sta nya berangkatkan
+                kembali setelah klb kp/10547 masuk sta wonokromo
+NGA     Ls        -      
+WO      Ls     11:17:00  
+MGR     Ls        -      
+JMS     Ls        -      
+KTL     Ls        -      
+WR      Ls     11:22:00  
+STP     Ls        -      
+GDG     Ls     11:26:00  
+BJK     Ls        -      
+BDR     Ls        -      
+PWJ     Ls        -      
+SDA     Ls     11:33:00  
+TGA     Ls     11:38:00  
+PR      Ls     11:44:00  menyusul ka 2765F jj (ka 2765F jj disusul)
+                ppka pr blb kan dan tahan ka 2765F jj di sta
+                nya tggu disusul klb kp/10547 di sta porong
+BG   11:57:00  12:07:00  (ka 304 bers)
+WN      Ls     12:18:00  bers ka 284 (ka 284 bers)
+SKJ     Ls     12:28:00  
+SN      Ls     12:34:00  
+LW   12:47:00  13:05:00  bers ka 116 (ka 116 bers)
+                ppka lw tahan ka 116 di sta nya tggu bersilang
+                klb kp/10547 di sta lawang
+SGS     Ls     13:16:00  bers ka 452, klb kp/452a
+                (ka 452, klb kp/452a bers)
+BMG     Ls     13:23:00  
+ML  13:30:00 
+    
+
+3. rangkaian :
+    - klb kp/10545 : trainset mutiara selatan
+    - klb kp/10547 : trainset bima
+4. kadaop man op sarana daop 1jak 2bd 8sb atur dan sesuaikan dinasan sarana
+    dan awak ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 2bd 8sb atur dan kendalikan 
+    kelancaran perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+        a.n.ot/otr         cc:
+        otrp.1		1. u,c,o,t,r,s,m,p,k
+            2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+            3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                            kio,tjt,tsm,rrt,rrc,rrw,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+        nipp.49384            cft,cio,tjt,tsm,rrt,rrw,rrw,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">KP/10545</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">KAC-JAKK</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-07
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">KP/10547</td>
+                            <td>Kirim Rangkaian</td>
+                            <td class="text-center">SB-ML</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-07
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

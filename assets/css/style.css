@@ -1,3 +1,7 @@
+.home {
+  font-family: 'Lato', sans-serif;
+}
+
 .panel-footer {
     height: 35px;
     background: #272729;
@@ -13,10 +17,19 @@
 	color: #18baf2;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 body {
   background-color: white;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-judul {
+  font-family: 'Raleway', sans-serif;;
+}
+
+.tes {
+  border-top: 1px solid #D7D8DA;
+  padding: 8px 8px 8px 8px;
 }
 
 #watch {
@@ -24,6 +37,10 @@ body {
   font-size: 20px;
   background-color: orange;
   text-shadow: 1px 2px 1px grey;
+}
+
+.nav-text {
+  font-weight: 600;
 }
 
 .no-ka {

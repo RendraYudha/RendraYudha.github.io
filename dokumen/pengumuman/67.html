@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href=".././assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/favicon.ico">
+</head>
+<body>
+<body> 
+    <div id="watch"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function clock() {
+                  var now = new Date();
+                  var secs = ('0' + now.getSeconds()).slice(-2);
+                  var mins = ('0' + now.getMinutes()).slice(-2);
+                  var hr = ('0' + now.getHours()).slice(-2);
+                  var Time = hr + " : " + mins + " : " + secs;
+                  document.getElementById("watch").innerHTML = Time;
+                  requestAnimationFrame(clock);
+                }
+
+                requestAnimationFrame(clock);
+            });
+        </script>
+        <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/34</td>
+                            <td>Juni 2020</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td class="text-center">
+                                <a href="">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Perjalanan KA Komuter Sb-Bg mulai 08 Juni 2020</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.34 - Perjalanan KA Komuter Sb-Bg mulai 08 Juni 2020
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka	   bandung0010	       otr/34 	      07/06-'20	        1930
+
+=wam=
+
+ppka kkt sdt/sb/sgu/wo/sda/bg  sb
+
+
+1. menunjuk :
+    a. nota dinas CP no.3/KT.202/VI/CP/KA/2020 tanggal 07 juni 2020 perihal
+        permohonan pengoperasian perjalanan ka komuter surabaya-bangil
+    b. wam direksi pt.kai no.otr/120 ka tanggal 25 mei 2020 perihal 
+        pengaturan pembatalan ka penumpang bulan juni 2020
+
+2. guna keperluan perjalanan ka komuter perka kami atur sbb :
+    senin 08 juni s/d selasa 30 juni 2020 BERJALAN :
+    - ka tiga sembilan satu (ka 391) komuter lintas sdt/bg
+    - klb kp/tiga sembilan dua sub b (klb kp/392b) komuter lintas bg/sb
+    - klb kp/tiga sembilan lima sub a (klb kp/395a) komuter lintas sb/bg
+    - klb kp/tiga sembilan enam sub a (klb kp/396a) komuter lintas bg/sb
+
+
+    Puncak kecepatan lintas:
+    BG  - SGU = 80 Km/Jam 
+    SGU - SB  = 50 Km/Jam 
+    
+
+klb KP/392B lintas BG - SB
+==========================================                            
+sta  datang    berangk  keterangan
+BG             05:35:00  bers ka 337, ka 115
+                ppka bg tahan ka 392 di sta nya tggu bersilang
+                klb kp/392b di sta bangil
+PR   05:49:00  05:53:00  bers ka 447 (ka 447 bers)
+TGA  06:01:00  06:03:00  
+SDA  06:10:00  06:17:00  bers ka 283 (ka 283 bers)
+PWJ     Ls        -      
+BDR     Ls        -      
+BJK     Ls        -      
+GDG  06:26:00  06:28:00  
+STP     Ls        -      
+WR   06:34:00  06:50:00  bers ka 73, klb kp/73a (ka 73, klb kp/73a bers)
+KTL     Ls        -      
+JMS     Ls        -      
+MGR     Ls        -      
+WO   06:57:00  07:09:00  disusul ka 78, plb 78a (ka 78, plb 78a menyusul)
+NGA     Ls        -      
+SGU  07:15:00  07:17:00  
+SB   07:25:00    
+
+
+
+klb KP/395A lintas SB - BG
+==========================================                            
+sta  datang    berangk  keterangan
+SB             17:10:00  ppka sb tahan ka 395, plb 395a di sta nya
+                berangkatkan kembali setelah klb kp/395a
+                masuk sta surabaya gubeng
+SGU  17:18:00  17:21:00  
+NGA     Ls        -      
+WO   17:28:00  17:30:00  
+MGR     Ls        -      
+JMS     Ls        -      
+KTL     Ls        -      
+WR   17:38:00  17:50:00  bers ka 126 (ka 126 bers)
+STP     Ls        -      
+GDG  17:56:00  17:58:00  
+BJK     Ls        -      
+BDR     Ls        -      
+PWJ     Ls        -      
+SDA  18:07:00  18:10:00  (ka 480, plb 480a bers)
+                ppka sda tahan ka 480 di sta nya tggu
+                bersilang klb kp/395a di sta sidoarjo
+TGA  18:18:00  18:27:00  bers ka 106 (ka 106 bers)
+PR   18:35:00  18:37:00  
+BG   18:51:00    	 (ka 454 bers)
+
+
+
+klb KP/396A lintas BG - SB
+==========================================                            
+sta  datang    berangk  keterangan
+BG             19:50:00  bers ka 2635
+                ppka bg tahan ka 396 di sta nya berangkatkan
+                kembali setelah klb kp/396a masuk sta porong
+PR   20:03:00  20:05:00  
+TGA  20:11:00  20:13:00  
+SDA  20:21:00  20:49:00  disusul ka 338 (ka 338 menyusul)
+PWJ     Ls        -      
+BDR     Ls        -      
+BJK     Ls        -      
+GDG  20:59:00  21:08:00  bers ka 455 (ka 455 bers)
+STP     Ls        -      
+WR   21:14:00  21:17:00  
+KTL     Ls        -      
+JMS     Ls        -      
+MGR     Ls        -      
+WO   21:24:00  21:27:00  
+NGA     Ls        -      
+SGU  21:34:00  21:37:00  
+SB   21:45:00    
+
+
+3. rangkaian duksar gapeka 2019
+4. kadaop man op sar angpen fas pam daop 8sb atur dan sesuaikan dinasan
+    sarana dan awak sarana ka nya
+5. kadaop man op kapusdalopka 8sb atur dan kendalikan kelancaran perka
+    dalam lintasnya
+6. mem blb kan suatu ka harus menurut pd 19 jilid i pasal 86
+
+
+                        Direksi PT.Kereta api indonesia (persero)
+
+
+
+        a.n.ot/otr         cc:
+        otrp.1		1. u,c,o,t,r,s,m,p,k
+            2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+            3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                            kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+        nipp.49384            cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5>Perjalanan KA Terkait</h5>
+        </div>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No</th>
+                            <th class="col-md-1">Nomor KA</th>
+                            <th class="text-center col-md-5">Nama KA</th>
+                            <th class="text-center col-md-1">Relasi</th>
+                            <th class="text-center col-md-1">Status</th>
+                            <th class="text-center col-md-4">Tanggal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="no-ka">391</td>
+                            <td>Komuter</td>
+                            <td class="text-center">SDT-BG</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-14, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-21, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-28, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="no-ka">KP/392B</td>
+                            <td>Komuter</td>
+                            <td class="text-center">BG-SB</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-14, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-21, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-28, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="no-ka">KP/395A</td>
+                            <td>Komuter</td>
+                            <td class="text-center">SB-BG</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-14, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-21, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-28, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="no-ka">KP/396A</td>
+                            <td>Komuter</td>
+                            <td class="text-center">BG-SB</td>
+                            <td class="text-center">
+                                <img src="picture\jalan.png">
+                            </td>
+                            <td class="text-center">
+                                2020-06-08, 2020-06-09, 2020-06-10, 2020-06-11, 2020-06-12, 2020-06-13, 2020-06-14, 2020-06-15, 2020-06-16, 2020-06-17, 2020-06-18, 2020-06-19, 2020-06-20, 2020-06-21, 2020-06-22, 2020-06-23, 2020-06-24, 2020-06-25, 2020-06-26, 2020-06-27, 2020-06-28, 2020-06-29, 2020-06-30
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+    <script src="../../assets/js/jquery.js"></script> 
+    <script src="../../assets/js/popper.js"></script> 
+    <script src="../../assets/js/bootstrap.js"></script>
+</body> 
+</html>
+    </div>
+</body>
+</html>

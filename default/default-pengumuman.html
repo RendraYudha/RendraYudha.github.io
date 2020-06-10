@@ -18,25 +18,8 @@
     <link rel="shortcut icon" href="../../assets/img/icon.ico">
 </head>
 <body>
-<body> 
-    <div id="watch"></div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                function clock() {
-                  var now = new Date();
-                  var secs = ('0' + now.getSeconds()).slice(-2);
-                  var mins = ('0' + now.getMinutes()).slice(-2);
-                  var hr = ('0' + now.getHours()).slice(-2);
-                  var Time = hr + " : " + mins + " : " + secs;
-                  document.getElementById("watch").innerHTML = Time;
-                  requestAnimationFrame(clock);
-                }
-
-                requestAnimationFrame(clock);
-            });
-        </script>
-        <div class="container-fluid">
+<body>
+    <div class="container-fluid">
         <h3><b>Detail Dokumen Pengumuman</b></h3>
         <br/>
         <div class="panel-body">
@@ -49,7 +32,6 @@
                             <th>Total KA</th>
                             <th>KA Jalan</th>
                             <th>KA Batal</th>
-                            <th class="text-center">Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,9 +41,6 @@
                             <td>1</td>
                             <td>1</td>
                             <td>0</td>
-                            <td class="text-center">
-                                <a href="">Download</a>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -119,9 +98,6 @@
     <div class="panel-footer" align="center">
         <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
     </div>
-    <script src="../../assets/js/jquery.js"></script> 
-    <script src="../../assets/js/popper.js"></script> 
-    <script src="../../assets/js/bootstrap.js"></script>
 </body> 
 </html>
     </div>

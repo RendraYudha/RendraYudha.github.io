@@ -87,3 +87,7 @@ body {
 .badge-dark {
   background-color: #343A30
 }
+
+.badge-block {
+  display: block;
+}

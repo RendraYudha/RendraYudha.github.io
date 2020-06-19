@@ -32,6 +32,7 @@
                             <th>Total KA</th>
                             <th>KA Jalan</th>
                             <th>KA Batal</th>
+                            <th>Download</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -41,6 +42,24 @@
                             <td>26</td>
                             <td>26</td>
                             <td>0</td>
+                            <td>
+                                <a href="666" download="OTR.50 - Perjalanan KA Penumpang Tahap 1.txt">Download</a>
+                                <script type="text/javascript">
+                                    if ( ! Modernizr.adownload ) {
+                                      var $link = $('a');
+                                     
+                                        $link.each(function() {
+                                            var $download = $(this).attr('download');
+                                         
+                                            if (typeof $download !== typeof undefined && $download !== false) {
+                                          var $el = $('<div>').addClass('download-instruction').text('Right-click and select "Download Linked File"');
+                                          $el.insertAfter($(this));
+                                            }
+                                     
+                                        });
+                                    }
+                                </script>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

@@ -1,0 +1,177 @@
+ka         bandung0010          otr/122    	  20/06-'20      1800
+
+=wam=
+
+ppka kkt mn/wk/slo/kdo/gd/bbg/smc/tg/cnp/ckp/cuk/jng  mn yk sm cn jak
+
+
+1. menunjuk:
+   a. nota dinas cft no. 04/KT.201/VI/CFTL/KA/2020 tanggal 16 juni 2020
+      perihal permohonan perjalanan pengiriman krl kfw ke dipo cipinang
+
+   b. nota dinas rta no. 1/KR.207/VI/RTA/KA/2020 tanggal 20 juni 2020 
+      perihal justifikasi pengiriman krl kfw ke dipo cipinang baru harus ditarik 
+      lokomotif 
+
+   c. nota dinas ssd no. 2/KR.105/VIII/SSD/KA/2017 tanggal 30 agustus 2017 perihal
+      kecepatan dan jarak pengereman untuk pengiriman kereta jenis KRD/I, KRDE,
+      KRL Basoetta 
+
+2. guna pengaturan perjalanan pengiriman krl kfw ke dipo cipinang baru
+   perka kami atur sbb:
+
+   ahad 21 juni 2020 BERJALAN:
+
+   a. klb kp/satu nol lima enam satu (klb kp/10561) kirim rangkaian lintas mn-smc
+   b. klb kp/satu nol lima enam tiga (klb kp/10563) kirim rangkaian lintas smc-jng
+
+
+
+   Puncak kecepatan lintas:
+   MN  - SMC = 40 Km/Jam 
+   SMC - JNG = 50 Km/Jam 
+ 
+
+klb KP/10561 lintas MN - SMC
+====================================
+sta  datang    berangk   keterangan
+MN             05:45:00  
+MAG     Ls     06:05:00  
+GG      Ls     06:19:00  
+NGW     Ls     06:32:00  
+KG      Ls     06:48:00  
+WK      Ls     07:04:00  
+KDB     Ls     07:25:00  
+KRO     Ls     07:36:00  
+SR      Ls     07:45:00  
+MSR     Ls     08:01:00  
+KMR     Ls     08:17:00  
+PL      Ls     08:26:00  
+SK   08:35:00  08:46:00  bers ka 172
+SLO     Ls     08:52:00  (ka 294. plb 294b jj bers)
+                         menyusul plb 8121jj (plb 8121jj disusul)
+                         ppka slo tahan plb 8121jj di sta nya tggu disusul
+                         klb kp/10561 di sta solobalapan
+KDO     Ls     08:59:00  
+KO      Ls     09:12:00  
+SLM     Ls     09:27:00  
+SUM     Ls     09:43:00  
+GPK     Ls     09:58:00  
+GD      Ls     10:09:00  
+KSO     Ls     10:26:00  
+TW      Ls     10:42:00  
+PDS     Ls     10:58:00  
+KEJ     Ls     11:07:00  bers ka 2712 (ka 2712 bers)
+                         ppka kej blb kan dan tahan ka 2712 di sta nya tggu 
+                         bersilang klb kp/10561 di sta kedungjati
+TGG     Ls     11:24:00  
+BBG     Ls     11:45:00  
+ATA     Ls     11:57:00  
+SMT     Ls     12:10:00  
+SMC  12:15:00    
+
+
+klb KP/10563 lintas SMC - JNG
+==========================================                            
+
+sta  datang    berangk  keterangan
+SMC            12:23:00  
+JRK     Ls     12:33:00  
+MKG     Ls     12:42:00  
+KLN     Ls     12:50:00  
+KBD     Ls     13:06:00  
+WLR     Ls     13:18:00  
+KNS     Ls     13:25:00  
+PLB     Ls     13:38:00  
+KRP     Ls     13:48:00  ppka krp blb kan dan tahan ka 93f jj di sta nya
+                         berangkatkan kembali setelah klb kp/10563
+                         masuk sta ujungnegoro
+UJN     Ls     14:05:00  
+BTG     Ls     14:12:00  
+PK      Ls     14:25:00  
+SRI     Ls     14:40:00  
+CO      Ls     14:46:00  
+PTA     Ls     14:59:00  ppka pta blb kan dan tahan ka 329 di sta nya 
+                         berangkatkan kembali setelah klb kp/10563 
+                         masuk sta pemalang
+PML     Ls     15:08:00  
+SD      Ls     15:25:00  
+LR      Ls     15:39:00  
+TG   15:49:00  15:55:00  
+BB      Ls     16:14:00  
+TGN     Ls     16:42:00  
+LOS     Ls     16:53:00  
+BBK     Ls     17:06:00  
+WDW     Ls     17:24:00  
+CNP     Ls     17:39:00  
+CN   17:43:00  17:50:00  
+CNK     Ls     18:01:00  
+BDW     Ls     18:08:00  
+AWN     Ls     18:15:30  ppka awn blb kan dan tahan ka 87 di sta nya berangkatkan
+                         kembali setelah klb kp/10563 masuk dua petak blok
+                         di muka nya
+KTM     Ls     18:35:00  
+JTB     Ls     18:46:00  
+TLS     Ls     18:58:00  
+TIS     Ls     19:08:30  ppka tis blb kan dan tahan ka 21 di sta nya berangkatkan
+                         kembali setelah klb kp/10563 masuk sta kadokangabus
+KAB     Ls     19:16:30  
+CLH     Ls     19:27:00  
+HGL     Ls     19:41:00  ppka hgl blb kan dan tahan ka 2749f jj di sta nya
+                         berangkatkan kembali setelah klb kp/10563
+                         masuk sta cipunegara
+CRA     Ls     19:50:00  
+PGB     Ls     20:00:00  
+CKM     Ls     20:12:00  ppka ckm  blb kan dan tahan ka 13 di sta nya berangkatkan
+                         kembali setelah klb kp/10563 masuk sta pasirbungur
+PAS     Ls     20:20:00  
+PRI     Ls     20:28:00  
+PAB     Ls     20:36:00  
+TJS     Ls     20:43:30  
+CKP  20:58:00  21:02:00  ppka ckp blb kan dan tahan ka 175 di sta nya berangkatkan
+                         kembali setelah klb kp/10563 masuk sta dawuan
+DWN     Ls     21:09:00  
+KOS     Ls     21:19:00  ppka kos blb kan dan tahan ka 109 di sta nya berangkatkan
+                         kembali setelah klb kp/10563 masuk sta klari
+KLI     Ls     21:25:00  
+KW      Ls     21:35:00  
+KDH     Ls     21:44:00  ppka kdh blb kan dan tahan plb 7015jj di sta nya
+                         berangkatkan kembali setelah klb kp/10563
+                         masuk sta lemahabang
+LMB     Ls     21:56:00  
+CKR     Ls     22:02:00  ppka ckr blb kan dan tahan ka 69f jj, plb 69a jj di sta nya
+                         berangkatkan kembali setelah klb kp/10563 masuk 
+                         dua petak blok di muka nya
+TLM     Ls        -      
+CIT     Ls        -      
+TB      Ls     22:17:00  
+BKST    Ls        -      
+BKS     Ls     22:27:00  
+KRI     Ls        -      
+RWB     Ls        -      
+CUK     Ls     22:37:00  
+KLDB    Ls        -      
+BUA     Ls        -      
+KLD     Ls        -      
+JNG  22:55:00    
+
+
+3. rangkaian 4 krl kfw - 1 mp3 - 2 k2 - 1b
+4. kadaop sm/man op sarana daop 1jak 3cn 4sm 6yk 7mn atur dan sesuaikan dinasan
+   sarana dan awak ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 3cn 4sm 6yk 7mn atur dan kendalikan
+   kelancaran perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                     direksi pt.kereta api indonesia (persero)
+
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+      eksam p s         4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp. 44563           cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs

@@ -1,0 +1,118 @@
+ka	bandung0010	 otr/143   	23/06-'20         1235  
+
+=wam=
+
+ppka kkt mn/kts/mr/trk/wo/sgu   mn sb
+
+1. menunjuk nota dinas cft no.6/KT.201/VI/CFTL/KA/2020 tanggal 23 juni 2020
+   perihal permohonan wam uji dinamik inka tgl. 24 dan 25 juni 2020 lintas mn/sgu pp
+
+2. guna keperluan pengaturan perjalanan klb uji dinamik inka perka kami atur sbb:
+
+      rabu 24 juni, kamis 25 juni 2020 BERJALAN:
+      - klb kp/satu nol lima lima dua (klb kp/10552) klb inka lintas mn/sgu
+      - klb kp/satu nol lima enam lima (klb kp/10565) klb inka lintas sgu/mn
+
+Puncak kecepatan lintas:
+   MN - WO  = 100 Km/Jam 
+   WO - SGU =  90 Km/Jam  
+
+klb KP/10552 lintas MN - SGU
+======================================                           
+sta   datang    berangk  keterangan
+MN             07:00:00  
+BBD     Ls     07:07:00  
+CRB     Ls     07:13:00  
+SRD     Ls     07:19:00  
+BGR     Ls     07:34:00  
+NJ      Ls     07:39:00  
+SKM     Ls     07:42:00  
+BRN     Ls     07:49:00  
+KTS  07:57:00  08:14:00  
+SMB     Ls     08:23:00  
+JG      Ls     08:29:00  
+PTR     Ls     08:33:00  
+SBO     Ls     08:39:00  bers ka 179 (ka 179 bers)
+                         ppka sbo blb dan tahan ka 179 di sta nya tggu bersilang 
+                         klb kp/10552 di sta sumobito
+CRM     Ls     08:42:00  
+MR      Ls     08:49:00  menyusul ka 440 (ka 440 disusul)
+                         ppka mr tahan ka 440 di sta nya, berangkatkan kembali
+                         setelah klb kp/10552 masuk sta mojokerto
+TRK     Ls     08:56:00  bers ka 215f jj (ka 215f jj bers)
+                         ppka trk blb dan tahan ka 215f jj di sta nya tggu 
+                         bersilang klb kp/10552 di sta tarik
+KDN     Ls     08:59:00  bers ka 245, plb 245b jj (ka 245, plb 245b jj bers)
+                         ppka kdn blb dan tahan ka 245, plb 245b jj di sta nya
+                         tggu bersilang klb kp/10552 di sta kedinding
+KRN     Ls     09:02:00  
+BH      Ls     09:06:00  bers ka 481 (ka 481 bers)
+                         ppka bh tahan ka 481 di sta nya tggu bersilang 
+                         klb kp/10552 di sta boharan
+SPJ     Ls     09:13:00  
+WO      Ls     09:18:00  
+NGA     Ls        -      
+SGU   09:24:00    
+ 
+
+klb KP/10565 lintas SGU - MN
+======================================                            
+sta  datang     berangk  keterangan
+SGU            10:00:00  
+NGA     Ls        -      
+WO      Ls     10:07:00  
+SPJ     Ls     10:12:00  
+BH      Ls     10:19:00  
+KRN     Ls     10:22:00  bers ka 104, plb 104c jj (ka 104, 
+                         plb 104c jj bers)
+                         menyusul ka 441 (ka 441 disusul)
+                         ppka krn blb dan tahan ka 104, plb 104c jj di sta nya 
+                         tggu bersilang klb kp/10565 di sta krian
+                         ppka krn tahan ka 441 di sta nya tggu disusul
+                         klb kp/10565 di sta krian
+KDN     Ls     10:25:00  bers plb 8120 jj (plb 8120 jj bers)
+                         ppka kdn tahan plb 8120 jj di sta nya tggu bersilang
+                         klb kp/10565 di sta kedinding
+TRK     Ls     10:28:00  
+MR      Ls     10:35:00  
+CRM     Ls     10:41:00  
+SBO     Ls     10:44:00  bers ka 180 (ka 180 bers)
+                         menyusul ka 481 (ka 481 disusul)
+                         ppka sbo blb dan tahan ka 180 di sta nya tggu bersilang
+                         klb kp/10565 di sta sumobito
+                         ppka sbo tahan ka 481 di sta nya tggu disusul
+                         klb kp/10565 di sta sumobito
+PTR     Ls     10:49:00  
+JG      Ls     10:53:00  
+SMB     Ls     10:59:00  
+KTS  11:07:00  11:22:00  
+BRN     Ls     11:29:00  
+SKM     Ls     11:36:00  
+NJ      Ls     11:39:00  
+BGR     Ls     11:44:00  
+SRD     Ls     11:59:00  
+CRB     Ls     12:05:00  
+BBD     Ls     12:11:00  
+MN  12:18:00    
+
+3. rangkaian:
+   - lok cc 300 20 01
+   - k3 02001,k3 02002,k3 02003,k3 02004,k3 02005
+
+4. kadaop sm/man op sar daop 7mn 8sb atur dan sesuaikan dinasan sarana 
+   dan awak ka nya
+5. kadaop man op kapusdalopka 7mn 8sb atur dan kendalikan kelancaran perka dalam 
+   wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,k
+			2. ot,cp,cf,ki,ti,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+    nipp. 44563            cfp,cft,kio,tij,tis,rrt,rrw,rrw,sss,ssd,sko,mmh,pgs

@@ -91,18 +91,3 @@ body {
 .badge-block {
   display: block;
 }
-
-.btn-group-vertical.block {
-  display: block;
-}
-
-.btn-block.count {
-  text-align: left;
-  }
-  .btn-block.count.glyphicons i: before {
-    text-align: center;
-  }
-.btn-block.count span {
-  float: right; 
-  font-size: 18px;
-}

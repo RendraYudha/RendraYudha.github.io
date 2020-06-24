@@ -95,3 +95,8 @@ body {
 .badge-block {
   display: block;
 }
+
+/*Vertical Center*/
+.vertical-center td {
+  vertical-align: middle;
+}

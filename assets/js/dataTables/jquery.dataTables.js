@@ -9503,8 +9503,7 @@
 		 *      } );
 		 *    } );
 		 */
-		"bInfo": true,
-	
+		"bInfo": false,
 	
 		/**
 		 * Enable jQuery UI ThemeRoller support (required as ThemeRoller requires some

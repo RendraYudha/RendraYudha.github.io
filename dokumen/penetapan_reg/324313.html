@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- JS-->
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>		
+    <div class="container-fluid">
+		<h1 class="text-judul"><i class="fa fa-search-plus" aria-hidden="true"></i> Detail KA</h1> 
+		<br/>
+        <div>
+            <ul class="list-inline">
+                <li><strong>Nomor : </strong></li>
+                <li><strong>Nama : </strong></li>
+                <li><strong>Kelas : </strong></li>
+                <li><strong>Relasi : </strong></li>
+                </ul>
+            </div>
+		<br/>
+		<ul class="nav nav-tabs hidden-xs">
+			<li class="active nav-text"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+			<li class="nav-text"><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#history">HISTORY</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#dokumen">DOKUMEN</a></li>
+        </ul>
+        <ul class="nav visible-xs">
+			<li class="active nav-text"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+			<li class="nav-text"><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#history">HISTORY</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#dokumen">DOKUMEN</a></li>
+		</ul>
+		<br/>
+		<div class="tab-content">
+			<div id="daftar-waktu" class="tab-pane fade in active">
+				<div class="tab-pane active" id="tab-daftarwaktu">
+
+                <br>
+                </div>
+			</div>
+			<div id="penetapan" class="tab-pane fade">
+				<div style="min-height:23px;" class="accordion-inner">
+                    <pre>
+
+					</pre>
+				</div>
+			</div>
+			<div id="history" class="tab-pane fade">
+				<table class="table table-bordered table-striped" id="dw1">
+                    <thead>
+                        <tr>
+                            <th class="text-center" style="width: 100px;">Tanggal</th>
+                            <th class="center" style="width: 200px;">Dokumen</th>
+                            <th class="text-center" style="width: 90px;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"></td>
+                            <td><a href="../pengumuman/.html">OTR/</a></td>
+                            <td class="text-center">
+                                <span class="badge badge-block badge-"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+            </div>
+            <div id="dokumen" class="tab-pane fade">
+                <a href="pdf/324313.pdf" class="btn btn-primary btn-lg" download=".pdf">Daftar Waktu</a>
+            </div>
+		</div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body>
+</html>

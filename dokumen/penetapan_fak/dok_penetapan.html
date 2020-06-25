@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+     <!-- GOOGLE FONTS-->
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+     <!-- JS-->
+	<script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>  
+        <!-- /. NAV SIDE  -->
+        <div>
+            <h2 style="margin-left: 5px;" class="text-judul"><i class="fa fa-file-text" aria-hidden="true"></i> Dokumen Penetapan</h2>   
+        </div>
+        </div>
+            <!--TABEL-->
+            <div class="panel panel-default">
+                        <div class="panel-heading">
+                             Daftar Dokumen Penetapan Perjalanan KA
+                        </div>
+                        <div class="panel-body">
+                            <div class="table table-responsive">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th class="hide">ID</th>
+                                            <th class="col-md-1">NOMOR</th>
+                                            <th class="col-md-2">NAMA</th>
+                                            <th class="col-md-2">KELAS</th>
+                                            <th class="col-md-1">RELASI</th>
+                                            <th class="col-md-1">BERANGKAT</th>
+                                            <th class="col-md-1">DATANG</th>
+                                            <th class="col-md-1">DETAIL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="hide">323863</td>
+                                            <td>2623F</td>
+                                            <td>Gamao Tanker</td>
+                                            <td>KA BARANG (BBM</td>
+                                            <td>LR-TG</td>
+                                            <td>17:07:00</td>
+                                            <td>17:17:00</td>
+                                            <td>
+                                                <a href="323863.html">Detail</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+             <!-- /. PAGE INNER  -->
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="../../assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="../../assets/js/jquery.metisMenu.js"></script>
+     <!-- DATA TABLE SCRIPTS -->
+    <script src="../../assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="../../assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable( {
+                "info": true,
+            });
+        });
+    </script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="../../assets/js/custom.js"></script>
+</body>
+</html>

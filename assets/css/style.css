@@ -31,8 +31,9 @@ body {
   font-family: 'Raleway', sans-serif;;
 }
 
-.jarak {
-  font-family: 'Raleway', sans-serif;;
+.km {
+  font-family: 'Raleway', sans-serif;
+  vertical-align: middle;
 }
 
 .tes {
@@ -94,4 +95,8 @@ body {
 
 .badge-block {
   display: block;
+}
+
+.table-center > tbody > tr > * {
+  vertical-align: middle;
 }

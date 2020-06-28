@@ -33,7 +33,11 @@ body {
 
 .km {
   font-family: 'Raleway', sans-serif;
-  vertical-align: center;
+  font-size: 12px;
+}
+
+.jarak {  
+  width: 65px;
 }
 
 .perka-terkait {
@@ -70,6 +74,10 @@ body {
 }
 
 /*Badge*/
+.badge {
+  border-radius: 3px;
+}
+
 .badge-primary {
   background-color: #007BFF;
 }
@@ -102,6 +110,26 @@ body {
   display: block;
 }
 
-.table-center > tbody > tr > * {
-  vertical-align: middle;
+.no {
+  width: 45px;
+}
+
+.no-ka {
+  width: 150px;
+}
+
+.nama-ka {
+  width: 250px;
+}
+
+.relasi {
+  width: 150px;
+}
+
+.status {
+  width: 92px;
+}
+
+.tanggal {
+  width: 300px;
 }

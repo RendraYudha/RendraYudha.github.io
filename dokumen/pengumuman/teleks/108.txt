@@ -1,0 +1,195 @@
+ka         bandung0010          otr/184    	  28/06-'20      1350
+
+=wam=
+
+ppka kkt mri/jng/cuk/ckp/cnp/tg/smc/bbg/gd/kdo/slo/wk/mn  jak cn sm yk mn
+
+
+1. menunjuk:
+   a. nota dinas cft no. 10/KT.201/VI/CFTL/KA/2020 tanggal 27 juni 2020
+      perihal permohonan perjalanan pengiriman krl kfw dari mri ke mn
+
+   b. nota dinas rrt no. 1/KR.105/VI/RRT/KA/2020 tanggal 28 juni 2020 
+      perihal justifikasi pengiriman krl kfw dari manggarai ke madiun harus ditarik 
+      lokomotif 
+
+   c. nota dinas ssd no. 2/KR.105/VIII/SSD/KA/2017 tanggal 30 agustus 2017 perihal
+      kecepatan dan jarak pengereman untuk pengiriman kereta jenis KRD/I, KRDE,
+      KRL Basoetta 
+
+2. guna pengaturan perjalanan pengiriman krl kfw ke dipo cipinang baru
+   perka kami atur sbb:
+
+   senin 29 juni 2020 BERJALAN:
+
+   a. klb kp/satu nol lima enam empat (klb kp/10564) kirim rangkaian lintas mri-smc
+   b. klb kp/satu nol lima enam enam (klb kp/10566) kirim rangkaian lintas smc-mn
+
+
+
+   Puncak kecepatan lintas:
+   MRI - SMC = 50 Km/Jam    
+   SMC - MN  = 40 Km/Jam 
+
+ 
+klb KP/10564 lintas MRI - SMC
+==================================
+sta  datang    berangk   keteranga=n
+MRI            03:55:00  
+JNG     Ls     04:02:00  
+KLD     Ls        -      
+BUA     Ls        -      
+KLDB    Ls        -      
+CUK     Ls     04:15:00  
+RWB     Ls        -      
+KRI     Ls        -      
+BKS     Ls     04:24:00  
+BKST     Ls        -      
+TB   04:35:00  04:42:00  disusul ka 2518, plb 2518a jj 
+                         (ka 2518, plb 2518a jj menyusul)
+CIT     Ls        -      
+TLM     Ls        -      
+CKR     Ls     04:59:00  
+LMB  05:07:00  05:14:00  
+KDH     Ls     05:27:00  ppka kdh blb kan dan tahan ka 246, plb 246b jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564 masuk sta karawang
+KW      Ls     05:36:00  
+KLI     Ls     05:46:00  
+KOS     Ls     05:52:00  
+DWN     Ls     06:02:00  ppka dwn blb kan dan tahan ka 2, plb 2b jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564 masuk sta cikampek
+CKP  06:09:00  06:13:00  ppka ckp blb kan dan tahan ka 2540f jj di sta nya 
+                         berangkatkan kembali setelah klb kp/10564
+                         masuk sta tanjungrasa
+TJS     Ls     06:27:00  
+PAB     Ls     06:34:00  
+PRI     Ls     06:42:00  ppka pri blb kan dan tahan ka 128, plb 128b jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564
+                         masuk sta pasirbungur
+PAS     Ls     06:50:00  
+CKM     Ls     06:58:00  
+PGB     Ls     07:10:00  
+CRA     Ls     07:20:00  
+HGL     Ls     07:29:00  ppka hgl blb kan dan tahan  plb 7014 jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564 masuk sta cilegeh
+CLH     Ls     07:43:00  ppka clh blb kan dan tahan ka 138, plb 138b jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564 
+                         masuk sta kadokangabus
+KAB     Ls     07:53:30  
+TIS     Ls     08:01:30  
+TLS     Ls     08:12:00  ppka tls blb kan dan tahan ka 260, plb 260c jj di sta nya
+                         berangkatkan kembali setelah klb kp/10564 
+                         masuk sta jatibarang
+JTB     Ls     08:24:00  
+KTM     Ls     08:35:00  
+AWN     Ls     08:54:30  ppka awn blb kan dan tahan ka 28 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta bangoduwa
+BDW     Ls     09:02:00  
+CNK     Ls     09:09:00  
+CN   09:19:00  09:32:00  disusul ka 306, plb 306b jj (ka 306, plb 306b jj menyusul)
+CNP     Ls     09:36:00  menyusul plb 8124jj (plb 8124jj disusul)
+                         ppka cn tahan plb 8124jj di sta cnp tggu disusul
+                         klb kp/10564 di sta cirebon prujakan
+WDW     Ls     09:50:00  ppka wdw blb kan dan tahan ka 14 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta babakan
+BBK     Ls     10:08:00  
+LOS     Ls     10:21:00  ppka los blb kan dan tahan ka 262 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta tanjung
+TGN     Ls     10:32:00  
+BB      Ls     11:00:00  
+TG   11:18:00  11:24:00  
+LR      Ls     11:33:00  
+SD      Ls     11:47:00  ppka sd blb kan dan tahan ka 4 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta pemalang
+PML     Ls     12:04:00  
+PTA     Ls     12:13:00  
+CO      Ls     12:26:00  
+SRI     Ls     12:32:00  
+PK      Ls     12:47:00  
+BTG     Ls     13:00:00  
+UJN     Ls     13:07:00  
+KRP     Ls     13:24:00  
+PLB     Ls     13:34:00  ppka plb blb kan dan tahan ka 200 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta krengsen
+KNS     Ls     13:47:00  
+WLR     Ls     13:54:00  
+KBD     Ls     14:06:00  ppka kbd blb kan dan tahan ka 278 di sta nya berangkatkan
+                         kembali setelah klb kp/10564 masuk sta kaliwungu
+KLN  14:23:00  14:42:00  disusul ka 278 (ka 278 menyusul)
+                         ppka kln blb kan dan tahan ka 136 di sta nya 
+                         berangkatkan kembali setelah klb kp/10564 masuk sta mangkang
+MKG     Ls     14:51:00  
+JRK     Ls     15:00:00  
+SMC  15:10:00    
+
+
+
+klb KP/10566 lintas SMC - MN
+===================================
+sta  datang    berangk   keterangan
+SMC            15:25:00  
+SMT     Ls     15:31:00  
+ATA     Ls     15:45:00  
+BBG     Ls     15:58:00  
+TGG     Ls     16:18:00  
+KEJ     Ls     16:34:00  bers ka 2755f jj (ka 2755f jj bers)
+                         ppka kej blb kan dan gtahan ka 2755f jj di sta nya
+                         tggu bersilang klb kp/10566 di sta kedungjati
+PDS     Ls     16:42:00  
+TW      Ls     16:58:00  bers ka 291 (ka 291 bers)
+                         ppka tw blb kan dan tahan ka 291 di sta nya tggu
+                         bersilang klb kp/10566 di sta kedungjati
+KSO     Ls     17:13:00  
+GD      Ls     17:30:00  
+GPK     Ls     17:41:00  
+SUM     Ls     17:55:00  bers ak 117 (ka 117 bers)
+                         ppka sum blb kan dan tahan ka 117 di sta nya tggu
+                         bersilanhg klb kp/10566 di sta sumberlawang
+SLM     Ls     18:11:00  
+KO      Ls     18:26:00  bers ka 195 (ka 195 bers)
+                         ppka ko blb kan dan tahan ka 195 di sta nya tggu 
+                         bersilanhg klb kp/10566 di sta kalioso
+KDO     Ls     18:39:00  
+SLO     Ls     18:46:00  (ka 869 bers)
+SK   18:52:00  19:00:00  
+PL      Ls     19:08:00  ppka pl blb kan dan tahan ka 215f jj di sta nya 
+                         berangkatkan kembali setelah klb kp/10566 masuk sta kemiri
+KMR     Ls     19:17:00  ppka kmr blb kan dan tahan plb 7018 jj di sta nya
+                         berangkatkan kembali setelah klb kp/10566 masuk sta masaran
+MSR     Ls     19:33:00  
+SR      Ls     19:49:00  
+KRO     Ls     19:58:00  
+KDB     Ls     20:09:00  ppka kbb lb kan dan tahan ka 124, plb 124a jj di sta nya 
+                         berangkatkan kembali setelah klb kp/10566 
+                         masuk sta walikukun
+WK      Ls     20:30:00  ppka wk blb kan dan tahan plb 7020b jj di sta nya
+                         berangkatkan kembali setelah klb kp/10566
+                         masuk sta kedunggalar
+KG      Ls     20:46:00  
+NGW     Ls     21:02:00  
+GG      Ls     21:15:00  
+MAG     Ls     21:29:00  ppka mag blb kan dan tahan ka 296, plb 296a jj di sta nya
+                         berangkatkan kembali setelah klb kp/10566 masuk sta madiun
+MN   21:49:00  
+
+
+
+3. rangkaian 4 krl kfw - 4k3
+4. kadaop sm/man op sarana daop 1jak 3cn 4sm 6yk 7mn atur dan sesuaikan dinasan
+   sarana dan awak ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 3cn 4sm 6yk 7mn atur dan kendalikan
+   kelancaran perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                     direksi pt.kereta api indonesia (persero)
+
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+      eksam p s         4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp. 44563           cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+        <!-- GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- JS-->
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>
+<body>
+    <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/207</td>
+                            <td>Juni 2020</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>
+                                <a href="teleks/113.txt" download="OTR.207 - Perjalanan KA Lokal Bd Raya.txt">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Perjalanan KA Lokal Bd Raya</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.207 - Perjalanan KA Lokal Bd Raya
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka     bandung0010         otr/207        30/06-'20         1740
+
+=wam=
+
+ppka kkt ccl/kac/bd/pdl  
+
+
+1. menunjuk :
+   a. nota dinas CP no.14/KT.202/VI/CP/KA/2020 tanggal 30 juni 2020 perihal
+      permohonan pengaturan perjalanan ka bandung raya
+   b. wam direksi pt.kai no.otr/152 ka tanggal 24 juni 2020 perihal 
+      pengaturan pembatalan ka penumpang bulan juli 2020
+   c. buku dukungan sarana gapeka 2019
+
+2. guna keperluan pengaturan perjalanan ka penumpang perka kami atur sbb :
+   a. rabu 01 juli s/d jumat 31 juli 2020 BATAL klb kp/lima nol tiga sub b
+      (klb kp/503b) lokal bandung raya lintas kac/pdl
+   
+   b. rabu 01 juli s/d jumat 31 juli 2020 BERJALAN :
+      - ka lima nol empat (ka 504) eko lokal bd raya lintas kac/ccl
+      - ka lima nol tiga (ka 503) eko lokal bd raya lintas ccl/pdl
+  
+3. rangkaian sesuai duksar gapeka 2019
+4. kadaop man op sar angpen fas pam daop 2bd atur dan sesuaikan dinasan
+   sarana dan awak sarana ka nya
+5. kadaop man op kapusdalopka 2bd atur dan kendalikan kelancaran perka
+   dalam lintasnya
+
+
+                       Direksi PT.Kereta api indonesia (persero)
+
+
+
+     a.n.ot/otr         cc:
+       otrp.1           1. u,c,o,t,r,s,m,p,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp.49384            cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+        <br/>
+        <h4 class="perka-terkait"><b>Perjalanan KA Terkait</b></h4>
+          <div class="table table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <thead>
+                    <tr>
+                        <th class="text-center no">No</th>
+                        <th class="center no-ka">Nomor KA</th>
+                        <th class="text-center nama-ka">Nama KA</th>
+                        <th class="text-center relasi">Relasi</th>
+                        <th class="center jarak">Km</th>
+                        <th class="text-center status">Status</th>
+                        <th class="text-center tanggal">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="no-ka">KP/503B</td>
+                        <td>Bandung Raya Eonomi</td>
+                        <td class="text-center">KAC-PDL</td>
+                        <td class="center km">19.652</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-01, 2020-07-02, 2020-07-03, 2020-07-04, 2020-07-05, 2020-07-06, 2020-07-07, 2020-07-08, 2020-07-09, 2020-07-10, 2020-07-11, 2020-07-12, 2020-07-13, 2020-07-14, 2020-07-15, 2020-07-16, 2020-07-17, 2020-07-18, 2020-07-19, 2020-07-20, 2020-07-21, 2020-07-22, 2020-07-23, 2020-07-24, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-28, 2020-07-29, 2020-07-30, 2020-07-31
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="no-ka">503</td>
+                        <td>Bandung Raya Eonomi</td>
+                        <td class="text-center">CCL-PDL</td>
+                        <td class="center km">41.799</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-success">JALAN</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-01, 2020-07-02, 2020-07-03, 2020-07-04, 2020-07-05, 2020-07-06, 2020-07-07, 2020-07-08, 2020-07-09, 2020-07-10, 2020-07-11, 2020-07-12, 2020-07-13, 2020-07-14, 2020-07-15, 2020-07-16, 2020-07-17, 2020-07-18, 2020-07-19, 2020-07-20, 2020-07-21, 2020-07-22, 2020-07-23, 2020-07-24, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-28, 2020-07-29, 2020-07-30, 2020-07-31
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td class="no-ka">504</td>
+                        <td>Bandung Raya Eonomi</td>
+                        <td class="text-center">KAC-CCL</td>
+                        <td class="center km">22.147</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-success">JALAN</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-01, 2020-07-02, 2020-07-03, 2020-07-04, 2020-07-05, 2020-07-06, 2020-07-07, 2020-07-08, 2020-07-09, 2020-07-10, 2020-07-11, 2020-07-12, 2020-07-13, 2020-07-14, 2020-07-15, 2020-07-16, 2020-07-17, 2020-07-18, 2020-07-19, 2020-07-20, 2020-07-21, 2020-07-22, 2020-07-23, 2020-07-24, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-28, 2020-07-29, 2020-07-30, 2020-07-31
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <br>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body> 
+</html>
+    </div>
+</body>
+</html>

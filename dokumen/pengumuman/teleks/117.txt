@@ -1,0 +1,156 @@
+ka	bandung		otr/11    	01/07-'20         2055
+
+=wam=
+
+ppka kkt cmi/pdl/pwk/ckp/jng/pse/kmo/kpb/jakk  jak bd 
+
+1. menunjuk :
+   a. wam direksi pt kai no.otr/8 ka tanggal 01 juli 2020 perihal perjalanan
+      ka penumpang masa new normal
+   b. program perjalanan ka penumpang masa new normal 
+      
+2. guna keperluan perjalanan pengiriman dukungan rangkaian ka turangga perka 
+   kami atur sbb :
+
+   kamis 02 juli 2020 BERJALAN:
+   a. klb kp/satu nol lima tujuh sembilan (klb kp/10579) kirim rangkaian
+      lintas cmi/jakk
+   b. klb kp/satu nol lima tujuh nol (klb kp/10570) kirim rangkaian lintas jakk/cmi
+
+
+ Puncak kecepatan lintas:
+ CMI - PDL  = 100 Km/Jam 
+ PDL - PWK  =  55 Km/Jam 
+ PWK - CKP  =  90 Km/Jam 
+ CKP - BKS  = 100 Km/Jam 
+ BKS - JNG  =  90 Km/Jam 
+ JNG - KPB  =  70 Km/Jam 
+ KPB - JAKK =  40 Km/Jam 
+ 
+
+klb KP/10579 lintas CMI - JAKK
+===================================
+sta  datang    berangk   keterangan
+CMI            10:15:00  
+GK      Ls        -      
+PDL     Ls     10:23:00  
+CLE     Ls     10:33:00  bers ka 176, plb 7030jj (ka 176, plb 7030jj bers)
+SKT     Ls     10:42:00  
+MSI     Ls     10:49:00  
+RH      Ls     10:54:00  
+CD      Ls     10:59:00  
+CG      Ls        -      
+PLD     Ls     11:14:00  
+SUT     Ls     11:19:00  
+CA      Ls     11:30:00  
+PWK     Ls     11:39:00  
+SAD     Ls        -      
+CBR     Ls     11:50:00  
+CKP     Ls     11:58:00  ppka ckp blb kan dan tahan ka 63f jj, plb 63f-a jj
+                         di sta nya berangkatkan kembali setelah klb kp/10579
+                         masuk sta dawuan
+DWN     Ls     12:02:00  
+KOS     Ls     12:07:00  
+KLI     Ls     12:10:00  
+KW      Ls     12:15:00  
+KDH     Ls     12:20:00  
+LMB     Ls     12:27:00  
+CKR     Ls     12:31:00  
+TLM     Ls        -      
+CIT     Ls        -      
+TB      Ls     12:39:00  
+BKST    Ls        -      
+BKS     Ls     12:45:00  
+KRI     Ls        -      
+RWB     Ls        -      
+CUK     Ls     12:51:00  
+KLDB    Ls        -      
+BUA     Ls        -      
+KLD     Ls        -      
+JNG     Ls     13:02:00  
+POK     Ls        -      
+KMT     Ls        -      
+GST     Ls        -      
+PSE     Ls     13:13:00  
+KMO     Ls     13:16:00  
+RJW     Ls        -      
+KPB     Ls     13:22:00  
+JAKK 13:27:00
+
+
+klb KP/10570 lintas JAKK - CMI
+===================================
+sta  datang    berangk   keterangan
+JAKK           17:40:00  
+KPB     Ls     17:45:00  menyusul ka l2539f-2 jj (ka l2539f-2 jj disusul)
+                         ppka kpb tahan ka l2539f-2 jj di sta nya tggu disusul
+                         klb kp/10570 di sta kampungbandan
+RJW     Ls        -      
+KMO     Ls     17:51:00  
+PSE     Ls     17:54:00  
+GST     Ls        -      
+KMT     Ls        -      
+POK     Ls        -      
+JNG     Ls     18:03:00  menyusul ka 46 (ka 46 disusul)
+                         ppka jng blb kan dan tahan ka 46 di sta nya tggu disusul
+                         klb kp/10570 di sta jatinegara
+KLD     Ls        -      
+BUA     Ls        -      
+KLDB    Ls        -      
+CUK     Ls     18:13:00  
+RWB     Ls        -      
+KRI     Ls        -      
+BKS     Ls     18:18:00  
+BKST    Ls        -      
+TB      Ls     18:24:00  
+CIT     Ls        -      
+TLM     Ls        -      
+CKR     Ls     18:32:00  
+LMB     Ls     18:36:00  
+KDH     Ls     18:43:00  
+KW      Ls     18:48:00  
+KLI     Ls     18:53:00  menyusul ka 472 (ka 472 disusul)
+KOS     Ls     18:56:00  
+DWN     Ls     19:01:00  
+CKP     Ls     19:05:00  
+CBR     Ls     19:13:00  
+SAD     Ls        -      
+PWK     Ls     19:22:00  
+CA      Ls     19:31:00  
+SUT     Ls     19:42:00  
+PLD     Ls     19:47:00  
+CG      Ls        -      
+CD      Ls     20:03:00  
+RH      Ls     20:08:00  
+MSI     Ls     20:13:00  
+SKT     Ls     20:20:00  bers ka 69f jj, plb 69a jj (ka 69f jj, plb 69a jj bers)
+CLE     Ls     20:29:00  bers ka 1 (ka 1 bers)
+PDL     Ls     20:39:00  (plb 1a jj bers)
+                         ppka pdl blb kan dan tahan plb 1a jj di sta nya
+                         tggu bersilang klb kp/10570 di sta padalarang
+GK     Ls        -      
+CMI  20:46:00    
+    
+  
+
+3. rangkaian :
+   - klb kp/10579 : trainset turangga
+   - klb kp/10570 : trainset pangandaran
+4. kadaop man op sarana daop 1jak 2bd atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop sm/man op kapusdalopka daop 1jak 2bd atur dan kendalikan 
+   kelancaran perka dalam wilayahnya
+6. mem blb kan suatu ka harus sesuai dengan pd 19 jilid i pasal 86
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,rrt,rrc,rrp,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+    nipp. 44563            cft,cio,tjt,tsm,rrt,rrw,rrp,sss,ssd,sko,mmh,pgs
+

@@ -1,0 +1,128 @@
+ka	   bandung0010	       otr/21 	      03/07-'20	         1730
+
+=wam=
+
+ppka kkt sb/sgu/wo/sda/bg/ml/wg/bl/kd/kts/mr/trk/wo  mn sb 
+
+1. menunjuk :
+   a. nota dinas CP no.2/KT.202/VII/CP/KA/2020 tanggal 03 juli 2020 perihal
+      permohonan pengaturan perjalanan ka penumpang
+   b. nota dinas CP no.2/KT.205/VI/CP/KA/2020 tanggal 23 juni 2020 perihal
+      permohonan pembatalan ka penumpang bulan juli 2020
+   c. nota dinas CP no.4/KT.202/VI/CP/KA/2020 tanggal 09 juni 2020 perihal
+      permohonan pengaturan perjalanan ka penumpang
+   d. nota dinas CP no.3/KT.202/VI/CP/KA/2020 tanggal 07 juni 2020 perihal
+      permohonan pengoperasian perjalanan ka komuter surabaya-bangil
+   e. wam direksi pt.kai (persero) no.otr/152ka tgl.24 juni 2020 perihal
+      pengaturan perjalanan dan pembatalan ka penumpang bulan juli 2020
+   f. buku dukungan sarana gapeka 2019
+
+2. guna keperluan pengaturan pembatalan dan perjalanan ka penumpang perka kami
+   atur dan sesuaikan kembali sbb :
+   
+  a. selasa 14 juli s/d jumat 31 juli 2020 BATAL :
+      - klb kp/empat empat sembilan sub a (klb kp/449a) penataran
+        lintas sb/ml
+      - klb kp/empat lima dua sub a (klb kp/452a) penataran
+        lintas ml/sb
+      - klb kp/empat lima tiga sub a (klb kp/453a) penataran
+        lintas sb/ml
+
+  b. selasa 14 juli s/d jumat 31 juli 2020 BERJALAN :
+     - klb kp/tiga sembilan tiga sub a (klb kp/393a) komuter lintas sb/bg
+     - klb kp/tiga sembilan empat sub a (klb kp/394a) komuter lintas bg/sb
+
+  c. selasa 14 juli s/d jumat 31 juli 2020 BERJALAN :
+      - ka empat lima empat (ka 454) penataran lintas bl/sgu
+      - ka empat lima lima (ka 455) tumapel lintas sgu/ml
+      - ka empat tiga lima (ka 435) dhoho lintas bl/kts
+      - ka empat empat empat (ka 444) dhoho lintas kts/sb
+      - ka empat tiga tujuh (ka 437) dhoho lintas bl/kts
+      - ka empat empat enam (ka 446) dhoho lintas kts/sb
+      - ka empat tiga sembilan (ka 439) dhoho lintas sb/kts
+      - ka empat tiga dua (ka 432) dhoho lintas kts/bl
+      - ka empat empat satu (ka 441) dhoho lintas sb/kts
+      - ka empat tiga empat (ka 434) dhoho lintas kts/bl
+      - ka empat empat tiga (ka 443) dhoho lintas sb/kts
+      - ka empat tiga enam (ka 436) dhoho lintas kts/bl
+      - ka empat lima enam (ka 456) penataran lintas bl/sb
+      - ka empat lima tiga (ka 453) penataran lintas sb/bl
+      - ka empat empat sembilan (ka 449) penataran lintas sb/bl
+      - ka empat lima dua (ka 452) penataran lintas bl/sb
+
+
+ puncak kecepatan lintas:
+  sb  - sgu = 50 km/jam 
+  sgu - bg  = 80 km/jam 
+ 
+
+klb kp/393a lintas sb - bg
+==========================================                            
+sta  datang    berangk   keterangan
+sb             11:30:00  ppka sb tahan ka 393 di sta nya, berangkatkan
+			 kembali setelah klb kp/393a masuk sta surabayagubeng
+sgu  11:37:00  11:42:00  
+nga     ls        -      
+wo   11:49:00  11:52:00  
+mgr     ls        -      
+jms     ls        -      
+ktl     ls        -      
+wr   12:00:00  12:03:00  
+stp     ls        -      
+gdg  12:10:00  12:13:00  
+bjk     ls        -      
+bdr     ls        -      
+pwj     ls        -      
+sda  12:23:00  12:39:00  bers ka 304 (ka 304 bers)
+tga  12:47:00  13:00:00  bers ka 284 (ka 284 bers)
+pr   13:09:00  13:17:00  bers ka 116 (ka 116 bers)
+bg   13:31:00            (ka 2766f bers)
+
+
+klb kp/394a lintas bg - sb
+==========================================                            
+sta  datang    berangk   keterangan
+bg             14:00:00  ppka bg tahan ka 394 di sta nya, berangkatkan
+			 kembali setelah klb kp/394a masuk sta porong
+pr   14:14:00  14:16:00  
+tga  14:24:00  14:30:00  bers ka 303 (ka 303 bers)
+sda  14:38:00  14:43:00  
+pwj     ls        -      
+bdr     ls        -      
+bjk     ls        -      
+gdg  14:53:00  14:56:00  
+stp     ls        -      
+wr   15:03:00  15:30:00  disusul ka 184 (ka 184 menyusul)
+			 bers ka 299 (ka 299 bers)
+ktl     ls        -      
+jms     ls        -      
+mgr     ls        -      
+wo   15:38:00  15:42:00  (ka 2633 bers)
+nga     ls        -      
+sgu  15:50:00  15:55:00  
+sb   16:05:00    
+
+
+3. rangkaian klb sesuai dengan penetapan sf ka reguler pada duksar gapeka 2019
+4. kadaop sm/man op sar angpen fas pam daop 8sb atur dan sesuaikan dinasan
+   sarana dan awak sarana ka nya
+5. kadaop sm/man op kapusdalopka 8sb atur dan kendalikan kelancaran perka dalam
+   lintasnya
+6. mem blb kan suatu ka harus menurut pd 19 jilid i pasal 86.
+
+
+              Direksi PT.Kereta api indonesia (persero)
+
+
+
+
+     a.n.ot/otr         cc:
+       otrp.1		1. u,c,o,t,r,s,m,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+     nipp.49384            cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+
+
+

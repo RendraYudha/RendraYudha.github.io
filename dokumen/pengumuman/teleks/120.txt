@@ -1,0 +1,68 @@
+
+ka   bandung0010   	otr/25   	04/07-'20    	1115 
+
+=wam=
+
+ppka kkt bg/pb sb jr 
+
+1. menunjuk nota dinas cft no. 1/KT.201/VII/CFTL/KA/2020 tanggal 03 juli 2020 
+   perihal permohonan perjalanan klb angkutan rel lintas bg/pb
+
+2. guna keperluan pengaturan perjalanan klb angkutan rel dinas lintas bg/pb
+   perka kami atur sbb:
+
+   ahad 05 juli, selasa 07 juli, kamis 09 juli 2020 BERJALAN:
+   a. klb kp/ satu nol lima lima sembilan (klb kp/10559) angkutan rel
+      lintas bg/pb
+   b. klb kp/ satu nol lima empat delapan (klb kp/10548) angkutan rel
+      lintas pb/bg
+
+
+Puncak kecepatan lintas:
+BG - PB = 45 Km/Jam 
+PB - BG = 60 Km/Jam  
+
+
+
+klb KP/10559 lintas BG - PB
+==========================================                           
+sta  datang    berangk  keterangan
+BG            06:20:00  
+PS     Ls     06:45:00  
+RO     Ls     06:58:00  
+GI  07:08:00  08:11:00  bers ka 122, ka 300 (ka 122, ka 300 bers)
+BYM    Ls     08:30:00  
+PB  08:48:00     
+
+
+
+klb KP/10548 lintas PB - BG
+==========================================                            
+sta  datang    berangk  keterangan
+PB            21:30:00  ppka pb tahan plb 8102 jj di sta nya,
+                        berangkatkan kembali setelah kp/10548
+                        masuk sta bayeman
+BYM    Ls     21:45:00  
+GI     Ls     21:59:00  
+RO     Ls     22:06:00  
+PS     Ls     22:16:00  
+BG  22:37:00           (ka 185 bers)
+
+3. rangkaian 12 gd scamel + 1 kabus
+4. kadaop sm/manager op sar angbar 8sb 9jr atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop sm/manager op kapusdalopka 8sb 9jr atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,rrt,rrc,rrp,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+    nipp. 44563            cft,cio,tjt,tsm,rrt,rrw,rrp,sss,ssd,sko,mmh,pgs

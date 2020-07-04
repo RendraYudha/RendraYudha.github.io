@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+        <!-- GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- JS-->
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>
+<body>
+    <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/25</td>
+                            <td>Juli 2020</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>
+                                <a href="teleks/120.txt" download="OTR.25 - Klb Rel Bg-Pb.txt">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Klb Rel Bg-Pb</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.25 - Klb Rel Bg-Pb
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka   bandung0010    otr/25      04/07-'20       1115 
+
+=wam=
+
+ppka kkt bg/pb sb jr 
+
+1. menunjuk nota dinas cft no. 1/KT.201/VII/CFTL/KA/2020 tanggal 03 juli 2020 
+   perihal permohonan perjalanan klb angkutan rel lintas bg/pb
+
+2. guna keperluan pengaturan perjalanan klb angkutan rel dinas lintas bg/pb
+   perka kami atur sbb:
+
+   ahad 05 juli, selasa 07 juli, kamis 09 juli 2020 BERJALAN:
+   a. klb kp/ satu nol lima lima sembilan (klb kp/10559) angkutan rel
+      lintas bg/pb
+   b. klb kp/ satu nol lima empat delapan (klb kp/10548) angkutan rel
+      lintas pb/bg
+
+
+Puncak kecepatan lintas:
+BG - PB = 45 Km/Jam 
+PB - BG = 60 Km/Jam  
+
+
+
+klb KP/10559 lintas BG - PB
+==========================================                           
+sta  datang    berangk  keterangan
+BG            06:20:00  
+PS     Ls     06:45:00  
+RO     Ls     06:58:00  
+GI  07:08:00  08:11:00  bers ka 122, ka 300 (ka 122, ka 300 bers)
+BYM    Ls     08:30:00  
+PB  08:48:00     
+
+
+
+klb KP/10548 lintas PB - BG
+==========================================                            
+sta  datang    berangk  keterangan
+PB            21:30:00  ppka pb tahan plb 8102 jj di sta nya,
+                        berangkatkan kembali setelah kp/10548
+                        masuk sta bayeman
+BYM    Ls     21:45:00  
+GI     Ls     21:59:00  
+RO     Ls     22:06:00  
+PS     Ls     22:16:00  
+BG  22:37:00           (ka 185 bers)
+
+3. rangkaian 12 gd scamel + 1 kabus
+4. kadaop sm/manager op sar angbar 8sb 9jr atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop sm/manager op kapusdalopka 8sb 9jr atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+     a.n.ot/otr         cc:
+       otrp.2           1. u,c,o,t,r,s,m,p,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,rrt,rrc,rrp,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+    nipp. 44563            cft,cio,tjt,tsm,rrt,rrw,rrp,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+        <br/>
+        <h4 class="perka-terkait"><b>Perjalanan KA Terkait</b></h4>
+          <div class="table table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <thead>
+                    <tr>
+                        <th class="text-center no">No</th>
+                        <th class="center no-ka">Nomor KA</th>
+                        <th class="text-center nama-ka">Nama KA</th>
+                        <th class="text-center relasi">Relasi</th>
+                        <th class="center jarak">Km</th>
+                        <th class="text-center status">Status</th>
+                        <th class="text-center tanggal">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="no-ka">KP/10548</td>
+                        <td>Remaja Bangil</td>
+                        <td class="text-center">PB-BG</td>
+                        <td class="center km">54.413</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-success">JALAN</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-05, 2020-07-07, 2020-07-09
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="no-ka">KP/10559</td>
+                        <td>Remaja Bangil</td>
+                        <td class="text-center">BG-PB</td>
+                        <td class="center km">54.413</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-success">JALAN</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-05, 2020-07-07, 2020-07-09
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <br>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body> 
+</html>
+    </div>
+</body>
+</html>

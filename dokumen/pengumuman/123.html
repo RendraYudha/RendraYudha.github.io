@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+        <!-- GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- JS-->
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>
+<body>
+    <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/38</td>
+                            <td>Juli 2020</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>
+                                <a href="teleks/123.txt" download="OTR.38 - Batal Ka Semen Bungtalun Lintas Slo-Bbg PP_.txt">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Batal Ka Semen Bungtalun Lintas Slo-Bbg PP_</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.38 - Batal Ka Semen Bungtalun Lintas Slo-Bbg PP_
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung0010 otr/38     06/07-'20         2015
+
+=wam=
+
+ppka kkt slo/kdo/gd/kej/bbg  sm pwt yk
+
+1. menunjuk warta dinas kadaop 5 pwt no.po5/70d tanggal 6 juli 2020 
+   perihal permohonan pengaturan pembatalan ka semen
+
+2. guna keperluan pengaturan pembatalan perjalanan ka semen, kami atur sbb :
+  
+   rabu 8 juli, kamis 9 juli 2020 BATAL:
+   a. ka dua tujuh tiga satu (ka 2731) bungtalun service lintas slo/bbg
+   b. ka dua tujuh tiga dua (ka 2732) bungtalun service lintas bbg/slo
+      
+3. kadaop manager op sar daop 4sm 5pwt 6yk atur dan sesuaikan kembali dinasan
+   sarana dan awak ka nya.
+
+                        direksi pt.kereta api indonesia (persero)
+
+     a.n.ot/otr         cc:
+       otrp.2           1. u,c,o,t,r,s,m,p,k
+                        2. ot,cp,cf,ki,tj,ts,rt,rr,pg,sk,us
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+    eksam puji s        4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+                           cft,kio,tjt,tsm,tsc,rrt,rrc,rta,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+        <br/>
+        <h4 class="perka-terkait"><b>Perjalanan KA Terkait</b></h4>
+          <div class="table table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <thead>
+                    <tr>
+                        <th class="text-center no">No</th>
+                        <th class="center no-ka">Nomor KA</th>
+                        <th class="text-center nama-ka">Nama KA</th>
+                        <th class="text-center relasi">Relasi</th>
+                        <th class="center jarak">Km</th>
+                        <th class="text-center status">Status</th>
+                        <th class="text-center tanggal">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="no-ka">2731</td>
+                        <td>Bungtalun Service</td>
+                        <td class="text-center">SLO-BBG</td>
+                        <td class="center km">94.731</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-08, 2020-07-09
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="no-ka">2732</td>
+                        <td>Bungtalun Service</td>
+                        <td class="text-center">BBG-SLO</td>
+                        <td class="center km">94.731</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-08, 2020-07-09
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <br>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body> 
+</html>
+    </div>
+</body>
+</html>

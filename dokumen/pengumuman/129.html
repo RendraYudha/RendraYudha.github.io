@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLES-->
+    <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../../assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+        <!-- GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- JS-->
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
+</head>
+<body>
+<body>
+    <div class="container-fluid">
+        <h3><b>Detail Dokumen Pengumuman</b></h3>
+        <br/>
+        <div class="panel-body">
+            <div class="table table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Bulan</th>
+                            <th>Total KA</th>
+                            <th>KA Jalan</th>
+                            <th>KA Batal</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OTR/65</td>
+                            <td>Juli 2020</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>
+                                <a href="teleks/129.txt" download="OTR.65 - Batal ka semen lintas krl-cnp.txt">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h5><b>KETERANGAN</b></h5>
+        <p>Batal ka semen lintas krl-cnp</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTrainplan" aria-expanded="true" aria-controls="collapseTrainplan" style="width: 100%; text-align: left;">
+            [Click to View] OTR.65 - Batal ka semen lintas krl-cnp
+        </button>
+        <br>
+        <div class="collapse" id="collapseTrainplan">
+            <div class="card card-body">
+                <pre style="width: 100%px">
+ka  bandung0010   otr/65        09/07-'20   1830
+
+=wam=
+
+ppka kkt krl/gm/kh/kya/pwt/ppk/cnp  pwt cn
+
+1. menunjuk warta dinas kadaop 5 pwt no.po5/120d tgl. 09 juli 2020 perihal
+   permohonan batal ka semen lintas krl/cnp pp
+
+2. guna pengaturan pembatalan ka semen perka kami atur kembali sbb:
+
+   a. jumat 10 juli menghadap sabtu 11 juli, sabtu 11 juli menghadap ahad 12 juli 2020
+      BATAL ka dua tujuh empat nol (ka 2740) kalem service lintas krl/kya
+  
+   b. sabtu 11 juli, ahad 12 juli 2020 BATAL:
+      - ka dua tujuh tiga tujuh (ka 2737) kalem service lintas kya/cnp 
+      - ka dua tujuh tiga delapan (ka 2738) kalem service lintas cnp/kya             
+      - ka dua tujuh tiga sembilan (ka 2739) kalem service lintas kya/krl
+
+3. kadaop man op sar daop 5pwt 3cn atur dan sesuaikan kembali dinasan sarana
+   dan awak ka nya.
+
+                              direksi pt.kereta api indonesia ( persero )
+
+
+     a.n.ot/otr         cc:
+       otrp.1           1. u,c,o,t,r,s,m,k
+                        2. ot,cp,cf,ki,ti,ts,rt,rr,sk,us,pg
+                        3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tsm,rrt,rrc,rrw,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+    nipp. 49384            cfp,cft,kio,tij,tsm,rrt,rrw,rrw,sss,ssd,sko,mmh,pgs
+                </pre>
+            </div>
+        </div>
+        <br/>
+        <h4 class="perka-terkait"><b>Perjalanan KA Terkait</b></h4>
+          <div class="table table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <thead>
+                    <tr>
+                        <th class="text-center no">No</th>
+                        <th class="center no-ka">Nomor KA</th>
+                        <th class="text-center nama-ka">Nama KA</th>
+                        <th class="text-center relasi">Relasi</th>
+                        <th class="center jarak">Km</th>
+                        <th class="text-center status">Status</th>
+                        <th class="text-center tanggal">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="no-ka">2737</td>
+                        <td>Karacibon Service</td>
+                        <td class="text-center">KYA-CNP</td>
+                        <td class="center km">156.354</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-11, 2020-07-12
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="no-ka">2738</td>
+                        <td>Karacibon Service</td>
+                        <td class="text-center">CNP-KYA</td>
+                        <td class="center km">156.354</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-11, 2020-07-12
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td class="no-ka">2739</td>
+                        <td>Karacibon Service</td>
+                        <td class="text-center">KYA-KRL</td>
+                        <td class="center km">29.680</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-11, 2020-07-12
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td class="no-ka">2740</td>
+                        <td>Karacibon Service</td>
+                        <td class="text-center">KRL-KYA</td>
+                        <td class="center km">29.680</td>
+                        <td class="text-center">
+                            <span class="badge badge-block badge-dark">BATAL</span>
+                        </td>
+                        <td class="text-center">
+                            2020-07-10, 2020-07-11
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <br>
+        </div>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">
+        <b>TRAINPLAN - Informasi Kereta Api ©2020</b>
+    </div>
+</body> 
+</html>
+    </div>
+</body>
+</html>

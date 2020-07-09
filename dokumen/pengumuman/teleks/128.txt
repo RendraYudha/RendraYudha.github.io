@@ -1,0 +1,68 @@
+ka   bandung0010   	otr/64     	09/07-'20    	 1815
+
+=wam=
+
+ppka kkt bg/pb sb jr 
+
+1. menunjuk nota dinas cft no.3/KT.201/VII/CFTL/KA/2020 tanggal 09 juli 2020 
+   perihal permohonan perjalanan klb angkutan rel lintas bg/pb
+
+2. guna keperluan pengaturan perjalanan klb angkutan rel dinas lintas bg/pb
+   perka kami atur sbb:
+
+   sabtu 11 juli, senin 13 juli, rabu 15 juli 2020 BERJALAN:
+   a. klb kp/ satu nol lima lima sembilan (klb kp/10559) angkutan rel
+      lintas bg/pb
+   b. klb kp/ satu nol lima empat delapan (klb kp/10548) angkutan rel
+      lintas pb/bg
+
+
+puncak kecepatan lintas:
+bg - pb = 45 km/jam 
+pb - bg = 60 km/jam  
+
+
+
+klb kp/10559 lintas bg - pb
+==========================================                           
+sta  datang    berangk  keterangan
+bg            06:20:00  
+ps     ls     06:45:00  
+ro     ls     06:58:00  
+gi  07:08:00  08:11:00  bers ka 122, ka 300 (ka 122, ka 300 bers)
+bym    ls     08:30:00  
+pb  08:48:00     
+
+
+
+klb kp/10548 lintas pb - bg
+==========================================                            
+sta  datang    berangk  keterangan
+pb            21:30:00  ppka pb tahan plb 8102 jj di sta nya,
+                        berangkatkan kembali setelah kp/10548
+                        masuk sta bayeman
+bym    ls     21:45:00  
+gi     ls     21:59:00  
+ro     ls     22:06:00  
+ps     ls     22:16:00  
+bg  22:37:00           (ka 185 bers)
+
+
+3. rangkaian 12 gd scamel + 1 kabus
+4. kadaop sm/manager op sar angbar 8sb 9jr atur dan sesuaikan dinasan sarana
+   dan awak ka nya
+5. kadaop sm/manager op kapusdalopka 8sb 9jr atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+     a.n.ot/otr         cc:
+       otrp.1		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tjt,tsm,rrt,rrc,rrp,sss,ssd,sko,mmh,pgs
+    bayu prasetyo       4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp
+    nipp. 49384            cft,cio,tjt,tsm,rrt,rrw,rrp,sss,ssd,sko,mmh,pgs

@@ -208,3 +208,7 @@ body {
     -ms-border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.icon-features {
+  font-size: 48px;
+}

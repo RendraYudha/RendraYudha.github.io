@@ -25,6 +25,7 @@
 body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
 }
 
 .text-judul {
@@ -211,4 +212,8 @@ body {
 
 .icon-features {
   font-size: 48px;
+}
+
+#history {
+
 }

@@ -1,0 +1,212 @@
+ka	bandung0010	otr/109 	16/07-'20	  1525
+
+=wam=
+
+ppka kkt tg/smc/bbg/gbn/cu/bj/kda/sbi/sb/sdt  sm sb
+
+1. a. menunjuk warta dinas kadaop 8 sb no. po8/204d tanggal 16 juli 2020 perihal
+      pemohonan kirim rangkaian lintas sdt/tg
+   b. menunjuk warta dinas kadaop 4 sm no. po4/132d tanggal 15 juli 2020 perihal
+      pemohonan kirim rangkaian lintas tg/sdt
+
+2. guna keperluan pengaturan perjalanan kirim rangkaian perka kami atur sbb:
+
+   a. jumat 17 juli 2020 BERJALAN:
+      - klb kp/satu nol tiga sembilan delapan (klb kp/10398) kirim rangkaian
+        lintas tg/sbi
+      - klb kp/satu nol empat nol tiga (klb kp/10403) kirim rangkaian
+        lintas sbi/sdt
+   
+   b. ahad 19 juli 2020 BERJALAN klb kp/satu nol nol delapan enam 
+        (klb kp/10086) kirim rangkaian lintas sdt/sbi
+   c. senin 20 juli 2020 BERJALAN klb kp/satu nol satu nol tiga
+        (klb kp/10103) kirim rangkaian lintas sbi/tg
+
+  puncak kecepatan lintas:
+  tg - sdt = 45 km/jam 
+ 
+
+klb kp/10398 lintas tg - sbi
+==========================================                            
+sta  datang    berangk   keterangan
+tg             02:30:00  
+lr      ls     02:40:00  
+sd      ls     02:55:00  
+pml  03:15:00  03:36:00  disusul ka 130 (ka 130 menyusul)
+pta     ls     03:48:00  
+co      ls     04:03:00  
+sri  04:11:00  04:32:00  disusul klb kp/10318 (klb kp/10318 menyusul)
+			 ppka sri blb kan dan tahan plb 7022jj di sta nya,
+			 berangkatkan kembali setelah klb kp/10398 masuk
+			 sta pekalongan
+pk      ls     04:50:00  
+btg     ls     05:04:00  
+ujn     ls     05:11:00  
+krp     ls     05:30:00  
+plb  05:42:00  06:02:00  disusul ka 330 (ka 330 menyusul)
+			 ppka plb blb kan dan tahan ka 62f jj di sta nya,
+			 berangkatkan kembali setelah klb kp/10398 masuk
+			 sta krengseng
+kns     ls     06:18:00  
+wlr     ls     06:26:00  
+kbd  06:41:00  07:05:00  disusul ka 280 (ka 280 menyusul)
+kln     ls     07:24:00  
+mkg     ls     07:33:00  
+jrk     ls     07:43:00  
+smc  07:53:00  08:18:00  ppka smc tahan ka 2550f jj di sta nya, berangkatkan
+			 setelah klb kp/10398 masuk sta semarangtawang
+smt     ls     08:24:00  
+ata     ls     08:36:00  
+bbg  08:48:00  10:14:00  disusul ka 2514, ka 2516, ka 2704
+			 (ka 2514, ka 2516, ka 2704 menyusul)
+tgw     ls     10:29:00  
+gub     ls     10:40:30  
+kgt  11:01:00  11:50:00  disusul ka 2508, ka 2502 (ka 2508, ka 2502 menyusul)
+sdi     ls     12:04:00  
+nbo     ls     12:13:00  
+gbn  12:17:00  13:25:00  disusul ka 2724, ka 266, ka 2518, plb 2518a jj
+			 (ka 2724, ka 266, ka 2518, plb 2518a jj)
+			 ppka gbn blb kan dan tahan plb 7014jj di sta nya,
+			 berangkatkan kembali setelah klb kp/10398 masuk
+			 sta jambon
+jbn     ls     13:43:00  
+pnl     ls     13:52:00  
+knn     ls     14:07:00  
+sl      ls     14:21:00  
+dpl     ls     14:32:00  
+rbg     ls     14:51:00  
+wdu     ls     15:09:00  
+kpa  15:20:00  15:38:00  disusul ka 4 (ka 4 menyusul)
+cu   15:50:00  15:57:00  
+tbo     ls     16:10:00  
+kit  16:32:00  17:08:00  disusul ka 2526 (ka 2526 menyusul)
+bj      ls     17:31:00  
+kps     ls     17:41:00  
+srj  17:54:00  18:17:00  disusul ka 136 (ka 136 menyusul)
+bwo     ls     18:37:00  
+bbt     ls     18:51:00  
+geb     ls     19:00:00  
+pc      ls     19:08:00  
+sbn     ls     19:23:00  
+lmg     ls     19:35:00  
+dd      ls     19:53:00  ppka dd blb kan dan tahan plb 7026jj di sta nya,
+			 berangkatkan kembali setelah klb kp/10398 masuk
+			 sta cerme
+cme     ls     20:08:00  
+bnw     ls     20:16:00  
+kda     ls     20:24:00  
+tes     ls     20:29:00  
+sbi  20:40:00    
+ 
+
+klb kp/10403 lintas sbi - sdt
+==========================================                            
+sta  datang    berangk  keterangan
+sbi            20:45:00  
+stm     ls     20:48:00  
+sb      ls     20:51:00  
+sdt  20:59:00    
+
+
+
+klb kp/10086 lintas sdt - sbi
+==========================================                            
+sta  datang    berangk  keterangan
+sdt            23:45:00  
+sb      ls     23:50:00  
+stm     ls     23:53:00  
+sbi  23:57:00    
+
+
+klb kp/10103 lintas sbi - tg
+==========================================        
+sta  datang    berangk  keterangan
+sbi            00:10:00  
+tes     ls     00:20:00  
+kda  00:27:00  00:48:00  disusul ka 2519 (ka 2519 menyusul)
+bnw     ls     00:58:00  
+cme     ls     01:06:00  
+dd      ls     01:21:00  
+lmg     ls     01:40:00  
+sbn     ls     01:51:00  
+pc      ls     02:06:00  
+geb     ls     02:14:00  
+bbt     ls     02:23:00  
+bwo     ls     02:37:00  
+srj     ls     02:56:00  
+kps     ls     03:08:00  
+bj      ls     03:18:00  
+kit     ls     03:40:00  ppka kit blb kan dan tahan ka 2539f jj di sta nya
+			 berangkatkan kembali setelah klb kp/10103 masuk
+			 sta tobo
+tbo     ls     04:01:00  
+cu   04:15:00  04:23:00  
+kpa     ls     04:33:00  
+wdu     ls     04:43:00  
+rbg     ls     05:01:00  
+dpl     ls     05:20:00  
+sl   05:32:00  05:58:00  disusul ka 281 (ka 281 menyusul)
+knn     ls     06:13:00  
+pnl     ls     06:28:00  
+jbn     ls     06:37:00  
+gbn     ls     06:54:00  
+nbo     ls     06:57:00  
+sdi     ls     07:06:00  
+kgt  07:20:00  07:47:00  disusul ka 2525 (ka 2525 menyusul)
+gub     ls     08:08:00  
+tgw     ls     08:20:00  
+bbg     ls     08:34:00  
+ata     ls     08:45:00  
+smt     ls     08:58:00  menyusul ka 2525 (ka 2525 disusul)
+smc  09:04:00  09:14:00  ppka smc tahan plb 8007 jj di sta nya berangkatkan
+			 kembali setelah klb kp/10103 masuk sta jerakah
+jrk     ls     09:24:00  
+mkg     ls     09:34:00  
+kln     ls     09:43:00  
+kbd     ls     10:01:00  
+wlr     ls     10:15:00  
+kns     ls     10:23:00  
+plb     ls     10:38:00  
+krp     ls     10:49:00  ppka krp blb kan dan tahan ka 2525 di sta nya
+			 berangkatkan kembali setelah klb kp/10103 masuk			
+			 sta ujungnegoro
+ujn  11:09:00  11:32:00  disusul ka 2525 (ka 2525 menyusul)
+			 ppka ujn blb kan dan tahan ka 2711 di sta nya
+			 berangkatkan kembali setelah klb kp/10103 masuk
+			 sta batang
+btg  11:42:00  12:26:00  disusul ka 2711, ka 189 (ka 2711, ka 189 menyusul)
+			 ppka btg blb kan dan tahan ka 2549f jj di sta nya
+			 berangkatkan kembali setelah klb kp/10103 masuk
+			 sta pekalongan
+pk      ls     12:41:00  
+sri     ls     12:58:00  
+co   13:06:00  13:29:00  disusul ka 3 (ka 3 menyusul)
+pta     ls     13:45:00  
+pml  13:57:00  14:21:00  disusul ka 2717 (ka 2717 menyusul)
+sd   14:42:00  15:08:00  disusul ka 93f jj (ka 93f jj menyusul)
+lr      ls     14:24:00  
+tg   15:35:00 
+
+
+3. rangkaian 
+   -klb kp/10398 - klb kp/10403 : 1 lok - 7 gb - 13 gk
+   -klb kp/10086 - klb kp/10103 : 1 lok - 7 gb
+
+4. kadaop man op sar 4sm 8sb atur dan sesuaikan dinasan sarana dan awak ka nya
+5. kadaop man op kapusdalopka 4sm 8sb atur dan sesuaikan kelancaran perka dalam 
+   wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,k
+			2. ot,cp,cf,ki,ti,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cpm,cpc,cpf,cfs,cfp,cft,
+                           kio,tij,tis,rrt,rrc,rrw,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cpm,cpc,cpf,cfs,
+    nipp. 44563            cfp,cft,kio,tij,tis,rrt,rrw,rrw,sss,ssd,sko,mmh,pgs

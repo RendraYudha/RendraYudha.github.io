@@ -1,0 +1,579 @@
+ka	bandung0010	      otr/119		17/07-'20	1955
+
+=wam=
+
+ppka kkt tpk/kmo/jng/ckp/cnp/tg/smt/bbg/gbn/cu/bj/kda/sbi/klm ckp/cbr jak bd cn sm sb
+
+1. menunjuk :
+   a. nota dinas cft no.7/KT.201/VII/CFTL/KA/2020 tanggal 17 juli 2020 perihal
+      permohonan wam perubahan ka petikemas pt.jpt mulai terhitung tgl.18 juli
+      dan pt.silog mulai terhitung tgl.20 juli 2020
+   b. warta maklumat direksi pt kai (persero) no.otr/205ka tanggal 30 juni 2020
+      perihal pengaturan perjalanan ka petikemas lintas tpk/klm pp
+   c. warta dinas direksi pt kai (persero) no.otr/271d tanggal 22 nov 2019 perihal
+      pengaturan sf ka barang
+   d. buku dukungan sarana gapeka 2019
+   e. ppk no. 07 bulan juli 2020
+
+2. guna keperluan pengaturan perubahan perjalanan ka petikemas tpk/klm perka
+   kami atur dan sesuaikan kembali sbb :
+   
+   a. ahad 19 jul menghadap senin 20 jul, selasa 21 jul menghadap rabu 22 jul,
+      kamis 23 jul menghadap jumat 24 jul, ahad 26 juli menghadap senin 27 jul,
+      selasa 28 jul menghadap rabu 29 jul, kamis 30 jul menghadap jumat 31 jul 2020
+      BATAL:
+      - ka dua lima dua empat (ka 2524) limaspriuk cargo lintas tpk/klm
+      - plb dua lima satu lima (plb 2515a) limaspriuk cargo lintas klm/tpk
+
+   b. senin 20 jul menghadap selasa 21 jul, sabtu 25 jul menghadap ahad 26 jul,
+      kamis 30 jul menghadap jumat 31 jul 2020 BATAL plb dua lima dua satu sub a
+      (plb 2521a) limaspriuk cargo lintas klm/tpk
+   c. selasa 21 jul menghadap rabu 22 jul, ahad 26 jul menghadp senin 27 jul.
+      jumat 31 jul menghadap sabtu 01 agust 2020 BATAL ka dua lima satu enam 
+      (ka 2516) limaspriuk cargo lintas tpk/klm
+
+   d. sabtu 18 jul, rabu 22 jul, sabtu 25 jul, rabu 29 jul 2020 BATAL :
+      - plb delapan nol nol satu (plb 8001) limaspriuk cargo lintas klm/ckp
+      - plb delapan nol nol empat (plb 8004) limaspriuk cargo lintas ckp/cbr
+   e. ahad 19 jul, kamis 23 jul, ahad 26 jul, kamis 30 jul 2020 BATAL 
+      plb delapan nol nol lima (plb 8005) limaspriuk cargo lintas cbr/tpk
+
+   f. sabtu 18 jul, rabu 22 jul, sabtu 25 jul, rabu 29 jul 2020 BATAL :
+      - plb delapan nol nol enam (plb 8006) limaspriuk cargo lintas tpk/cbr
+      - plb delapan nol nol tiga (plb 8003) limaspriuk cargo lintas cbr/ckp
+   g. sabtu 18 jul menghadap ahad 19 jul, rabu 22 jul menghadap kamis 23 jul,
+      sabtu 25 jul menghadap ahad 26 jul, rabu 29 jul menghadap kamis 30 jul
+      2020 BATAL plb delapan nol nol dua (plb 8002) limaspriuk cargo lintas ckp/klm
+
+   h. sabtu 18 jul menghadap ahad 19 jul, ahad 19 jul menghadap senin 20 jul, 
+      selasa 21 jul menghadap rabu 22 jul s/d kamis 23 jul menghadap jumat 24 jul,
+      sabtu 25 jul menghadap ahad 26 jul, ahad 26 jul menghadap senin 27 jul,
+      selasa 28 jul menghadap rabu 29 jul s/d kamis 30 jul menghadap jumat 31 jul
+      2020 BERJALAN:
+      - klb kp/dua lima dua empat sub a (klb kp/2524a) limaspriuk cargo lintas tpk/klm
+      - klb kp/dua lima satu lima sub b (klb kp/2515b) limaspriuk cargo lintas klm/tpk
+
+   i. senin 20 jul menghadap selasa 21 jul, senin 27 jul menghadap selasa 28 jul,
+      jumat 31 jul menghadap sabtu 01 agust 2020 BERJALAN plb dua lima dua satu sub a
+      (klb kp/2521b) limaspriuk cargo lintas klm/tpk
+   j. selasa 21 jul menghadap rabu 22 jul, selasa 28 jul menghadap rabu 29 jul 2020
+      BERJALAN klb kp/dua lima satu enam sub a (klb kp/2516a) limaspriuk cargo 
+      lintas tpk/klm
+
+
+puncak kecepatan lintas:
+ tpk - kmo = 40 km/jam 
+ kmo - jng = 70 km/jam 
+ jng - smc = 75 km/jam 
+ smc - smt = 50 km/jam 
+ smt - sbi = 75 km/jam 
+ sbi - klm = 50 km/jam 
+ 
+
+klb kp/2524a lintas tpk - klm
+==========================================                            
+sta  datang    berangk   keterangan
+tpk            23:50:00  ppka tpk tahan ka 2516 di sta nya, berangkatkan kembali
+			 setelah klb kp/2524a masuk sta kemayoran
+ac      ls        -      
+rjw     ls        -      
+kmo     ls     00:07:00  
+pse     ls     00:10:00  
+gst     ls        -      
+kmt     ls        -      
+pok     ls        -      
+jng     ls     00:21:00  
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     00:33:30  
+rwb     ls        -      
+kri     ls        -      
+bks     ls     00:40:30  
+bkst    ls        -      
+tb      ls     00:46:30  
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     00:56:30  
+lmb     ls     01:00:30  
+kdh     ls     01:09:30  
+kw   01:17:00  02:01:00  disusul ka 62f jj, ka 66f jj, ka 270f jj, plb 270f-b jj
+			 (ka 62f jj, ka 66f jj, ka 270f jj, plb 270f-b jj menyusul)
+kli     ls     02:09:00  
+kos     ls     02:13:00  
+dwn     ls     02:19:00  
+ckp     ls     02:24:00  
+tjs     ls     02:34:00  
+pab     ls     02:39:00  
+pri     ls     02:44:00  
+pas     ls     02:50:00  
+ckm     ls     02:55:00  
+pgb     ls     03:03:00  
+cra     ls     03:09:30  
+hgl     ls     03:15:30  
+clh     ls     03:25:00  
+kab     ls     03:32:00  
+tis     ls     03:38:00  
+tls     ls     03:45:00  
+jtb     ls     03:55:00  
+ktm     ls     04:03:00  menyusul plb 8108jj (plb 8108jj disusul)
+awn     ls     04:16:00  
+bdw     ls     04:21:00  
+cnk     ls     04:26:00  
+cn      ls     04:34:00  
+cnp  04:39:00  04:53:00  
+wdw     ls     05:06:30  
+bbk     ls     05:19:00  
+los     ls     05:28:30  
+tgn     ls     05:35:30  
+bb      ls     05:55:00  
+tg   06:10:00  06:20:00  
+lr      ls     06:28:00  
+sd      ls     06:37:00  
+pml     ls     06:48:00  
+pta     ls     06:54:00  
+co      ls     07:03:00  
+sri     ls     07:07:00  
+pk      ls     07:17:00  
+btg     ls     07:26:00  
+ujn     ls     07:31:00  
+krp     ls     07:42:00  
+plb     ls     07:49:00  
+kns     ls     07:58:00  
+wlr     ls     08:03:00  
+kbd     ls     08:12:00  
+kln     ls     08:23:00  
+mkg     ls     08:28:00  
+jrk     ls     08:34:00  
+smc  08:44:00  09:00:00  
+smt     ls     09:07:00  
+ata     ls     09:16:30  
+bbg  09:25:00  13:08:00  disusul ka 2704, ka 2508, ka 2502, ka 2724, ka 266, 
+			 ka 2518, plb 2518a jj, plb 7014 jj
+                         (ka 2704, ka 2508, ka 2502, ka 2724, ka 266,  ka 2518,
+		 	 plb 2518a jj, plb 7014 jj menyusul)
+tgw     ls     13:20:00  
+gub     ls     13:27:00  
+kgt     ls     13:39:00  
+sdi     ls     13:47:00  
+nbo     ls     13:53:00  
+gbn     ls     13:55:00  
+jbn     ls     14:05:00  
+pnl     ls     14:11:00  
+knn     ls     14:20:00  
+sl      ls     14:28:00  
+dpl     ls     14:35:00  
+rbg     ls     14:47:00  
+wdu     ls     14:57:00  
+kpa     ls     15:03:00  
+cu  15:11:00  15:58:00  disusul ka 4 (ka 4 menyusul)
+tbo     ls     16:07:00  
+kit     ls     16:21:00  
+bj      ls     16:34:00  
+kps     ls     16:40:00  
+srj     ls     16:47:00  
+bwo     ls     16:58:00  
+bbt     ls     17:06:00  
+geb     ls     17:12:00  
+pc      ls     17:17:00  
+sbn     ls     17:26:00  
+lmg     ls     17:33:00  
+dd      ls     17:44:00  
+cme     ls     17:53:00  
+bnw     ls     17:58:00  
+kda     ls     18:03:00  
+tes     ls     18:06:00  
+sbi  18:15:00  18:19:00  
+mst  18:23:00  18:25:00  
+klm  18:32:00           (ka l2518-3, ka 2501 bers)
+			ppka klm tahan ka l25182-3, ka 2501 di sta nya tggu bersilang
+		        klb kp/2524a di sta kalimas
+
+
+klb kp/2515b lintas klm - tpk
+==========================================                            
+sta  datang    berangk   keterangan
+klm            21:05:00  bers ka l 2517-4;ppka klm tahan plb 2521a jj di sta nya,
+			 berangkatkan kembali setelah klb kp/2515b masuk sta mesigit
+mst  21:12:00  21:14:00  
+sbi  21:18:00  21:22:00  (ka ll 824 bers)
+			 ppka sbi tahan ka ll 824 di sta nya tggu bersilang
+			 klb kp/2515b di sta surabayapasarturi
+			 ppka sbi tahan ka l 2542f-1 di sta nya berangkatkan kembali
+			 setelah klb kp/2515b masuk sta tandes
+tes     ls     21:31:00  
+kda     ls     21:34:00  
+bnw     ls     21:39:00  
+cme     ls     21:44:00  
+dd      ls     21:53:00  
+lmg     ls     22:04:00  
+sbn     ls     22:11:00  
+pc      ls     22:20:00  
+geb     ls     22:25:00  
+bbt     ls     22:31:00  
+bwo     ls     22:40:00  
+srj     ls     22:51:00  
+kps     ls     22:58:00  
+bj      ls     23:04:00  
+kit     ls     23:17:00  
+tbo     ls     23:29:00  
+cu   23:39:00  23:55:00  
+kpa     ls     00:03:00  
+wdu     ls     00:10:00  ppka wdu blb kan dan tahan plb 7013jj di sta nya,
+			 berangkatkan kembali setelah klb kp/2515b masuk
+			 sta randublatung
+rbg     ls     00:21:00  
+dpl     ls     00:32:00  
+sl      ls     00:39:00  
+knn     ls     00:47:00  
+pnl     ls     00:56:00  
+jbn     ls     01:01:00  
+gbn     ls     01:11:00  
+nbo     ls     01:13:00  
+sdi     ls     01:18:00  
+kgt     ls     01:26:00  
+gub     ls     01:38:00  
+tgw     ls     01:45:00  
+bbg  01:56:00  03:50:00  disusul plb 7013jj, ka 135, ka 2517,ka 251
+			 (plb 7013jj, ka 135, ka 2517, ka 251 menyusul)
+ata     ls     03:59:00  
+smt     ls     04:09:00  
+smc  04:16:00  04:30:00  
+jrk     ls     04:40:00  
+mkg     ls     04:46:00  
+kln  04:55:00  05:28:00  disusul ka 63f jj, 271 (ka 63f jj, 271 menyusul)
+kbd     ls     05:43:00  
+wlr     ls     05:52:00  
+kns     ls     05:57:00  
+plb     ls     06:06:00  
+krp     ls     06:13:00  
+ujn     ls     06:24:00  
+btg     ls     06:29:00  
+pk      ls     06:39:00  
+sri     ls     06:49:00  
+co      ls     06:53:00  
+pta     ls     07:02:00  
+pml     ls     07:08:00  
+sd   07:23:00  07:54:00  disusul ka 11 (ka 11 menyusul)
+lr      ls     08:06:00  
+tg   08:13:00  08:21:00  
+bb      ls     08:34:00  
+tgn     ls     08:52:00  
+los     ls     08:59:00  
+bbk     ls     09:08:00  
+wdw     ls     09:20:00  
+cnp     ls     09:32:00  
+cn   09:37:00  09:50:00  
+cnk     ls     09:58:00  
+bdw  10:05:00  10:19:00  disusul ka 149, plb 63f-a jj (ka 149, plb 63f-a jj menyusul)
+awn     ls     10:26:00  
+ktm     ls     10:39:00  
+jtb     ls     10:47:00  
+tls     ls     10:56:00  
+tis     ls     11:03:00  
+kab     ls     11:08:30  
+clh     ls     11:15:30  
+hgl     ls     11:25:00  
+cra     ls     11:30:30  
+pgb     ls     11:37:00  
+ckm     ls     11:45:00  
+pas     ls     11:50:00  
+pri     ls     11:55:30  
+pab     ls     12:00:30  
+tjs     ls     12:05:00  
+ckp     ls     12:14:00  disusul ka 2505 (ka 2505 menyusul)
+dwn     ls     12:19:00  
+kos     ls     12:25:00  
+kli     ls     12:29:00  
+kw      ls     12:36:00  
+kdh     ls     12:43:00  
+lmb     ls     12:52:00  
+ckr     ls     12:56:00  
+tlm     ls        -      
+cit     ls        -      
+tb      ls     13:06:00  
+bkst    ls        -      
+bks     ls     13:12:00  menyusul ka 1391 (ka 1391 disusul)
+kri     ls        -      
+rwb     ls        -      
+cuk     ls     13:20:00  
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng     ls     13:33:00  
+pok     ls        -      
+kmt     ls        -      
+gst     ls        -      
+pse     ls     13:43:00  
+kmo     ls     13:46:00  
+rjw     ls        -      
+ac      ls        -      
+tpk  14:05:00
+
+
+klb kp/2521b lintas klm - tpk
+==========================================                            
+sta  datang    berangk   keterangan
+klm            15:28:00  ppka klm tahan ka 2515, plb 2515a jj di sta nya beragkatkan
+			 kembali setelah klb kp/2521b masuk sta mesigit
+mst  15:35:00  15:37:00  
+sbi  15:41:00  15:45:00  
+tes     ls     15:54:00  
+kda     ls     15:57:00  
+bnw     ls     16:02:00  
+cme     ls     16:07:00  
+dd      ls     16:16:00  
+lmg     ls     16:27:00  
+sbn     ls     16:34:00  
+pc      ls     16:43:00  
+geb     ls     16:48:00  
+bbt  16:55:00  18:47:00  disusul ka 2507, ka 129, ka 81
+			 (ka 2507, ka 129, ka 81 menyusul)
+bwo     ls     18:58:00  
+srj     ls     19:09:00  
+kps     ls     19:17:00  
+bj      ls     19:23:00  
+kit     ls     19:37:00  
+tbo     ls     19:49:00  
+cu   19:59:00  20:17:00  
+kpa     ls     20:25:00  
+wdu     ls     20:31:00  
+rbg     ls     20:41:00  
+dpl     ls     20:53:00  
+sl      ls     21:00:00  
+knn     ls     21:08:00  
+pnl     ls     21:17:00  
+jbn     ls     21:23:00  
+gbn     ls     21:33:00  
+nbo     ls     21:35:00  
+sdi     ls     21:41:00  
+kgt     ls     21:49:00  
+gub     ls     22:01:00  
+tgw     ls     22:08:00  
+bbg     ls     22:18:00  
+ata     ls     22:25:00  
+smt     ls     22:34:00  
+smc  22:40:00  23:05:00  
+jrk     ls     23:13:00  
+mkg     ls     23:19:00  
+kln     ls     23:24:00  
+kbd     ls     23:35:00  
+wlr     ls     23:43:00  
+kns     ls     23:48:00  
+plb     ls     23:57:00  
+krp     ls     00:04:00  
+ujn     ls     00:15:00  
+btg     ls     00:20:00  
+pk      ls     00:30:00  
+sri     ls     00:40:00  
+co      ls     00:44:00  
+pta  00:55:00  01:15:00  menyusul ka 5 (ka 5 disusul)
+pml     ls     01:24:00  
+sd      ls     01:36:00  
+lr      ls     01:46:00  
+tg   01:54:00  02:10:00  
+bb      ls     02:24:00  
+tgn     ls     02:43:00  
+los     ls     02:51:00  
+bbk     ls     03:00:00  
+wdw     ls     03:13:00  
+cnp     ls     03:24:00  ppka cn tahan plb 8107jj di sta cnp, berangkatkan kembali
+			 setelah klb kp/2521b masuk sta cirebon
+cn   03:29:00  03:45:00  
+cnk     ls     03:54:00  
+bdw     ls     03:58:30  
+awn     ls     04:03:30  
+ktm     ls     04:16:30  
+jtb     ls     04:23:30  
+tls     ls     04:32:00  
+tis     ls     04:39:00  
+kab     ls     04:44:30  
+clh     ls     04:51:30  
+hgl     ls     05:00:30  
+cra     ls     05:06:00  
+pgb     ls     05:12:30  
+ckm  05:24:00  05:49:00  disusul plb 7007jj, plb 109c (plb 7007jj, plb 109c menyusul)
+pas     ls     05:57:00  
+pri     ls     06:02:30  
+pab     ls     06:07:30  
+tjs     ls     06:12:00  
+ckp     ls     06:21:00  menyusul ka 465, plb 465a (ka 465, plb 465a disusul)
+			 ppka ckp tahan ka 465, plb 465a di sta nya tggu disusul
+			 klb kp/2521b di sta cikampek
+dwn     ls     06:26:00  
+kos     ls     06:32:00  
+kli     ls     06:36:00  
+kw      ls     06:42:00  
+kdh     ls     06:49:00  
+lmb     ls     06:57:00  
+ckr     ls     07:01:00  
+tlm     ls        -      
+cit     ls        -      
+tb      ls     07:10:00  
+bkst    ls        -      
+bks     ls     07:17:00  
+kri     ls        -      
+rwb     ls        -      
+cuk     ls     07:25:00  
+kldb    ls        -      
+bua     ls        -      
+kld     ls        -      
+jng     ls     07:39:00  
+pok     ls        -      
+kmt     ls        -      
+gst     ls        -      
+pse     ls     07:53:00  
+kmo     ls     07:55:00  
+rjw     ls        -      
+ac     ls        -      
+tpk  08:13:00    
+
+
+klb kp/2516a lintas tpk - klm
+==========================================                            
+sta  datang    berangk   keterangan
+tpk            12:00:00  ppka tpk tahan ka 2524, plb 8006jj di sta nya, berangkatkan
+			 kembali setelah klb kp/2516a masuk sta kemayoran
+ac      ls        -      
+rjw     ls        -      
+kmo     ls     12:19:00  ppka kmo blb kan dan tahan ka l 127-2 di sta nya,
+			 berangkatkan kembali setelah klb kp/2516a masuk sta pasarsenen
+pse     ls     12:23:00  
+gst     ls        -      
+kmt     ls        -      
+pok     ls        -      
+jng     ls     12:38:00  
+kld     ls        -      
+bua     ls        -      
+kldb    ls        -      
+cuk     ls     12:49:00  menyusul ka 1370 (ka 1370 disusul)
+			 ppka cuk tahan ka 1370 di sta nya tggu disusul klb kp/2516a
+			 di sta cakung
+rwb     ls        -      
+kri     ls        -      
+bks     ls     12:57:00  
+bkst    ls        -      
+tb      ls     13:03:00  
+cit     ls        -      
+tlm     ls        -      
+ckr     ls     13:13:00  
+lmb  13:18:00  13:33:00  menyusul ka 2522 ( ka 2522 disusul)
+			 ppka lmb blb kan dan tahan ka 110 di sta nya, berangkatkan 
+			 kembali setelah klb kp/2516a masuk sta kedunggedeh
+kdh     ls     13:42:00  
+kw      ls     13:48:00  
+kli     ls     13:54:00  
+kos     ls     13:58:00  
+dwn     ls     14:04:00  
+ckp     ls     14:08:00  
+tjs     ls     14:18:00  
+pab     ls     14:22:00  
+pri     ls     14:27:00  
+pas     ls     14:32:30  
+ckm     ls     14:37:30  
+pgb     ls     14:45:30  
+cra     ls     14:52:00  
+hgl     ls     14:57:30  
+clh     ls     15:06:30  
+kab     ls     15:13:30  
+tis     ls     15:19:00  
+tls     ls     15:26:00  
+jtb     ls     15:35:00  
+ktm     ls     15:42:00  
+awn     ls     15:55:00  
+bdw     ls     16:00:00  
+cnk     ls     16:04:30  
+cn      ls     16:10:30  
+cnp  16:14:00  16:24:00  
+wdw     ls     16:36:00  
+bbk     ls     16:48:00  
+los     ls     16:56:30  
+tgn  17:06:00  17:46:00  disusul ka 118, plb 64f-a jj (ka 118, plb 64f-a jj )
+			 ppka tgn blb kan dan tahan plb 7016jj di sta nya berangkatkan
+			 setelah klb kp/2516a masuk dua petak blok muka nya
+bb      ls     18:05:00  
+tg   18:18:00  18:24:00  
+lr      ls     18:31:00  
+sd      ls     18:40:00  
+pml     ls     18:51:00  
+pta  18:59:00  21:04:00  disusul ka 256, plb 256a, ka 94f jj, ka 80, ka 192, ka 276,
+			 ka 12, ka 134 (ka 256, plb 256a, ka 94f jj, ka 80, ka 192,
+			 ka 276, ka 12, ka 134 menyusul)
+			 ppka pta blb kan dan tahan ka 2522 di sta nya, berangkatkan
+			 kembali setelah klb kp/2516a masuk sta comal
+co      ls     21:16:00  
+sri     ls     21:20:00  
+pk      ls     21:30:00  
+btg     ls     21:39:00  
+ujn     ls     21:44:00  
+krp     ls     21:55:00  
+plb     ls     22:02:00  
+kns     ls     22:11:00  
+wlr     ls     22:16:00  
+kbd     ls     22:24:00  
+kln     ls     22:35:00  
+mkg     ls     22:40:00  
+jrk     ls     22:46:00  
+smc  22:54:00  23:04:00  
+smt     ls     23:11:00  
+ata     ls     23:21:00  
+bbg     ls     23:27:00  
+tgw     ls     23:36:00  
+gub     ls     23:43:00  
+kgt     ls     23:55:00  
+sdi     ls     00:03:00  
+nbo     ls     00:08:00  
+gbn     ls     00:10:00  
+jbn     ls     00:20:00  
+pnl     ls     00:25:00  
+knn     ls     00:35:00  
+sl      ls     00:43:00  
+dpl     ls     00:50:00  
+rbg     ls     01:02:00  
+wdu     ls     01:12:00  
+kpa     ls     01:18:00  
+cu   01:25:00  01:35:00  
+tbo     ls     01:44:00  
+kit  01:59:00  02:42:00  disusul ka 114, plb 7008jj (ka 114, plb 7008jj menyusul)
+bj      ls     02:57:00  
+kps     ls     03:03:00  
+srj     ls     03:10:00  
+bwo     ls     03:21:00  
+bbt     ls     03:29:00  
+geb     ls     03:35:00  
+pc      ls     03:40:00  
+sbn     ls     03:49:00  
+lmg     ls     03:56:00  
+dd      ls     04:07:00  
+cme     ls     04:16:00  
+bnw     ls     04:21:00  
+kda     ls     04:26:00  
+tes     ls     04:29:00  
+sbi  04:38:00  04:42:00  bers ka ll 819
+mst  04:46:00  04:48:00  
+klm  04:55:00    
+
+3. rangkaian :
+   a. klb kp/2515b-klb kp/2524a: 30 gd
+   b. klb kp/2521b-klb kp/2516a: 25 gd
+
+4. kadaop sm/manager op sar angbar 1jak 2bd 3cn 4sm 8sb atur dan sesuaikan dinasan
+   sarana dan awak ka nya
+5. kadaop sm/man op kapusdalopka 1jak 2bd 3cn 4sm 8sb atur dan sesuaikan kelancaran
+   perka dalam wilayahnya
+6. memblbkan suatu ka harus sesuai dengan pd 19 jilid i pasal 86.
+
+
+                    Direksi PT.Kereta api indonesia (persero)
+
+
+
+
+     a.n.ot/otr         cc:
+       otrp.2		1. u,c,o,t,r,s,m,p,k
+			2. ot,cp,cf,ki,tj,ts,rt,rr,sk,us,pg
+			3. otr,otp,ota,otn,cfs,cfp,cft,kio,tjt,tsm,rrt,rrc,
+                           rrw,sss,ssd,sko,mmh,pgs
+     eksam p s          4. para manager otr,otp,ota,otn,cfs,cfp,cft,kio,tjt,
+    nipp. 44563            tsm,rrt,rrc,rrw,sss,ssd,sko,mmh,pgs
+     

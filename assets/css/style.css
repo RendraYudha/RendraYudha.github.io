@@ -213,12 +213,3 @@ body {
 .icon-features {
   font-size: 48px;
 }
-
-@media (max-width: 767px) {
-  .hidden-phone, .jarak {
-    display: none;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .hidden-tablet, .jarak {
-    display: none;

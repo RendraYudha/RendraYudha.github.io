@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TRAINPLAN - Informasi Kereta Api</title>
+    <title>TRAINPLAN - Informasi Kereta Api</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- BOOTSTRAP STYLES-->
     <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
-     <!-- FONTAWESOME STYLES-->
+        <!-- FONTAWESOME STYLES-->
     <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
         <!-- CUSTOM STYLES-->
     <link href="../../assets/css/custom.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-     <!-- GOOGLE FONTS-->
-    <link href='http://fonts.googleapis.com/css?family=Lexend+Deca' rel='stylesheet' type='text/css' />
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <!-- JS-->
-	<script type="text/javascript" src="../../assets/js/jquery.js"></script>
-	<script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/js/download.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/icon.ico">
 </head>
-<body>		
-		<h1>Detail KA</h1> 
+<body>      
+    <div class="container-fluid">
+        <h1 class="text-judul"><i class="fa fa-search-plus" aria-hidden="true"></i> Detail KA</h1> 
 		<br/>
         <div>
             <ul class="list-inline">
@@ -29,11 +33,18 @@
                 </ul>
             </div>
 		<br/>
-		<ul class="nav nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
-			<li><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
-			<li><a data-toggle="tab" href="#history">HISTORY</a></li>
-		</ul>
+		<ul class="nav nav-tabs hidden-xs">
+            <li class="active nav-text"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#history">HISTORY</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#dokumen">DOKUMEN</a></li>
+        </ul>
+        <ul class="nav visible-xs">
+            <li class="active nav-text"><a data-toggle="tab" href="#daftar-waktu">DAFTAR WAKTU</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#penetapan">PENETAPAN</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#history">HISTORY</a></li>
+            <li class="nav-text"><a data-toggle="tab" href="#dokumen">DOKUMEN</a></li>
+        </ul>
 		<br/>
 		<div class="tab-content">
 			<div id="daftar-waktu" class="tab-pane fade in active">
@@ -183,10 +194,17 @@ KYA  05:30:00    (ka l2602-1 x);ppka kya tahan ka l2602-1 di sta nya tggu bersil
                     </thead>
                     <tbody>
                         <tr>
+                            <td class="text-center">2020-07-20</td>
+                            <td><a href="../pengumuman/138.html">OTR/125</a></td>
+                            <td class="text-center">
+                                <span class="badge badge-block badge-success">JALAN</span>
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="text-center">2020-05-21</td>
                             <td><a href="../pengumuman/30.html">OTR/100</a></td>
                             <td class="text-center">
-                                <img src="picture/jalan.png">
+                                <span class="badge badge-block badge-success">JALAN</span>
                             </td>
                         </tr>
                     </tbody>
